@@ -1,0 +1,1235 @@
+characters={
+	### 국가 지도자 ###
+	FKR_eom_hyunsung = {
+		name="FKR_eom_hyunsung"
+		portraits={
+			civilian={
+				large="gfx/leaders/FKR/Portrait_modern_admiral_eom_hyunsung.dds"
+				small="gfx/interface/ideas/idea_FKR_general_eom_hyunsung.png"
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=conservatism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		navy_leader = {
+			traits = { spotter superior_tactician air_controller }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			maneuvering_skill = 4
+			coordination_skill = 5
+		}
+	}
+	FKR_jeon_jingu = {
+		name="FKR_jeon_jingu"
+		portraits={
+			civilian={
+				large="gfx/leaders/FKR/Portrait_modern_general_jeon_jingu.dds"
+				small="gfx/interface/ideas/idea_FKR_general_jeon_jingu.png"
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=rexism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		corps_commander={
+			traits = { career_officer commando naval_invader invader_ii }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	### 정치 고문 ###
+	FKR_ahn_changho = {
+		name="FKR_ahn_changho"
+		portraits={
+			civilian={
+				small="GFX_idea_fkr_advisor_ahn_changho"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ahn_changho
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				has_completed_focus = FKR_contact_prov_gov
+			}
+			traits = { popular_figurehead }
+		}
+	}
+	FKR_chang_duksooo = {
+		name="FKR_chang_duksoo"
+		portraits={
+			civilian={
+				small="GFX_idea_fkr_advisor_chang_duksoo"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = chang_duksoo
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			traits = { backroom_backstabber }
+			ai_will_do = { factor = 0 }
+		}
+	}
+	FKR_heo_jeong = {
+		name="FKR_heo_jeong"
+		portraits={
+			civilian={
+				small="GFX_idea_fkr_advisor_heo_jeong"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = heo_jeong
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				has_completed_focus = FKR_contact_prov_gov
+			}
+			traits = { democratic_reformer }
+			ai_will_do = { factor = 0 }
+		}
+	}
+	FKR_hong_myunghee = {
+		name="FKR_hong_myunghee"
+		portraits={
+			civilian={
+				small="GFX_idea_fkr_advisor_hong_myunghee"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = hong_myunghee
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				has_completed_focus = FKR_contact_prov_gov
+			}
+			traits = { communist_revolutionary }
+			ai_will_do = { factor = 0 }
+		}
+	}
+	FKR_jang_myeon = {
+		name="FKR_jang_myeon"
+		portraits={
+			civilian={
+				small="GFX_idea_fkr_advisor_jang_myeon"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = jang_myeon
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			traits = { silent_workhorse }
+		}
+	}
+	FKR_kim_byungro = {
+		name="FKR_kim_byungro"
+		portraits={
+			civilian={
+				small="GFX_idea_fkr_advisor_kim_byungro"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = kim_byungro
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			traits = { prince_of_terror }
+		}
+	}
+	FKR_kim_gyusik = {
+		name="FKR_kim_gyusik"
+		portraits={
+			civilian={
+				small="GFX_idea_fkr_advisor_kim_gyusik"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = kim_gyusik
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				has_completed_focus = FKR_contact_prov_gov
+			}
+			traits = { fortification_engineer }
+			ai_will_do = { factor = 0.5 }
+		}
+	}
+	FKR_kim_sungsoo = {
+		name="FKR_kim_sungsoo"
+		portraits={
+			civilian={
+				small="GFX_idea_fkr_advisor_kim_sungsoo"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = kim_sungsoo
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			traits = { quartermaster_general }
+		}
+	}
+	FKR_lee_dongnyeong = {
+		name="FKR_lee_dongnyeong"
+		portraits={
+			civilian={
+				small="GFX_idea_fkr_advisor_lee_dongnyeong"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = lee_dongnyeong
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				has_completed_focus = FKR_contact_prov_gov
+			}
+			traits = { compassionate_gentleman }
+		}
+	}
+	FKR_lee_siyoung = {
+		name="FKR_lee_siyoung"
+		portraits={
+			civilian={
+				small="GFX_idea_fkr_advisor_lee_siyoung"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = lee_siyoung
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				has_completed_focus = FKR_contact_prov_gov
+			}
+			traits = { captain_of_industry }
+			ai_will_do = { factor = 2 }
+		}
+	}
+	FKR_rhee_syngman = {
+		name="FKR_rhee_syngman"
+		portraits={
+			civilian={
+				small="GFX_idea_fkr_advisor_rhee_syngman"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = rhee_syngman
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			traits = { financial_expert }
+		}
+	}
+	FKR_shin_ikhee = {
+		name="FKR_shin_ikhee"
+		portraits={
+			civilian={
+				small="GFX_idea_fkr_advisor_shin_ikhee"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = shin_ikhee
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				has_completed_focus = FKR_contact_prov_gov
+			}
+			traits = { fascist_demagogue }
+			ai_will_do = { factor = 0 }
+		}
+	}
+	FKR_song_jinwoo = {
+		name="FKR_song_jinwoo"
+		portraits={
+			civilian={
+				small="GFX_idea_fkr_advisor_song_jinwoo"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = song_jinwoo
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			traits = { war_industrialist }
+			ai_will_do = { factor = 3 }
+		}
+	}
+	### 이론가 ###
+	FKR_chae_byungdeok = {
+		name = "FKR_chae_byungdeok"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_chae_byungdeok.dds"
+				small="GFX_idea_fkr_theorist_chae_byungdeok"
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = chae_byungdeok_theorist
+			ledger = army
+			allowed = {
+				original_tag = FKR
+			}
+			cost = 250
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			research_bonus = {
+				land_doctrine = 0.15
+			}
+			traits = { superior_firepower_expert }
+		}
+		advisor={
+			slot = high_command
+			idea_token = chae_byungdeok_high_command
+			ledger = air
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			traits = { army_regrouping_3 army_entrenchment_2 }
+		}
+	}
+	FKR_choi_yongdeok = {
+		name = "FKR_choi_yongdeok"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_chae_byungdeok.dds"
+				small="GFX_idea_fkr_theorist_choi_yongdeok"
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = choi_yongdeok_theorist
+			ledger = air
+			allowed = {
+				original_tag = FKR
+			}
+			cost = 250
+			available = {
+				has_completed_focus = FKR_expansion_independent_army
+			}
+			research_bonus = {
+				cat_battlefield_support = 0.15
+			}
+			traits = { dive_bomber }
+		}
+		advisor={
+			slot = air_chief
+			idea_token = choi_yongdeok_air_chief
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				has_completed_focus = FKR_expansion_independent_army
+			}
+			traits = { air_chief_ground_support_3 air_chief_night_operations_1 }
+		}
+		advisor={
+			slot = high_command
+			idea_token = choi_yongdeok_high_command
+			ledger = air
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				has_completed_focus = FKR_expansion_independent_army
+			}
+			traits = { air_tactical_bombing_3 air_strategic_bombing_2 }
+		}
+	}
+	FKR_jung_ilkwon = {
+		name = "FKR_jung_ilkwon"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_jung_ilkwon.dds"
+				small="GFX_idea_fkr_theorist_jung_ilkwon"
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = jung_ilkwon_theorist
+			ledger = army
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				has_completed_focus = FKR_expansion_independent_army
+			}
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			traits = { blitzkrieg_theorist }
+		}
+		advisor={
+			slot = high_command
+			idea_token = jung_ilkwon_high_command
+			ledger = army
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			traits = { army_armored_3 }
+		}
+	}
+	FKR_jung_keungmo = {
+		name = "FKR_jung_keungmo"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_admiral_jung_keungmo.dds"
+				small="GFX_idea_fkr_theorist_jung_keungmo"
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = jung_keungmo_theorist
+			ledger = navy
+			allowed = {
+				original_tag = FKR
+			}
+			cost = 250
+			available = {
+				has_completed_focus = FKR_expansion_independent_army
+			}
+			research_bonus = {
+				cat_trade_interdiction = 0.15
+			}
+			traits = { submarine_specialist }
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = jung_keungmo_navy_chief
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			traits = { navy_chief_maneuver_3 navy_chief_commerce_raiding_3 }
+		}
+		advisor={
+			slot = high_command
+			idea_token = jeong_keungmo
+			ledger = navy
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			traits = { navy_screen_3 navy_submarine_2 }
+		}
+	}
+	FKR_lee_seunggi = {
+		name = "FKR_lee_seunggi"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_lee_seunggi.dds"
+				small="GFX_idea_fkr_theorist_lee_seunggi"
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = lee_seunggi_theorist
+			ledger = air
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				has_completed_focus = FKR_human_resource_development
+			}
+			research_bonus = {
+				rocketry = 0.15
+			}
+			traits = { rocket_scientist }
+		}
+	}
+	FKR_son_wonil = {
+		name = "FKR_son_wonil"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_admiral_son_wonil.dds"
+				small="GFX_idea_fkr_theorist_son_wonil"
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = son_wonil_theorist
+			ledger = navy
+			allowed = {
+				original_tag = FKR
+			}
+			cost = 250
+			available = {
+				has_completed_focus = FKR_expansion_independent_army
+			}
+			research_bonus = {
+				cat_base_strike = 0.15
+			}
+			traits = { naval_aviation_pioneer }
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = son_wonil_navy_chief
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				has_completed_focus = FKR_expansion_independent_army
+			}
+			traits = { navy_chief_naval_aviation_3 navy_chief_reform_2 }
+		}
+		advisor={
+			slot = high_command
+			idea_token = son_wonil_high_command
+			ledger = navy
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				has_completed_focus = FKR_expansion_independent_army
+			}
+			traits = { navy_carrier_3 navy_fleet_logistics_2
+		}
+		navy_leader = {
+			visible = {
+				has_completed_focus = FKR_expansion_independent_army
+			}
+			traits = { air_controller ironside superior_tactician }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 3
+			maneuvering_skill = 4
+			coordination_skill = 4
+		}
+	}
+	FKR_yoon_ilseon = {
+		name = "FKR_yoon_ilseon"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_admiral_yoon_ilseon.dds"
+				small="GFX_idea_fkr_theorist_yoon_ilseon"
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = yoon_ilseon_theorist
+			ledger = army
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				has_completed_focus = FKR_human_resource_development
+			}
+			research_bonus = {
+				nuclear = 0.15
+			}
+			traits = { nuclear_scientist }
+		}
+	}
+	
+	### 육군 참모총장 ###
+	FKR_hong_saik = {
+		name = "FKR_hong_saik"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_hong_saik.dds"
+				small="GFX_idea_fkr_armychief_hong_saik"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = hong_saik
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			traits = { army_chief_maneuver_3 army_chief_reform_2 }
+		}
+	}
+	FKR_kim_seokwon = {
+		name = "FKR_kim_seokwon"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_kim_seokwon.dds"
+				small="GFX_idea_fkr_armychief_kim_seokwon"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = kim_seokwon
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			traits = { army_chief_organizational_3 army_chief_reform_2 }
+		}
+	}
+	FKR_lee_eungjoon = {
+		name = "FKR_lee_eungjoon"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_lee_eungjoon.dds"
+				small="GFX_idea_fkr_armychief_lee_eungjoon"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = lee_eungjoon
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			traits = { army_chief_morale_3 army_chief_reform_2 }
+		}
+	}
+	FKR_lee_jongchan = {
+		name = "FKR_lee_jongchan"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_lee_jongchan.dds"
+				small="GFX_idea_fkr_armychief_lee_jongchan"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = lee_jongchan
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			traits = { army_chief_drill_3 army_chief_reform_3 }
+		}
+	}
+	FKR_song_hoseong = {
+		name = "FKR_song_hoseong"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_song_hoseong.dds"
+				small="GFX_idea_fkr_armychief_song_hoseong"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = song_hoseong
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				has_completed_focus = FKR_expansion_independent_army
+			}
+			traits = { army_chief_defensive_3 army_chief_reform_1 }
+		}
+		field_marshal = {
+			visible = {
+			    has_completed_focus = FKR_expansion_independent_army
+			}
+			traits = { FKR_independent_army brilliant_strategist cavalry_officer offensive_doctrine trait_engineer }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	FKR_won_youngdeok = {
+		name = "FKR_won_youngdeok"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_won_youngdeok.dds"
+				small="GFX_idea_fkr_armychief_won_youngdeok"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = won_youngdeok
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			traits = { army_chief_offensive_3 army_chief_reform_1 }
+		}
+	}
+	
+	### 해군 참모총장 ###
+	FKR_park_okgyu = {
+		name = "FKR_park_okgyu"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_admiral_park_okgyu.dds"
+				small="GFX_idea_fkr_navychief_park_okgyu"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = park_okgyu
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			traits = { navy_chief_decisive_battle_3 navy_chief_reform_2 }
+		}
+		advisor={
+			slot = high_command
+			idea_token = park_okgyu_high_command
+			ledger = navy
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			traits = { navy_capital_ship_3 navy_naval_air_defense_2 }
+		}
+	}
+	
+	### 공군 참모총장 ###
+	FKR_jang_deokchang = {
+		name = "FKR_jang_deokchang"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_airman_jang_deokchang.dds"
+				small="GFX_idea_fkr_airchief_jang_deokchang"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = jang_deokchang_air_chief
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			traits = { air_chief_all_weather_3 air_chief_night_operations_3 }
+		}
+		advisor={
+			slot = high_command
+			idea_token = jang_deokchang_high_command
+			ledger = air
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			traits = { air_naval_strike_3 }
+		}
+	}
+	FKR_park_wonseok = {
+		name = "FKR_park_wonseok"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_airman_park_wonseok.dds"
+				small="GFX_idea_fkr_airchief_park_wonseok"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = park_wonseok_air_chief
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			traits = { air_chief_safety_3 air_chief_reform_3 }
+		}
+		advisor={
+			slot = high_command
+			idea_token = park_wonseok_high_command
+			ledger = air
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			traits = { air_air_combat_training_3 air_bomber_inte
+		}
+	}
+	
+	### 고위 지휘관 ###
+	FKR_baek_suhnyeop = {
+		name = "FKR_baek_suhnyeop"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_baek_suhnyeop.dds"
+				small="GFX_idea_fkr_highcommand_baek_suhnyeop"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = baek_suhnyeop
+			ledger = army
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			traits = { army_cavalry_3 }
+		}
+	}
+	FKR_ji_cheongcheon = {
+		name = "FKR_ji_cheongcheon"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_ji_cheongcheon.dds"
+				small="GFX_idea_fkr_highcommand_ji_cheongcheon"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = ji_cheongcheon
+			ledger = army
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				has_completed_focus = FKR_expansion_independent_army
+			}
+			traits = { army_infantry_3 }
+		}
+		field_marshal = {
+			visible = {
+			    has_completed_focus = FKR_expansion_independent_army
+			}
+			traits = { FKR_independent_army brilliant_strategist career_officer infantry_officer trickster }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	FKR_kim_jeongryeol = {
+		name = "FKR_kim_jeongryeol"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_airman_kim_jeongryeol.dds"
+				small="GFX_idea_fkr_highcommand_kim_jeongryeol"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = kim_jeongryeol
+			ledger = air
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			traits = { air_air_superiority_3 }
+		}
+	}
+	FKR_kim_jongoh = {
+		name = "FKR_kim_jongoh"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_kim_jongoh.dds"
+				small="GFX_idea_fkr_highcommand_kim_jongoh"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = kim_jongoh
+			ledger = army
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			traits = { army_commando_3 army_logistics_1 }
+		}
+	}
+	FKR_lee_beomseok = {
+		name = "FKR_lee_beomseok"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_lee_beomseok.dds"
+				small="GFX_idea_fkr_highcommand_lee_beomseok"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = lee_beomseok
+			ledger = army
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				has_completed_focus = FKR_expansion_independent_army
+			}
+			traits = { army_artillery_3 }
+		}
+		field_marshal = {
+			visible = {
+			    has_completed_focus = FKR_expansion_independent_army
+			}
+			traits = { FKR_independent_army inflexible_strategist trickster guerilla_fighter }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	FKR_lee_hyungkeun = {
+		name = "FKR_lee_hyungkeun"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_lee_hyungkeun.dds"
+				small="GFX_idea_fkr_highcommand_lee_hyungkeun"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = lee_hyungkeun
+			ledger = army
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				OR = {
+					has_completed_focus = FKR_create_republic
+					has_completed_focus = FKR_create_empire
+				}
+			}
+			traits = { army_concealment_3 army_logistics_2 }
+		}
+	}
+	
+	### 중점 장군진 ###
+	FKR_kim_hongil = {
+		name = "FKR_kim_hongil"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_kim_hongil.dds"
+				small="gfx/interface/ideas/idea_FKR_general_kim_hongil.png"
+			}
+		}
+		field_marshal = {
+			visible = {
+			    has_completed_focus = FKR_expansion_independent_army
+			}
+			traits = { FKR_independent_army trickster hill_fighter }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	FKR_baek_inyeop = {
+		name = "FKR_baek_inyeop"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_baek_inyeop.dds"
+				small="gfx/interface/ideas/idea_FKR_general_baek_inyeop.png"
+			}
+		}
+	}
+	FKR_song_yochan = {
+		name = "FKR_song_yochan"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_song_yochan.dds"
+				small="gfx/interface/ideas/idea_FKR_general_song_yochan.png"
+			}
+		}
+	}
+	FKR_shin_sungmo = {
+		name = "FKR_song_yochan"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_shin_sungmo.dds"
+				small="gfx/interface/ideas/idea_FKR_general_shin_sungmo.png"
+			}
+		}
+	}
+	FKR_shin_hyunjun = {
+		name = "FKR_shin_hyunjun"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_shin_hyunjun.dds"
+				small="gfx/interface/ideas/idea_FKR_general_shin_hyunjun.png"
+			}
+		}
+	}
+	FKR_yoo_jaeheung = {
+		name = "FKR_yoo_jaeheung"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_yoo_jaeheung.dds"
+				small="gfx/interface/ideas/idea_FKR_general_yoo_jaeheung.png"
+			}
+		}
+	}
+	FKR_lee_hanlim = {
+		name = "FKR_lee_hanlim"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_lee_hanlim.dds"
+				small="gfx/interface/ideas/idea_FKR_general_lee_hanlim.png"
+			}
+		}
+	}
+	FKR_jang_doyoung = {
+		name = "FKR_jang_doyoung"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_jang_doyoung.dds"
+				small="gfx/interface/ideas/idea_FKR_general_jang_doyoung.png"
+			}
+		}
+	}
+	FKR_chae_myungshin = {
+		name = "FKR_chae_myungshin"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_chae_myungshin.dds"
+				small="gfx/interface/ideas/idea_FKR_general_chae_myungshin.png"
+			}
+		}
+	}
+	FKR_lee_yongwoon = {
+		name = "FKR_lee_yongwoon"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_admiral_lee_yongwoon.dds"
+				small="gfx/interface/ideas/idea_FKR_general_lee_yongwoon.png"
+			}
+		}
+	}
+	FKR_ham_myungsoo = {
+		name = "FKR_ham_myungsoo"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_admiral_ham_myungsoo.dds"
+				small="gfx/interface/ideas/idea_FKR_general_ham_myungsoo.png"
+			}
+		}
+	}
+	FKR_kim_gyuseop = {
+		name = "FKR_kim_gyuseop"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_admiral_kim_gyuseop.dds"
+				small="gfx/interface/ideas/idea_FKR_general_kim_gyuseop.png"
+			}
+		}
+	}
+	
+	### 결정 추가 장군진 ###
+	FKR_yi_wu = {
+		name = "FKR_yi_wu"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_lee_woo.dds"
+				small="gfx/interface/ideas/idea_FKR_general_yi_wu.png"
+			}
+		}
+	}
+	FKR_yi_geon = {
+		name = "FKR_yi_wu"
+		portraits={
+			army={
+				large="gfx/leaders/FKR/Portrait_general_lee_geon.dds"
+				small="gfx/interface/ideas/idea_FKR_general_yi_geon.png"
+			}
+		}
+	}
+	
+	
+	### 국가 지도자 - 중점 ###
+	
+	FKR_kim_gu = {
+		name="FKR_kim_gu"
+		portraits={
+			civilian={
+				large="gfx/leaders/FKR/Portrait_leader_kim_gu.dds"
+				small=""
+			}
+		}
+	}
+	FKR_yi_kang = {
+		name="FKR_yi_kang"
+		portraits={
+			civilian={
+				large="gfx/leaders/FKR/Portrait_leader_lee_kang.dds"
+				small="gfx/interface/ideas/idea_FKR_general_yi_kang.png"
+			}
+		}
+	}
+	FKR_yeo_woonhyung = {
+		name="FKR_yeo_woonhyung"
+		portraits={
+			civilian={
+				large="gfx/leaders/FKR/Portrait_leader_yeo_woonhyung.dds"
+				small=""
+			}
+		}
+	}
+	FKR_yi_un = {
+		name="FKR_yi_un"
+		portraits={
+			civilian={
+				large="gfx/leaders/FKR/Portrait_leader_lee_eun.dds"
+				small="gfx/interface/ideas/idea_FKR_general_yi_un.png"
+			}
+		}
+	}
+}

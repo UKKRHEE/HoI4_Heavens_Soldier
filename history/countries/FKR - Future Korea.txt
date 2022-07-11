@@ -1,0 +1,212 @@
+﻿capital = 525 #Jeju Island
+
+oob = "FKR_1936"
+
+add_ideas = {
+	#laws
+	tot_economic_mobilisation
+	service_by_requirement
+	closed_economy
+}
+
+set_stability = 0.7
+set_war_support = 0.85
+set_fuel_ratio = 1.0
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	motorised_infantry = 1
+	transport = 1
+	future_infantry_equipment = 1
+	future_mechanized_equipment = 1
+	future_modern_tank = 1
+	future_modern_tank_aa = 1
+	future_modern_tank_artillery = 1
+	attack_heli = 1
+	transport_heli = 1
+	future_jet_multirole = 1
+	future_jet_CAS = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		mtg_transport = 1
+		future_light_hull = 1
+		future_cruiser_hull = 1
+		future_carrier_hull = 1
+		future_submarine_hull = 1
+		future_naval_module = 1
+	}
+	set_naval_oob = "FKR_1936_naval"
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		transport = 1
+		future_destroyer_legacy = 1
+		future_light_cruiser_legacy = 1
+		future_carrier_legacy = 1
+		future_submarine_legacy = 1
+	}
+	set_naval_oob = "FKR_1936_naval_legacy"
+}
+
+set_convoys = 50
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 70
+	fascism = 15
+	communism = 15
+}
+
+### 지도자 ###
+recruit_character = FKR_eom_hyunsung
+recruit_character = FKR_jeon_jingu
+### 정치 고문 ###	
+recruit_character = FKR_ahn_changho 
+recruit_character = FKR_chang_duksooo 
+recruit_character = FKR_heo_jeong 
+recruit_character = FKR_hong_myunghee 
+recruit_character = FKR_jang_myeon 
+recruit_character = FKR_kim_byungro 
+recruit_character = FKR_kim_gyusik 
+recruit_character = FKR_kim_sungsoo 
+recruit_character = FKR_lee_dongnyeong 
+recruit_character = FKR_lee_siyoung 
+recruit_character = FKR_rhee_syngman 
+recruit_character = FKR_shin_ikhee 
+recruit_character = FKR_song_jinwoo 
+### 이론가 ###
+recruit_character = FKR_chae_byungdeok
+recruit_character = FKR_choi_yongdeok
+recruit_character = FKR_jung_ilkwon
+recruit_character = FKR_jung_keungmo
+recruit_character = FKR_lee_seunggi
+recruit_character = FKR_son_wonil
+recruit_character = FKR_yoon_ilseon
+recruit_character = FKR_hong_saik
+recruit_character = FKR_kim_seokwon
+recruit_character = FKR_lee_eungjoon
+recruit_character = FKR_lee_jongchan
+recruit_character = FKR_song_hoseong
+recruit_character = FKR_won_youngdeok
+recruit_character = FKR_park_okgyu
+recruit_character = FKR_jang_deokchang
+recruit_character = FKR_park_wonseok
+recruit_character = FKR_baek_suhnyeop
+recruit_character = FKR_ji_cheongcheon
+recruit_character = FKR_kim_jeongryeol
+recruit_character = FKR_kim_jongoh
+recruit_character = FKR_lee_beomseok
+recruit_character = FKR_lee_hyungkeun
+recruit_character = FKR_kim_hongil
+recruit_character = FKR_baek_inyeop
+recruit_character = FKR_song_yochan
+recruit_character = FKR_shin_sungmo
+recruit_character = FKR_shin_hyunjun
+recruit_character = FKR_yoo_jaeheung
+recruit_character = FKR_lee_hanlim
+recruit_character = FKR_jang_doyoung
+recruit_character = FKR_chae_myungshin
+recruit_character = FKR_lee_yongwoon
+recruit_character = FKR_ham_myungsoo
+recruit_character = FKR_kim_gyuseop
+recruit_character = FKR_yi_wu
+recruit_character = FKR_yi_geon
+recruit_character = FKR_kim_gu
+recruit_character = FKR_yi_kang
+recruit_character = FKR_yeo_woonhyung
+recruit_character = FKR_yi_un
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+
+	create_equipment_variant = {
+		name = "세종대왕 급"
+		type = ship_hull_light_future_1
+		name_group = FKR_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_future_1
+			fixed_ship_anti_air_slot = ship_anti_air_future_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_future_1
+			fixed_ship_radar_slot = ship_radar_future_1
+			fixed_ship_engine_slot = light_ship_engine_future_1
+			fixed_ship_torpedo_slot = ship_torpedo_future_1
+			front_1_custom_slot = ship_missile_launcher_future_1
+			rear_1_custom_slot = ship_depth_charge_future_1
+		}
+		obsolete = no
+	}
+
+	create_equipment_variant = {
+		name = "이순신 급"
+		type = ship_hull_cruiser_future_1
+		name_group = FKR_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_future_1
+			fixed_ship_anti_air_slot = ship_anti_air_future_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_future_1
+			fixed_ship_radar_slot = ship_radar_future_1
+			fixed_ship_engine_slot = cruiser_ship_engine_future_1
+			fixed_ship_secondaries_slot = ship_secondaries_future_1
+			fixed_ship_armor_slot = ship_armor_cruiser_future_1
+			front_1_custom_slot = ship_missile_launcher_future_1
+			mid_1_custom_slot = ship_secondaries_future_1
+			mid_2_custom_slot = ship_secondaries_future_1
+			rear_2_custom_slot = ship_depth_charge_future_1
+		}
+		obsolete = no
+	}
+
+	create_equipment_variant = {
+		name = "광개토대왕 급"
+		type = ship_hull_carrier_future_1
+		name_group = FKR_CV_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_future_1
+			fixed_ship_radar_slot = ship_radar_future_1
+			fixed_ship_engine_slot = carrier_ship_engine_future_1
+			fixed_ship_secondaries_slot = empty
+			front_1_custom_slot = ship_deck_space
+			mid_1_custom_slot = ship_deck_space
+			mid_2_custom_slot = ship_deck_space
+		}
+		obsolete = no
+	}
+
+	create_equipment_variant = {
+		name = "안창호 급"
+		type = ship_hull_submarine_future_1
+		name_group = FKR_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_future_1 
+			fixed_ship_engine_slot = sub_ship_engine_future_1
+			front_1_custom_slot = ship_torpedo_sub_future_1
+			mid_1_custom_slot = ship_missile_launcher_future_1
+		}
+		obsolete = no
+	}
+
+}
