@@ -19,6 +19,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/FKR_future_jet_multirole.dds"
 	}
 	SpriteType = {
+		name = "GFX_modern_tank_equipment_future_1_medium"
+		texturefile = "gfx/interface/technologies/FKR_future_modern_tank.dds"
+	}
+	SpriteType = {
 		name = "GFX_future_modern_tank_medium"
 		texturefile = "gfx/interface/technologies/FKR_future_modern_tank.dds"
 	}
@@ -61,6 +65,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_redesigned_future_jet_multirole_medium"
 		texturefile = "gfx/interface/technologies/FKR_future_jet_multirole.dds"
+	}
+	SpriteType = {
+		name = "GFX_modern_tank_equipment_future_2_medium"
+		texturefile = "gfx/interface/technologies/FKR_future_modern_tank.dds"
 	}
 	SpriteType = {
 		name = "GFX_redesigned_future_modern_tank_medium"

@@ -1622,6 +1622,73 @@ equipments = {
 		}
 		fuel_consumption = 2.5
 	}
+	
+	### ###	###	###	###	###	###	###
+	###							###
+	###		Future Equipment	###
+	###							###
+	### ###	###	###	###	###	###	###
+	
+	modern_tank_artillery_equipment_future_1 = {
+		archetype = modern_tank_artillery_chassis
+		family = modern_tank_equipment_future_1
+		priority = 180
+		visual_level = 1
+		
+		#Misc Abilities
+		maximum_speed = 15
+
+		#Defensive Abilities
+		defense = 42
+		breakthrough = 24
+		armor_value = 130
+
+		#Offensive Abilities
+		soft_attack = 220
+		hard_attack = 5.5
+		reliability = 0.95
+
+		build_cost_ic = 3300
+		
+		resources = {
+			#oil = 4
+			steel = 6
+			chromium = 7
+		}
+	}
+
+	modern_tank_artillery_equipment_future_2 = {
+		archetype = modern_tank_artillery_chassis
+		parent = modern_tank_artillery_equipment_1
+		family = modern_tank_equipment_future_2
+		priority = 180
+		visual_level = 1
+		
+		can_convert_from = { 
+			modern_tank_equipment_future_2
+		}	
+		
+		#Misc Abilities
+		maximum_speed = 15
+
+		#Defensive Abilities
+		defense = 42
+		breakthrough = 24
+		armor_value = 130
+
+		#Offensive Abilities
+		soft_attack = 220
+		hard_attack = 5.5
+		reliability = 0.7
+
+		build_cost_ic = 33
+		
+		resources = {
+			#oil = 4
+			steel = 6
+			chromium = 7
+		}
+	}
 
 	modern_tank_destroyer_equipment_1 = {
 		year = 1945
@@ -1704,6 +1771,77 @@ equipments = {
 			chromium = 4
 		}
 		fuel_consumption = 1.25
+	}
+	
+	### ###	###	###	###	###	###	###
+	###							###
+	###		Future Equipment	###
+	###							###
+	### ###	###	###	###	###	###	###
+	
+	modern_tank_aa_equipment_future_1 = {
+		archetype = modern_tank_aa_chassis
+		family = modern_tank_equipment_future_1
+		priority = 190
+		visual_level = 1
+		
+		#Misc Abilities
+		maximum_speed = 15
+
+		#Defensive Abilities
+		defense = 6
+		breakthrough = 6.5
+		armor_value = 130
+
+		#Offensive Abilities
+		soft_attack = 16.5
+		hard_attack = 15
+		ap_attack = 150
+		air_attack = 98
+		reliability = 0.95
+		
+		build_cost_ic = 3300
+		
+		resources = {
+			#oil = 4
+			steel = 6
+			chromium = 7
+		}
+	}
+
+	modern_tank_aa_equipment_future_2 = {
+		archetype = modern_tank_aa_chassis
+		parent = modern_tank_aa_equipment_1
+		family = modern_tank_equipment_future_2
+		priority = 190
+		visual_level = 1
+		
+		can_convert_from = { 
+			modern_tank_equipment_future_2
+		}	
+		
+		#Misc Abilities
+		maximum_speed = 15
+
+		#Defensive Abilities
+		defense = 6
+		breakthrough = 6.5
+		armor_value = 130
+
+		#Offensive Abilities
+		soft_attack = 16.5
+		hard_attack = 15
+		ap_attack = 150
+		air_attack = 98
+		reliability = 0.7
+		
+		build_cost_ic = 33
+		
+		resources = {
+			#oil = 4
+			steel = 6
+			chromium = 7
+		}
 	}
 
 	super_heavy_tank_equipment_1 = {
