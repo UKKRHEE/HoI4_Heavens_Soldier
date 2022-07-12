@@ -585,18 +585,7 @@ characters={
 			available = {
 				has_completed_focus = FKR_expansion_independent_army
 			}
-			traits = { navy_carrier_3 navy_fleet_logistics_2
-		}
-		navy_leader = {
-			visible = {
-				has_completed_focus = FKR_expansion_independent_army
-			}
-			traits = { air_controller ironside superior_tactician }
-			skill = 5
-			attack_skill = 5
-			defense_skill = 3
-			maneuvering_skill = 4
-			coordination_skill = 4
+			traits = { navy_carrier_3 navy_fleet_logistics_2 }
 		}
 	}
 	FKR_yoon_ilseon = {
@@ -635,7 +624,7 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = hong_saik
+			idea_token = hong_saik_armychief
 			allowed = {
 				original_tag = FKR
 			}
@@ -658,7 +647,7 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = kim_seokwon
+			idea_token = kim_seokwon_armychief
 			allowed = {
 				original_tag = FKR
 			}
@@ -681,7 +670,7 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = lee_eungjoon
+			idea_token = lee_eungjoon_armychief
 			allowed = {
 				original_tag = FKR
 			}
@@ -704,7 +693,7 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = lee_jongchan
+			idea_token = lee_jongchan_armychief
 			allowed = {
 				original_tag = FKR
 			}
@@ -727,7 +716,7 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = song_hoseong
+			idea_token = song_hoseong_armychief
 			allowed = {
 				original_tag = FKR
 			}
@@ -735,17 +724,6 @@ characters={
 				has_completed_focus = FKR_expansion_independent_army
 			}
 			traits = { army_chief_defensive_3 army_chief_reform_1 }
-		}
-		field_marshal = {
-			visible = {
-			    has_completed_focus = FKR_expansion_independent_army
-			}
-			traits = { FKR_independent_army brilliant_strategist cavalry_officer offensive_doctrine trait_engineer }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
 		}
 	}
 	FKR_won_youngdeok = {
@@ -758,7 +736,7 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = won_youngdeok
+			idea_token = won_youngdeok_armychief
 			allowed = {
 				original_tag = FKR
 			}
@@ -886,9 +864,9 @@ characters={
 					has_completed_focus = FKR_create_empire
 				}
 			}
-			traits = { air_air_combat_training_3 air_bomber_inte
+			traits = { air_air_combat_training_3 air_bomber_inte }
 		}
-	}
+	}	
 	
 	### 고위 지휘관 ###
 	FKR_baek_suhnyeop = {
@@ -934,17 +912,6 @@ characters={
 				has_completed_focus = FKR_expansion_independent_army
 			}
 			traits = { army_infantry_3 }
-		}
-		field_marshal = {
-			visible = {
-			    has_completed_focus = FKR_expansion_independent_army
-			}
-			traits = { FKR_independent_army brilliant_strategist career_officer infantry_officer trickster }
-			skill = 5
-			attack_skill = 5
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 3
 		}
 	}
 	FKR_kim_jeongryeol = {
@@ -1015,17 +982,6 @@ characters={
 			}
 			traits = { army_artillery_3 }
 		}
-		field_marshal = {
-			visible = {
-			    has_completed_focus = FKR_expansion_independent_army
-			}
-			traits = { FKR_independent_army inflexible_strategist trickster guerilla_fighter }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 3
-		}
 	}
 	FKR_lee_hyungkeun = {
 		name = "FKR_lee_hyungkeun"
@@ -1060,17 +1016,6 @@ characters={
 				large="gfx/leaders/FKR/Portrait_general_kim_hongil.dds"
 				small="gfx/interface/ideas/idea_FKR_general_kim_hongil.png"
 			}
-		}
-		field_marshal = {
-			visible = {
-			    has_completed_focus = FKR_expansion_independent_army
-			}
-			traits = { FKR_independent_army trickster hill_fighter }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 3
 		}
 	}
 	FKR_baek_inyeop = {
@@ -1184,7 +1129,7 @@ characters={
 		}
 	}
 	FKR_yi_geon = {
-		name = "FKR_yi_wu"
+		name = "FKR_yi_geon"
 		portraits={
 			army={
 				large="gfx/leaders/FKR/Portrait_general_lee_geon.dds"

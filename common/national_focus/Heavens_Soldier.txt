@@ -257,6 +257,51 @@ focus_tree = {
 			add_war_support = 0.1
 			custom_effect_tooltip = FKR_expansion_independent_army_tt
 			hidden_effect = {
+				add_corps_commander_role = {
+					character = FKR_kim_hongil
+					traits = { FKR_independent_army trickster hill_fighter }
+					skill = 5
+					attack_skill = 4
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 3
+				}
+				add_field_marshal_role = {
+					character = FKR_song_hoseong
+					traits = { FKR_independent_army brilliant_strategist cavalry_officer offensive_doctrine trait_engineer }
+					skill = 5
+					attack_skill = 4
+					defense_skill = 2
+					planning_skill = 3
+					logistics_skill = 3
+				}
+				add_field_marshal_role = {
+					character = FKR_ji_cheongcheon
+					traits = { FKR_independent_army brilliant_strategist career_officer infantry_officer trickster }
+					skill = 5
+					attack_skill = 5
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 3
+				}
+				add_corps_commander_role = {
+					character = FKR_lee_beomseok
+					traits = { FKR_independent_army inflexible_strategist trickster guerilla_fighter }
+					skill = 5
+					attack_skill = 4
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 3
+				}
+				add_naval_commander_role = {
+					character = FKR_son_wonil
+					traits = { air_controller ironside superior_tactician }
+					skill = 5
+					attack_skill = 5
+					defense_skill = 3
+					maneuvering_skill = 4
+					coordination_skill = 4
+				}
 				division_template = {
 					name = "광복군 사단"
 					division_names_group = FKR_IDP_01

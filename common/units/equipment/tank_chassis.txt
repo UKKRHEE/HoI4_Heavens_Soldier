@@ -867,6 +867,12 @@ equipments = {
 		priority = 170
 		visual_level = 1
 		
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_gun_upgrade
+		}
 		#Misc Abilities
 		maximum_speed = 15
 		
@@ -897,6 +903,12 @@ equipments = {
 		priority = 170
 		visual_level = 1
 		
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_gun_upgrade
+		}
 		#Misc Abilities
 		maximum_speed = 15
 		
