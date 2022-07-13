@@ -17,7 +17,7 @@ FKR_easter_mission: "의미불명의 소문"
 
 FKR_KOR_hiding_desc: "우리는 한반도를 지배하고 있는 [KOR.GetNameDef]와 국경을 접하고 있습니다. 그들이 우리의 존재를 충분히 인식하게 된다면 그들이 우리를 파괴할 것이라는 것을 부인할 수 없습니다. 다행히도 관료주의, 내분, 무능한 지도자에 의해 약화된 [KOR.GetNameDef]는 눈이 멀어 있습니다. 우리는 적절한 선택으로 우리의 계획을 충분히 밝힐 수 있을 만큼 그리고 충분히 강해지기까지 우리의 활동을 은폐 시킬 수 있습니다. 그러나 우리는 그들의 그림자에서 영원히 숨어 있을 수는 없을 것입니다. 시간이 지남에 따라 우리 자신을 숨기는 것이 점점 더 어려워질 것입니다."
 FKR_ancient_korean_literature_category_desc: "고대 한국의 한 문헌에 따르면 한민족은 예로부터 동서로 한반도부터 메소포타미아까지, 남북으로 시베리아 전역, 인도 북부 및 중앙아시아까지 달하는, 즉 쉽게 말해서 유라시아 대륙 대부분을 지배한 사상 최대의 대제국이었다고 합니다."
-FKR_unified_earth_government_category_desc: "더 이상 우리를 견제할 만한 열강은 지구상에 존재 하지 않습니다. 우리는 인류 통합이라는 위대한 업적을 곧 이룩할 수 있을 것입니다!"
+FKR_unified_earth_government_category_desc: "우리가 초강대국으로 군림하는 지금, 우리를 견제할 만한 열강은 지구상에 존재 하지 않습니다. 우리는 인류 통합이라는 위대한 업적을 곧 이룩할 수 있을 것입니다!"
 #FKR_future_tech_research_desc: "현대 기술도 언젠가는 도태될 것입니다. 우리는 미래의 기술에 집중 투자 함으로써 확실한 기술적 우위를 누리게 될것입니다."
 FKR_strat_ops_command_desc: "우리는 전쟁에서 승리하기 위해 전략적으로 전쟁에 접근해야할 필요가 있습니다.\n 겨자 가스탄: [?Root.mustard_gas_cap]"
 FKR_future_tech_research_land_desc: "결국 최후의 깃발을 꽂는 건 보병이라고!"
@@ -31,14 +31,14 @@ FKR_future_tech_research_navy_desc: "확실한 것은 결정적인 해군전력�
 #################################
 
 FKR_hide_activity:0 "제주에서의 활동 은폐하기"
-FKR_hide_activity_desc:0 "옛 국가의 정보 수집력은 매우 떨어지지만 시간이 지남에 따라 그들로부터 활동을 은폐하기 위해 점점 더 많은 노력을 기울여야 할 것입니다."
+FKR_hide_activity_desc:0 "전간기 국가들의 정보 수집력과 행정력은 현대에 비해 매우 떨어집니다. 하지만 시간이 지남에 따라 외부로부터 활동을 은폐하기 위해서는 점점 더 많은 노력을 기울여야 할 것입니다."
 FKR_hide_activity_days_tt:0 "§Y한국§!으로부터 §Y90 일§!간 은폐"
 FKR_hide_activity_bonus_tt:0 " + [?Root.days_mission_timeout@FKR_hide_activity|H0] §G추가§! 일수"
 FKR_hide_activity_crisis:0 "§R우리는 위기에 직면할 것입니다!§!\n"
 
 # CRISIS
 KOR_crisis:0 "§R은폐 위기§!"
-KOR_crisis_flag:0 "§R곧 우리의 은폐가 발각될 것입니다!§!"
+KOR_crisis_flag:0 "§R곧 우리의 존재가 드러나게 될 것입니다!§!"
 
 # War Preparations
 FKR_prepare_to_seize_arms:0 "한반도 내의 무기고 습격 준비"
