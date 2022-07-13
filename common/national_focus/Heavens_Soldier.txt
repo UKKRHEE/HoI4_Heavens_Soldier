@@ -225,7 +225,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FKR_contact_prov_gov
-		icon = GFX_focus_generic_diplomatic_treaty
+		icon = GFX_focus_FKR_contact_prov_gov
 		cost = 5.00
 		prerequisite = {
 			focus = FKR_gather_information
@@ -243,7 +243,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FKR_expansion_independent_army
-		icon = GFX_focus_chi_army_reform
+		icon = GFX_focus_FKR_expansion_independent_army
 		cost = 5.00
 		prerequisite = {
 			focus = FKR_contact_prov_gov
@@ -371,7 +371,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FKR_prepare_independent
-		icon = GFX_focus_secret_rearmament
+		icon = GFX_focus_FKR_prepare_independent
 		cost = 5.00
 		prerequisite = {
 			focus = FKR_gather_information
@@ -401,7 +401,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FKR_support_motherland
-		icon = GFX_focus_generic_support_the_left_right
+		icon = GFX_focus_FKR_support_motherland
 		cost = 5.00
 		prerequisite = {
 			focus = FKR_prepare_independent
@@ -418,7 +418,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FKR_operation_gloryday
-		icon = GFX_focus_jap_cast_the_die
+		icon = GFX_focus_FKR_operation_gloryday
 		cost = 10.00
 		prerequisite = {
 			focus = FKR_expansion_independent_army

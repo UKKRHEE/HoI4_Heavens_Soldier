@@ -1,5 +1,33 @@
 spriteTypes = {	
 	SpriteType = {
+		name = "GFX_focus_FKR_operation_gloryday"
+		texturefile = "gfx/interface/goals/FKR/Focus_kor_flight.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_FKR_timeslip"
+		texturefile = "gfx/interface/goals/FKR/타임슬립.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_FKR_support_motherland"
+		texturefile = "gfx/interface/goals/FKR/Focus_kor_army.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_FKR_prepare_independent"
+		texturefile = "gfx/interface/goals/FKR/Focus_kor_MND2.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_FKR_expansion_independent_army"
+		texturefile = "gfx/interface/goals/FKR/Independent_Army_Corps.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_FKR_contact_prov_gov"
+		texturefile = "gfx/interface/goals/FKR/FKR_contact_prov_gov.png"			
+	}
+	SpriteType = {
+		name = "GFX_focus_FKR_gather_information"
+		texturefile = "gfx/interface/goals/FKR/1936_world.png"			
+	}
+	SpriteType = {
 		name = "GFX_focus_FKR_contact_Soviet_russia"
 		texturefile = "gfx/interface/goals/FKR/FKR_contact_soviet_russia.dds"			
 	}
