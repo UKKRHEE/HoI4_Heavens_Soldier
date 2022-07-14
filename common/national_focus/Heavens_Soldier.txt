@@ -238,6 +238,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 150
 			add_stability = 0.05
+			set_cosmetic_tag = FKR_PROGOV
 		}
 
 	}
