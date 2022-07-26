@@ -1257,6 +1257,7 @@ FKR_future_tech_research_land = {
 			clr_country_flag = FKR_future_research_processing
 			set_technology = {
                 redesigned_future_modern_tank = 1
+				redesigned_future_modern_tank_chassis = 1
             }
 		}
 	}
@@ -1304,6 +1305,56 @@ FKR_future_tech_research_land = {
 			set_technology = {
                 redesigned_future_modern_tank_aa = 1
 				redesigned_future_modern_tank_artillery = 1
+            }
+		}
+	}
+
+	FKR_reserch_future_armor_Module_equipment = {
+		icon = generic_army_support
+
+		allowed = {
+			original_tag = FKR
+		}
+
+		available = {
+			has_completed_focus = FKR_army_doc_team
+			has_army_experience > 24
+			OR = {
+				AND = {
+					has_tech = advanced_equipment_conversion
+					has_tech = advanced_computing_machine
+					has_tech = artillery5
+					has_tech = rocket_artillery4
+					has_tech = antiair5
+					has_tech = antitank5
+				}
+				has_completed_focus = FKR_focus_on_future_tech
+			}
+			NOT = { has_country_flag = FKR_future_research_processing }
+		}
+
+		fire_only_once = yes
+
+		cost = 15
+		days_remove = 30
+
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		complete_effect = {
+            set_country_flag = FKR_future_research_processing
+			army_experience = -25
+        }
+
+		remove_effect = {
+			clr_country_flag = FKR_future_research_processing
+			set_technology = {
+                redesigned_modern_tank_modules = 1
             }
 		}
 	}

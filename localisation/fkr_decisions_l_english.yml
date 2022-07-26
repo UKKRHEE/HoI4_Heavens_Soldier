@@ -89,6 +89,7 @@ FKR_reserch_future_attack_heli_equipment:0 "미래 공격 헬리콥터 개발"
 FKR_reserch_future_anti_air_equipment:0 "미래 대공 장비 개발"
 FKR_reserch_future_anti_tank_equipment:0 "미래 대전차 장비 개발"
 FKR_reserch_future_mlrs_equipment:0 "미래 다연장 로켓 장비 개발"
+FKR_reserch_future_armor_Module_equipment:0 "미래 전차 주포 및 모듈 개발"
 
 # Future Tech Research (Air)
 FKR_reserch_future_fighter_equipment:0 "미래 전투기 개발"

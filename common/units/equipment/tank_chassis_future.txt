@@ -1,0 +1,60 @@
+equipments = {
+
+	### ###	###	###	###	###	###	###
+	###							###
+	###		Future Equipment	###
+	###							###
+	### ###	###	###	###	###	###	###
+
+	modern_tank_equipment_chassis_future_1 = {
+		abbreviation = "mbt1"
+		derived_variant_name = modern_tank_equipment_future_1
+		visual_level = 1
+		year = 1950
+		archetype = modern_tank_chassis
+		priority = 2000
+		module_slots = inherit
+		maximum_speed = 7
+		build_cost_ic = 600
+		reliability = 2
+		armor_value = 100
+		hardness = 1
+		resources = {
+			steel = 3
+			chromium = 2
+		}
+		manpower = 3
+
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+	}
+
+
+	modern_tank_equipment_chassis_future_2 = {
+		abbreviation = "mbt2"
+		derived_variant_name = modern_tank_equipment_future_2
+		visual_level = 2
+		year = 1950
+		archetype = modern_tank_chassis
+		parent = modern_tank_equipment_chassis_future_1
+		priority = 2000
+		module_slots = inherit
+		maximum_speed = 7
+		build_cost_ic = 6
+		reliability = 2
+		armor_value = 100
+		hardness = 1
+		resources = {
+			steel = 3
+			chromium = 2
+		}
+		manpower = 3
+
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+	}   
+}

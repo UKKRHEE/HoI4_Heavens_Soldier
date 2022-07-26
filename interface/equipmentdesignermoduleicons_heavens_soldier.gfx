@@ -1,4 +1,148 @@
 spriteTypes = {
+
+#region tank future module
+
+	spriteType = {
+		name = "GFX_SMI_future_Active_defense_system_1"
+		textureFile = "gfx/interface/modules/tank/ads_icn_future.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_Active_defense_system_2"
+		textureFile = "gfx/interface/modules/tank/ads_icn_future_re.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_Air_conditioner_1"
+		textureFile = "gfx/interface/modules/tank/aircon_icn_future.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_Air_conditioner_2"
+		textureFile = "gfx/interface/modules/tank/aircon_icn_future_re.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_auto_loader_1"
+		textureFile = "gfx/interface/modules/tank/auto_loader_icn_future.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_auto_loader_2"
+		textureFile = "gfx/interface/modules/tank/auto_loader_icn_future_re.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_tank_communication_device_1"
+		textureFile = "gfx/interface/modules/tank/communication_device_icn_future.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_tank_communication_device_2"
+		textureFile = "gfx/interface/modules/tank/communication_device_icn_future.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_tank_hybrid_engine_1"
+		textureFile = "gfx/interface/modules/tank/hybrid_engine_icn_future.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_tank_hybrid_engine_2"
+		textureFile = "gfx/interface/modules/tank/hybrid_engine_icn_future_re.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_tank_Composite_Reaction_armor_1"
+		textureFile = "gfx/interface/modules/tank/Composite_Reaction_armor_icn_future.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_tank_Composite_Reaction_armor_2"
+		textureFile = "gfx/interface/modules/tank/Composite_Reaction_armor_icn_future_re.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_tank_in_arm_suspension_1"
+		textureFile = "gfx/interface/modules/tank/in_arm_suspension_icn_future.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_tank_in_arm_suspension_2"
+		textureFile = "gfx/interface/modules/tank/in_arm_suspension_icn_future_re.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_tank_modern_tank_turret_1"
+		textureFile = "gfx/interface/modules/tank/modern_tank_turret_icn_future.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_tank_modern_tank_turret_2"
+		textureFile = "gfx/interface/modules/tank/modern_tank_turret_icn_future_re.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_tank_anti_air_cannon_1"
+		textureFile = "gfx/interface/modules/tank/tank_anti_air_cannon_icn_future.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_tank_anti_air_cannon_2"
+		textureFile = "gfx/interface/modules/tank/tank_anti_air_cannon_icn_future_re.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_tank_howitzer_1"
+		textureFile = "gfx/interface/modules/tank/tank_howitzer_icn_future.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_tank_howitzer_2"
+		textureFile = "gfx/interface/modules/tank/tank_howitzer_icn_future_re.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_tank_cannon_1"
+		textureFile = "gfx/interface/modules/tank/tank_cannon_icn_future.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_tank_cannon_2"
+		textureFile = "gfx/interface/modules/tank/tank_cannon_icn_future_re.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_tank_rocket_launcher_1"
+		textureFile = "gfx/interface/modules/tank/tank_rocket_launcher_icn_future.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_tank_rocket_launcher_2"
+		textureFile = "gfx/interface/modules/tank/tank_rocket_launcher_icn_future_re.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_Fire_Control_System_1"
+		textureFile = "gfx/interface/modules/tank/fire_control_system_icn_future.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_Fire_Control_System_2"
+		textureFile = "gfx/interface/modules/tank/fire_control_system_icn_future_re.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_tank_diesel_engine_1"
+		textureFile = "gfx/interface/modules/tank/diesel_engine_icn_future.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_future_tank_diesel_engine_2"
+		textureFile = "gfx/interface/modules/tank/diesel_engine_icn_future_re.dds"
+	}
+
+
 	
 #region Ship Future Module
 

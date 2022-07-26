@@ -1,0 +1,587 @@
+equipment_modules = {
+
+	### Engine Types
+
+	future_tank_diesel_engine_1 = {
+		abbreviation = "fde"
+		category = tank_engine_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			build_cost_ic = 1000 
+			fuel_consumption = 5
+			reliability = 0.2
+			maximum_speed = 2.5
+		}
+		multiply_stats = {  }
+	}
+
+	future_tank_hybrid_engine_1 = {
+		abbreviation = "fhe"
+		category = tank_engine_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			fuel_consumption = 10
+			build_cost_ic = 2000
+			reliability = -0.25
+			breakthrough = 20
+			maximum_speed = 5
+		}
+		multiply_stats = {
+		}
+	}
+
+
+	###Armor Types
+
+	future_tank_Composite_Reaction_armor_1 = {
+		abbreviation = "cra"
+		category = tank_armor_type
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {
+			defense = 4
+			breakthrough = 4	
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 8
+		multiply_stats = {
+			build_cost_ic = 1
+			armor_value = 0.5
+		}
+	}
+
+	###Suspension Types
+
+	future_tank_in_arm_suspension_1 = {
+		abbreviation = "isu"
+		category = tank_suspension_type
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {
+			build_cost_ic = 20
+			breakthrough = 4
+			reliability = -0.1
+		}
+		dismantle_cost_ic  = 2
+
+		multiply_stats =  {
+			maximum_speed = 0.3
+		}
+
+	}
+
+
+	###Turret Types - light
+	### turrets are split by chassis to make it easier to control which guns they can mount
+
+	future_tank_modern_tank_turret_1 = {
+		abbreviation = "fmt"
+		category = tank_modern_turret_type
+		sfx = sfx_ui_sd_module_turret
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_medium_main_armament
+				tank_heavy_main_armament
+			}
+		}
+		add_stats = {
+			build_cost_ic = 100
+			breakthrough = 30
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 2
+		multiply_stats = {
+		}
+
+	}
+
+
+	###Weapons
+
+	future_tank_anti_air_cannon_1 = {
+		abbreviation = "faa"
+		category = tank_medium_main_armament
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_air
+		forbid_equipment_type_exact_match = armor
+		add_stats = {
+			soft_attack = 30
+			hard_attack = 10
+			ap_attack = 40
+			air_attack = 100
+			build_cost_ic = 400
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_medium_main_armament
+			convert_cost_ic = 4
+		}
+		build_cost_resources = {
+			steel = 3
+			tungsten = 1
+		}
+	}
+
+	future_tank_cannon_1 = {
+		abbreviation = "fc1"
+		category = tank_medium_main_armament
+		sfx = sfx_ui_sd_module_turret
+		dismantle_cost_ic = 1
+		add_stats = {
+			soft_attack = 100
+			hard_attack = 80
+			ap_attack = 100
+			build_cost_ic = 400
+			maximum_speed = -0.3
+			reliability = -0.15
+			breakthrough = 8
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_medium_main_armament
+			convert_cost_ic = 4
+		}
+		build_cost_resources = {
+			tungsten = 1
+			steel = 2
+			chromium = 1
+		}
+	}
+
+
+	future_tank_howitzer_1 = {
+		abbreviation = "fh1"
+		category = tank_medium_main_armament
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = artillery
+		add_stats = {
+			soft_attack = 150
+			hard_attack = 4
+			ap_attack = 40
+			build_cost_ic = 55.5
+			maximum_speed = -0.4
+			reliability = -0.4
+			breakthrough = -2
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_medium_main_armament
+			convert_cost_ic = 5.5
+		}
+		build_cost_resources = {
+			tungsten = 1
+			steel = 3
+			chromium = 1
+		}
+	}
+
+	future_tank_rocket_launcher_1 = {
+		abbreviation = "fr1"
+		category = tank_medium_main_armament
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = artillery
+		forbid_equipment_type_exact_match = armor
+		add_stats = {
+			soft_attack = 200
+			hard_attack = 4
+			ap_attack = 4
+			build_cost_ic = 500
+			maximum_speed = -0.2
+			reliability = -0.60
+			breakthrough = -4
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_medium_main_armament
+			convert_cost_ic = 5
+		}
+		build_cost_resources = {
+			tungsten = 2
+			steel = 1
+		}
+	}
+
+	###Special Modules
+
+
+	future_tank_communication_device_1 = {
+		abbreviation = "wcd1"
+		category = tank_radio_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 25
+		}
+		xp_cost = 1
+		multiply_stats = {
+			defense = 1
+			breakthrough = 1
+		}
+	}
+
+	future_auto_loader_1 = {
+		abbreviation = "fauto"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 40
+			breakthrough = 8
+			defense = 4
+		}
+		xp_cost = 3
+		
+	}
+
+	future_Air_conditioner_1 = {
+		abbreviation = "fac"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 40
+		}
+		xp_cost = 3
+		multiply_stats = {
+			default_morale = 20
+		}
+		
+	}
+
+	future_Fire_Control_System_1 = {
+		abbreviation = "fics"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 40
+		}
+		xp_cost = 3
+		multiply_stats = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+			ap_attack = 0.1
+		}
+		
+	}
+
+	future_Active_defense_system_1 = {
+		abbreviation = "fads"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 40
+			max_organisation = 20
+		}
+		xp_cost = 3
+		multiply_stats = {
+			defense = 0.1
+			armor_value = 0.1
+
+		}
+		
+	}
+
+	### redesigned
+
+	### Engine Types
+
+	future_tank_diesel_engine_2 = {
+		abbreviation = "fde"
+		category = tank_engine_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			build_cost_ic = 5
+			fuel_consumption = 5
+			reliability = 0.2
+			maximum_speed = 2.5
+		}
+		multiply_stats = {  }
+	}
+
+	future_tank_hybrid_engine_2 = {
+		abbreviation = "fhe"
+		category = tank_engine_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			fuel_consumption = 10
+			build_cost_ic = 10
+			reliability = -0.40
+			breakthrough = 20
+			maximum_speed = 5
+		}
+		multiply_stats = {
+		}
+	}
+
+
+	###Armor Types
+
+	future_tank_Composite_Reaction_armor_2 = {
+		abbreviation = "cra"
+		category = tank_armor_type
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {
+			defense = 4
+			breakthrough = 4	
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 8
+		multiply_stats = {
+			build_cost_ic = 0.1
+			armor_value = 0.5
+		}
+	}
+
+	###Suspension Types
+
+	future_tank_in_arm_suspension_2 = {
+		abbreviation = "isu"
+		category = tank_suspension_type
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {
+			build_cost_ic = 2
+			breakthrough = 4
+			reliability = -0.1
+		}
+		dismantle_cost_ic  = 2
+
+		multiply_stats =  {
+			maximum_speed = 0.3
+		}
+
+	}
+
+
+	###Turret Types - light
+	### turrets are split by chassis to make it easier to control which guns they can mount
+
+	future_tank_modern_tank_turret_2 = {
+		abbreviation = "fmt"
+		category = tank_modern_turret_type
+		sfx = sfx_ui_sd_module_turret
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_medium_main_armament
+				tank_heavy_main_armament
+			}
+		}
+		add_stats = {
+			build_cost_ic = 10
+			breakthrough = 30
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 2
+		multiply_stats = {
+		}
+
+	}
+
+
+	###Weapons
+
+	future_tank_anti_air_cannon_2 = {
+		abbreviation = "faa"
+		category = tank_medium_main_armament
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_air
+		forbid_equipment_type_exact_match = armor
+		add_stats = {
+			soft_attack = 30
+			hard_attack = 20
+			ap_attack = 40
+			air_attack = 100
+			build_cost_ic = 4
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_medium_main_armament
+			convert_cost_ic = 4
+		}
+		build_cost_resources = {
+			steel = 3
+			tungsten = 1
+		}
+	}
+
+	future_tank_cannon_2 = {
+		abbreviation = "fc1"
+		category = tank_medium_main_armament
+		sfx = sfx_ui_sd_module_turret
+		dismantle_cost_ic = 1
+		add_stats = {
+			soft_attack = 60
+			hard_attack = 50
+			ap_attack = 100
+			build_cost_ic = 4
+			maximum_speed = -0.3
+			reliability = -0.15
+			breakthrough = 8
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_medium_main_armament
+			convert_cost_ic = 4
+		}
+		build_cost_resources = {
+			tungsten = 1
+			steel = 2
+			chromium = 1
+		}
+	}
+
+
+	future_tank_howitzer_2 = {
+		abbreviation = "fh1"
+		category = tank_medium_main_armament
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = artillery
+		add_stats = {
+			soft_attack = 150
+			hard_attack = 4
+			ap_attack = 40
+			build_cost_ic = 5.5
+			maximum_speed = -0.4
+			reliability = -0.4
+			breakthrough = -2
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_medium_main_armament
+			convert_cost_ic = 5.5
+		}
+		build_cost_resources = {
+			tungsten = 1
+			steel = 3
+			chromium = 1
+		}
+	}
+
+	future_tank_rocket_launcher_2 = {
+		abbreviation = "fr1"
+		category = tank_medium_main_armament
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = artillery
+		forbid_equipment_type_exact_match = armor
+		add_stats = {
+			soft_attack = 200
+			hard_attack = 4
+			ap_attack = 4
+			build_cost_ic = 5
+			maximum_speed = -0.2
+			reliability = -0.60
+			breakthrough = -4
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_medium_main_armament
+			convert_cost_ic = 5
+		}
+		build_cost_resources = {
+			tungsten = 2
+			steel = 1
+		}
+	}
+
+	###Special Modules
+
+
+	future_tank_communication_device_2 = {
+		abbreviation = "wcd1"
+		category = tank_radio_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 2.5
+		}
+		xp_cost = 1
+		multiply_stats = {
+			defense = 1
+			breakthrough = 1
+		}
+	}
+
+	future_auto_loader_2 = {
+		abbreviation = "fauto"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 4
+			breakthrough = 8
+			defense = 4
+		}
+		xp_cost = 3
+		
+	}
+
+	future_Air_conditioner_2 = {
+		abbreviation = "fac"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 4
+		}
+		xp_cost = 3
+		multiply_stats = {
+			default_morale = 20
+		}
+		
+	}
+
+	future_Fire_Control_System_2 = {
+		abbreviation = "fics"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 4
+		}
+		xp_cost = 3
+		multiply_stats = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+			ap_attack = 0.1
+		}
+		
+	}
+
+	future_Active_defense_system_2 = {
+		abbreviation = "fads"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 4
+			max_organisation = 20
+		}
+		xp_cost = 3
+		multiply_stats = {
+			defense = 0.1
+			armor_value = 0.1
+
+		}
+		
+	}
+
+}
