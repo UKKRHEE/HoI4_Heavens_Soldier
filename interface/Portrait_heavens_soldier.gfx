@@ -1,0 +1,150 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_1"
+			"gfx/leaders/FKR/Portrait_Future_Korea_Generic_Male_land_1.dds"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_2"
+			"gfx/leaders/FKR/Portrait_Future_Korea_Generic_Male_land_2.dds"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_3"
+			"gfx/leaders/FKR/Portrait_Future_Korea_Generic_Male_land_3.dds"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_4"
+			"gfx/leaders/FKR/Portrait_Future_Korea_Generic_Male_land_4.dds"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_5"
+			"gfx/leaders/FKR/Portrait_Future_Korea_Generic_Male_land_5.dds"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_6"
+			"gfx/leaders/FKR/Portrait_Future_Korea_Generic_Male_land_6.dds"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_7"
+			"gfx/leaders/FKR/Portrait_Future_Korea_Generic_Male_land_7.dds"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_8"
+			"gfx/leaders/FKR/Portrait_Future_Korea_Generic_Male_land_8.dds"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_9"
+			"gfx/leaders/FKR/Portrait_Future_Korea_Generic_Male_land_9.dds"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_10"
+			"gfx/leaders/FKR/Portrait_Future_Korea_Generic_Male_land_10.dds"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_11"
+			"gfx/leaders/FKR/Portrait_Future_Korea_Generic_Male_land_11.dds"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_12"
+			"gfx/leaders/FKR/Portrait_Future_Korea_Generic_Male_land_12.dds"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_13"
+			"gfx/leaders/FKR/Portrait_Future_Korea_Generic_Male_land_13.dds"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_navy_1"
+			"gfx/leaders/FKR/Portrait_Future_Korea_Generic_Male_navy_1.dds"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_navy_2"
+			"gfx/leaders/FKR/Portrait_Future_Korea_Generic_Male_navy_2.dds"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_navy_3"
+			"gfx/leaders/FKR/Portrait_Future_Korea_Generic_Male_navy_3.dds"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_navy_4"
+			"gfx/leaders/FKR/Portrait_Future_Korea_Generic_Male_navy_4.dds"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_navy_5"
+			"gfx/leaders/FKR/Portrait_Future_Korea_Generic_Male_navy_5.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_1_small"
+			"gfx/interface/ideas/FKR/idea_Portrait_Future_Korea_Generic_Male_land_1.png"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_2_small"
+			"gfx/interface/ideas/FKR/idea_Portrait_Future_Korea_Generic_Male_land_2.png"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_3_small"
+			"gfx/interface/ideas/FKR/idea_Portrait_Future_Korea_Generic_Male_land_3.png"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_4_small"
+			"gfx/interface/ideas/FKR/idea_Portrait_Future_Korea_Generic_Male_land_4.png"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_5_small"
+			"gfx/interface/ideas/FKR/idea_Portrait_Future_Korea_Generic_Male_land_5.png"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_6_small"
+			"gfx/interface/ideas/FKR/idea_Portrait_Future_Korea_Generic_Male_land_6.png"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_7_small"
+			"gfx/interface/ideas/FKR/idea_Portrait_Future_Korea_Generic_Male_land_7.png"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_8_small"
+			"gfx/interface/ideas/FKR/idea_Portrait_Future_Korea_Generic_Male_land_8.png"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_9_small"
+			"gfx/interface/ideas/FKR/idea_Portrait_Future_Korea_Generic_Male_land_9.png"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_10_small"
+			"gfx/interface/ideas/FKR/idea_Portrait_Future_Korea_Generic_Male_land_10.png"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_11_small"
+			"gfx/interface/ideas/FKR/idea_Portrait_Future_Korea_Generic_Male_land_11.png"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_12_small"
+			"gfx/interface/ideas/FKR/idea_Portrait_Future_Korea_Generic_Male_land_12.png"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_land_13_small"
+			"gfx/interface/ideas/FKR/idea_Portrait_Future_Korea_Generic_Male_land_13.png"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_navy_1_small"
+			"gfx/interface/ideas/FKR/idea_Portrait_Future_Korea_Generic_Male_navy_1.png"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_navy_2_small"
+			"gfx/interface/ideas/FKR/idea_Portrait_Future_Korea_Generic_Male_navy_2.png"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_navy_3_small"
+			"gfx/interface/ideas/FKR/idea_Portrait_Future_Korea_Generic_Male_navy_3.png"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_navy_4_small"
+			"gfx/interface/ideas/FKR/idea_Portrait_Future_Korea_Generic_Male_navy_4.png"
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Future_Korea_Generic_Male_navy_5_small"
+			"gfx/interface/ideas/FKR/idea_Portrait_Future_Korea_Generic_Male_navy_5.png"
+	}	
+	
+}
+
