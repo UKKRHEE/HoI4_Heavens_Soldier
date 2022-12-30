@@ -6,12 +6,7 @@ units = {
 		task_force = {
 			name = "항공모함 기동전단"
 			location = 1177
-			ship = { name = "KCV 백령도급 핵 추진 항공모함" definition = carrier equipment = { ship_hull_carrier_future_1 = {amount = 1 owner = FKR version_name = "광개토대왕 급"} } 				
-				air_wings = { 
-					cv_fighter_equipment_future_1 =  { owner = "FKR" amount = 50 }
-					cv_CAS_equipment_future_1 = { owner = "FKR" amount = 50 }
-				}
-			}
+			ship = { name = "KCV 백령도급 핵 추진 항공모함" definition = carrier equipment = { ship_hull_carrier_future_1 = {amount = 1 owner = FKR version_name = "광개토대왕 급"} } }
 
 			ship = { name = "DDG 세종대왕급 이지스함" definition = light_cruiser equipment = { ship_hull_cruiser_future_1 = {amount = 1 owner = FKR version_name = "이순신 급" } } }
 			ship = { name = "DDG 서애 류성룡급 이지스함" definition = light_cruiser equipment = { ship_hull_cruiser_future_1 = {amount = 1 owner = FKR version_name = "이순신 급" } } }
