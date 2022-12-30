@@ -66,7 +66,7 @@ if = {
 		future_modern_tank_modules = 1
 	}
 }
-load_oob = "FKR_1936_air"
+set_air_oob = "FKR_1936_air"
 set_convoys = 50
 
 set_politics = {
