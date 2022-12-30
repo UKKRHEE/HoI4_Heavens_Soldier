@@ -9,7 +9,7 @@ tags={
 	"Sound"
 	"Military"
 }
-name="Korea - The Heavens Soldiers (1.11.*)"
+name="Korea - The Heavens Soldiers (1.12.*)"
 picture="thumbnail.png"
-supported_version="1.11.*"
+supported_version="1.12.*"
 remote_file_id="2315848888"
