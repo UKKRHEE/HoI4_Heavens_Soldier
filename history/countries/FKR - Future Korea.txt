@@ -221,6 +221,6 @@ if = {
 
 }
 country_event = {
-	id = fkr.3
+	id = fkr.1
 	days = 3
 }
