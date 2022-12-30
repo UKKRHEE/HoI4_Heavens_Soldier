@@ -1726,8 +1726,6 @@ equipments = {
 			interception
 			naval_patrol
 		}
-
-		type = { fighter interceptor cas }
 		
 		air_range = 2500
 		maximum_speed = 1900
@@ -1757,9 +1755,9 @@ equipments = {
 			air_superiority
 			interception
 			naval_patrol
+			cas
+			attack_logistics
 		}
-
-		type = { fighter interceptor cas }
 		
 		air_range = 2500
 		maximum_speed = 1900
@@ -1851,11 +1849,14 @@ equipments = {
 		archetype = jet_strat_bomber_equipment
 		priority = 150
 		allow_mission_type = {
+			cas
 			strategic_bomber
+			naval_bomber
+			port_strike
+			attack_logistics
 			naval_mines_planting
+			naval_mines_sweeping
 		}
-
-		type = { tactical_bomber strategic_bomber }
 		
 		air_range = 8500
 		maximum_speed = 1000
@@ -1879,11 +1880,14 @@ equipments = {
 		parent = jet_strat_bomber_equipment_1
 		priority = 150
 		allow_mission_type = {
+			cas
 			strategic_bomber
+			naval_bomber
+			port_strike
+			attack_logistics
 			naval_mines_planting
+			naval_mines_sweeping
 		}
-
-		type = { tactical_bomber strategic_bomber }
 		
 		air_range = 8500
 		maximum_speed = 1000
