@@ -11,9 +11,7 @@ country_event = {#1 - In the Lair of Korea
 	trigger = {	
 		tag = FKR 
 		country_exists = KOR
-		NOT = {
-			is_ai = yes
-		}
+		is_ai = no
 	}
 	mean_time_to_happen = {	days = 3 }
 	
