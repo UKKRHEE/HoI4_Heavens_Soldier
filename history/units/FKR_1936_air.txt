@@ -11,7 +11,9 @@ air_wings = {
 		cv_fighter_equipment_future_1 =  { owner = "KOR" amount = 12 } 	
 		cv_fighter_equipment_future_1 =  { owner = "KOR" amount = 12 } 	
 		cv_fighter_equipment_future_1 =  { owner = "KOR" amount = 2 } 	
-		cv_CAS_equipment_future_1 = { owner = "KOR" amount = 36 } 			
+		cv_CAS_equipment_future_1 = { owner = "KOR" amount = 12 } 			
+		cv_CAS_equipment_future_1 = { owner = "KOR" amount = 12 } 			
+		cv_CAS_equipment_future_1 = { owner = "KOR" amount = 12 } 			
 		cv_CAS_equipment_future_1 = { owner = "KOR" amount = 12 } 			
 		cv_CAS_equipment_future_1 = { owner = "KOR" amount = 2 } 			
 	}
