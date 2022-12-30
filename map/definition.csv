@@ -13234,18 +13234,39 @@
 13233;230;236;122;land;false;mountain;1
 13234;210;241;113;land;false;hills;2
 13235;233;179;9;land;false;mountain;2
+13236;206;4;72;land;false;desert;5
+13237;137;41;92;land;false;hills;5
+13238;26;241;146;land;false;hills;5
+13239;98;186;250;land;false;mountain;5
+13240;15;232;57;land;false;mountain;5
+13241;153;226;237;land;false;mountain;5
+13242;132;76;70;land;false;mountain;5
+13243;215;64;181;land;false;mountain;5
+13244;165;139;154;land;false;hills;5
+13245;114;185;212;land;false;mountain;5
+13246;120;109;84;land;false;hills;5
+13247;147;161;5;land;false;hills;5
+13248;97;103;122;land;false;hills;5
+13249;78;140;152;land;false;mountain;5
+13250;191;175;169;land;false;hills;5
+13251;185;11;250;land;false;mountain;5
+13252;51;14;146;land;true;hills;1
+13253;59;23;200;land;false;desert;5
+13254;242;234;234;land;true;forest;6
+13255;243;229;190;land;true;plains;1
+13256;226;59;117;land;true;plains;1
 
-13236;233;179;100;land;false;plains;6 #경기
-13237;67;79;100;land;false;plains;6
+13257;233;179;100;land;false;plains;6 #경기
+13258;67;79;100;land;false;plains;6
 
-13238;12;55;44;land;false;mountain;6 #강원
+13259;12;55;44;land;false;mountain;6 #강원
 
-13239;66;66;66;land;false;hills;6 #충북
-13240;111;111;111;land;false;hills;6 
+13260;66;66;66;land;false;hills;6 #충북
+13261;111;111;111;land;false;hills;6 
 
-13241;213;31;15;land;false;hills;6 #충남
+13262;213;31;15;land;false;hills;6 #충남
 
-13242;61;31;15;land;true;plains;6 #전북
-13243;33;131;125;land;false;plains;6 
+13263;61;31;15;land;true;plains;6 #전북
+13264;33;131;125;land;false;plains;6 
 
-13244;72;96;22;land;false;plains;6 #경북-울릉
+13265;72;96;22;land;false;plains;6 #경북-울릉

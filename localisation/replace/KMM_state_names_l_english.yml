@@ -1,11 +1,10 @@
 ﻿l_english:
  STATE_525:0 "경기"
  STATE_527:0 "평안"
- STATE_835:0 "충청"
- STATE_836:0 "전라"
- STATE_837:0 "경상"
- STATE_838:0 "함경"
- STATE_839:0 "강원"
- STATE_840:0 "황해"
- STATE_841:0 "제주"
- 
+ STATE_909:0 "충청"
+ STATE_910:0 "전라"
+ STATE_911:0 "경상"
+ STATE_912:0 "함경"
+ STATE_913:0 "강원"
+ STATE_914:0 "황해"
+ STATE_915:0 "제주"
