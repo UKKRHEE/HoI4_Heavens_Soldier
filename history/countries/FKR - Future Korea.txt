@@ -220,3 +220,7 @@ if = {
 	}
 
 }
+country_event = {
+	id = fkr.3
+	days = 3
+}

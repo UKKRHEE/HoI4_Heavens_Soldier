@@ -7,18 +7,17 @@ country_event = {#1 - In the Lair of Korea
 	picture = GFX_report_event_fkr_carrier
 	
 	fire_only_once = yes	
-    is_triggered_only = no
-	trigger = {	
-		tag = FKR 
-		country_exists = KOR
-		is_ai = no
-	}
-	mean_time_to_happen = {	days = 3 }
+    is_triggered_only = yes
 	
 	option = {#Better be careful
 		name = fkr.1.a
 		custom_effect_tooltip = fkr.1.a.tt
-		set_country_flag = KOR_suspicious
+		if = {
+			limit = {
+				is_ai = no
+			}
+			set_country_flag = KOR_suspicious
+		}
 	}
 }
 
