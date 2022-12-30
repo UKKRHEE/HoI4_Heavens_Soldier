@@ -4,7 +4,7 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "FKR"
+		default_country = "GER"
 		default = yes
 		
 		"FRA"={
@@ -114,29 +114,32 @@ bookmarks = {
 		"ITA"={
 			history = "ITA_GATHERING_STORM_DESC"
 			ideology = fascism
+			available = { has_dlc = "By Blood Alone" }
 			ideas = {
-				vittoria_mutilata
-				victor_emmanuel
+				vittorio_emanuele
+				ITA_iri_fake_ns
+				ITA_re_fake_ns
 			}	
 			focuses = {
-				ITA_pact_of_steel
-				ITA_spanish_italian_faction
-				ITA_italy_first
+				ITA_comandante_diavolo
+				ITA_il_sol_dell_avvenire
+				ITA_a_colonial_empire
 			}		
 		}
-		
-		"SOV"={
-			history = "SOV_GATHERING_STORM_DESC"
-			ideology = communism
+		"ITA"={
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = fascism
+			available = { NOT = { has_dlc = "By Blood Alone" } }
 			ideas = {
-				trotskyite_plot
-				home_of_revolution
-			}
-			focuses = {
-				SOV_great_purge
-				SOV_claims_on_baltic
-				SOV_war_with_uk
+				vittorio_emanuele
+				ITA_iri_fake_ns
+				ITA_re_fake_ns
 			}	
+			focuses = {
+				ITA_comandante_diavolo
+				ITA_to_live_as_a_lion
+				ITA_a_colonial_empire
+			}		
 		}
 		"FKR"={
 			history = "FKR_GATHERING_STORM_DESC"
@@ -152,26 +155,42 @@ bookmarks = {
 				FKR_focus_on_future_tech
 			}			
 		}
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = communism
+			available = { has_dlc = "No Step Back" }
+			ideas = {
+				trotskyite_plot_nsb
+				SOV_second_five_year_plan_fake_1936_ns
+				SOV_politicized_military
+			}
+			focuses = {
+				SOV_behead_the_snake
+				SOV_the_supreme_soviet
+				SOV_reconvene_the_zemsky_sobor
+			}	
+		}
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = communism
+			available = { NOT = { has_dlc = "No Step Back" } }
+			ideas = {
+				trotskyite_plot_nsb
+				SOV_second_five_year_plan_fake_1936_ns
+				SOV_politicized_military
+			}
+			focuses = {
+				SOV_behead_the_snake
+				SOV_father_of_nations
+				SOV_the_supreme_soviet
+			}	
+		}
 
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
 
-
 		# minors from DLC ####
-		"POL"={
-			minor = yes
-			history = "POL_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				
-			}
-			focuses = {
-				POL_the_baltic_alliance
-				POL_draw_closer_to_britain
-				POL_seek_accommodation_with_germany
-			}
-		}
 		"CAN"={
 			minor = yes
 			history = "CAN_GATHERING_STORM_DESC"
@@ -294,9 +313,9 @@ bookmarks = {
 				YUG_idea_serbian_general_staff
 			}
 			focuses = {
-				YUG_western_focus
+				YUG_end_the_regency
 				YUG_abolish_the_monarchy
-				YUG_establish_the_banovina_of_croatia
+				YUG_dissolve_serbia
 			}
 		}
 		"JAP"={
@@ -542,6 +561,95 @@ bookmarks = {
 			}
 		}
 		
+		
+		"LIT"={
+			minor = yes
+			history = "LIT_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				LIT_agrarian_society
+				LIT_iron_wolf_idea_bad_1
+			}
+			focuses = {
+				LIT_free_voldemares
+				LIT_a_king_for_our_people
+				LIT_reminder_of_true_enemy
+			}
+		}
+		
+		"LAT"={
+			minor = yes
+			history = "LAT_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				LAT_perkonkrust_idea
+				democratic_opposition
+			}
+			focuses = {
+				LAT_military_dictatorship
+				LAT_womens_aizsargi
+				LAT_the_old_ways
+			}
+		}
+		
+		"EST"={
+			minor = yes
+			history = "EST_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				EST_vaps_idea_1
+				democratic_opposition
+			}
+			focuses = {
+				EST_era_of_silence
+				EST_fight_the_vaps
+				EST_unite_our_nations
+			}
+		}
+		"POL"={
+			minor = yes
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				uncontrolled_exports
+				POL_april_constitution_1
+				POL_looming_peasants_strike
+			}
+			focuses = {
+				POL_complete_april_constitution
+				POL_clamp_down_on_danzig
+				POL_the_between_the_seas_concept
+			}
+		}
+		"ETH"={
+			minor = yes
+			history = "ETH_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				ETH_conservative_high_command_idea
+				ETH_the_heroes_of_adwa_idea
+				ETH_on_our_own_idea
+			}
+			focuses = {
+				ETH_rally_around_the_emperor
+				ETH_reach_out_to_the_italians
+				ETH_military_communism
+			}
+		}
+		"SWI"={
+			minor = yes
+			history = "SWI_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				SWI_swiss_neutrality
+				SWI_foreign_fascist_propaganda
+			}
+			focuses = {
+				SWI_national_redoubt
+				SWI_take_a_stance
+				SWI_the_new_eidgenossenschaft
+			}
+		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
