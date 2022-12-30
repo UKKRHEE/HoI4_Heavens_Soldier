@@ -1721,6 +1721,11 @@ equipments = {
 		archetype = cv_small_plane_airframe
 		carrier_capable = yes
 		priority = 20
+		allow_mission_type = {
+			air_superiority
+			interception
+			naval_patrol
+		}
 
 		type = { fighter interceptor cas }
 		
@@ -1748,6 +1753,11 @@ equipments = {
 		parent = cv_fighter_equipment_3
 		carrier_capable = yes
 		priority = 20
+		allow_mission_type = {
+			air_superiority
+			interception
+			naval_patrol
+		}
 
 		type = { fighter interceptor cas }
 		
@@ -1774,6 +1784,13 @@ equipments = {
 		archetype = cv_small_plane_cas_airframe
 		carrier_capable = yes
 		priority = 40
+		allow_mission_type = {
+			cas
+			naval_bomber
+			port_strike
+			attack_logistics
+			naval_patrol
+		}
 	
 		air_range = 4000
 		maximum_speed = 700
@@ -1798,6 +1815,13 @@ equipments = {
 		parent = cv_CAS_equipment_3
 		carrier_capable = yes
 		priority = 40
+		allow_mission_type = {
+			cas
+			naval_bomber
+			port_strike
+			attack_logistics
+			naval_patrol
+		}
 	
 		air_range = 4000
 		maximum_speed = 700
@@ -1826,6 +1850,10 @@ equipments = {
 	jet_strat_bomber_equipment_future_1 = {
 		archetype = jet_strat_bomber_equipment
 		priority = 150
+		allow_mission_type = {
+			strategic_bomber
+			naval_mines_planting
+		}
 
 		type = { tactical_bomber strategic_bomber }
 		
@@ -1850,6 +1878,10 @@ equipments = {
 		archetype = jet_strat_bomber_equipment
 		parent = jet_strat_bomber_equipment_1
 		priority = 150
+		allow_mission_type = {
+			strategic_bomber
+			naval_mines_planting
+		}
 
 		type = { tactical_bomber strategic_bomber }
 		
