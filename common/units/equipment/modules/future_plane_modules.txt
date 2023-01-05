@@ -1,0 +1,700 @@
+equipment_modules = {
+	### future engine ###
+
+	future_jet_turbofan_engines_1_1x = {
+		abbreviation = "fj11"
+		category = future_jet_turbofan_engine_type
+		gui_category = future_jet_turbofan_engine_type_1
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			air_range = 2500
+			maximum_speed = 2000
+			thrust = 40
+			build_cost_ic = 250
+			fuel_consumption = 0.5
+		}
+		build_cost_resources = {
+			tungsten = 1
+		}
+	}
+
+	future_jet_turbofan_engines_1_2x = {
+		abbreviation = "fj12"
+		category = future_jet_turbofan_engine_type
+		gui_category = future_jet_turbofan_engine_type_1
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			air_range = 4000
+			maximum_speed = 1750
+			thrust = 80
+			build_cost_ic = 500
+			fuel_consumption = 1
+		}
+		build_cost_resources = {
+			tungsten = 2
+		}
+	}
+
+	future_jet_turbofan_engines_1_4x = {
+		abbreviation = "fj14"
+		category = future_jet_turbofan_engine_type
+		gui_category = future_jet_turbofan_engine_type_1
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			air_range = 8500
+			maximum_speed = 1500
+			thrust = 160
+			build_cost_ic = 1000
+			fuel_consumption = 2
+		}
+		build_cost_resources = {
+			tungsten = 4
+		}
+	}
+
+	### future weapons ###
+
+
+	future_air_to_air_guided_missilee_1 = {
+		abbreviation = "faam1"
+		category = future_fighter_weapon_missilee
+		gui_category = future_fighter_weapon_1
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { fighter }
+
+		add_stats = {	
+			build_cost_ic = 150
+			air_attack = 40
+		}
+		xp_cost = 5
+        allow_mission_type = {
+        	air_superiority
+	    	interception
+	    }
+	}
+
+	future_air_to_ground_guided_missilee_1 = {
+		abbreviation = "fagm1"
+		category = future_fighter_weapon_missilee
+		gui_category = future_fighter_weapon_1
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { cas }
+
+		add_stats = {	
+			build_cost_ic = 150
+			air_ground_attack = 20
+		}
+		xp_cost = 5
+        allow_mission_type = {
+	    	cas
+	    	attack_logistics
+	    }
+
+	}	
+	
+	future_air_to_ship_guided_missilee_1 = {
+		abbreviation = "fasm1"
+		category = future_fighter_weapon_missilee
+		gui_category = future_fighter_weapon_1
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { naval_bomber maritime_patrol_plane }
+
+		add_stats = {	
+			build_cost_ic = 150
+			naval_strike_attack = 20
+		}
+		multiply_stats = {
+			naval_strike_targetting = 0.1
+		}
+		xp_cost = 5
+        allow_mission_type = {
+		    naval_bomber
+            port_strike
+            naval_patrol
+	    }
+	}
+
+	future_rocket_launcher_1_2x = {
+		abbreviation = "frl12"
+		category = future_fighter_weapon_rocket_launcher
+		gui_category = future_fighter_weapon_1
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { cas }
+
+		add_stats = {	
+			build_cost_ic = 100
+			air_ground_attack = 20
+		}
+		xp_cost = 5
+        allow_mission_type = {
+		    cas
+    		attack_logistics
+	    }
+	}
+
+	future_rocket_launcher_1_4x = {
+		abbreviation = "frl14"
+		category = future_fighter_weapon_rocket_launcher
+		gui_category = future_fighter_weapon_1
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { cas }
+
+		add_stats = {	
+			build_cost_ic = 200
+			air_ground_attack = 40
+		}
+		xp_cost = 5
+        allow_mission_type = {
+		    cas
+    		attack_logistics
+	    }
+	}
+
+	future_rocket_launcher_1_6x = {
+		abbreviation = "frl16"
+		category = future_fighter_weapon_rocket_launcher
+		gui_category = future_fighter_weapon_1
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { cas }
+
+		add_stats = {	
+			build_cost_ic = 300
+			air_ground_attack = 60
+		}
+		xp_cost = 5
+        allow_mission_type = {
+		    cas
+    		attack_logistics
+	    }
+	}
+	future_gatling_cannon_1_1x = {
+		abbreviation = "fgc11"
+		category = future_fighter_weapon_gatling_cannon
+		gui_category = future_fighter_weapon_1
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = cas
+
+		add_stats = {
+			air_ground_attack = 20
+			build_cost_ic = 100
+			weight = 12
+			air_agility = -10
+		}
+		xp_cost = 2
+		allow_mission_type = {
+			cas
+			attack_logistics
+		}
+	}
+
+
+	future_gatling_cannon_1_2x = {
+		abbreviation = "fgc12"
+		category = future_fighter_weapon_gatling_cannon
+		gui_category = future_fighter_weapon_1
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = cas
+
+		add_stats = {
+			air_ground_attack = 40
+			build_cost_ic = 200
+			weight = 24
+			air_agility = -20
+		}
+		xp_cost = 2
+		allow_mission_type = {
+			cas
+			attack_logistics
+		}
+	}
+
+	future_bomb_bay_1 = {
+		abbreviation = "fbb1"
+		category = future_fighter_weapon_bomb_bay
+		gui_category = future_fighter_weapon_1
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { 
+			cas 
+			tactical_bomber
+			strategic_bomber
+		}
+
+		add_stats = {
+			air_agility = -10
+			air_bombing = 30
+			build_cost_ic = 100
+			weight = 15
+			naval_strike_attack = 5
+		}
+		xp_cost = 2
+		allow_mission_type = {
+			strategic_bomber
+			port_strike
+		}
+	}
+	future_recon_camera_1 = {
+		abbreviation = "frca1"
+		category = future_fighter_weapon_recon_camera
+		gui_category = future_fighter_weapon_1
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = scout_plane
+		forbid_equipment_type_exact_match_for_category = {
+			fighter_weapon = scout_plane
+			cas_weapon = scout_plane
+			nav_bomber_weapon = scout_plane
+			tac_weapon = scout_plane
+			mine_warfare_offense = scout_plane
+		}
+
+		add_stats = {
+			build_cost_ic = 10
+			weight = 1
+		}
+		xp_cost = 2
+		allow_mission_type = {
+			recon
+		}
+	}
+
+	### future special modules ###
+
+	future_aesa_radar_1 = {
+		abbreviation = "far1"
+		category = future_fighter_special_module_radar
+		gui_category = future_fighter_special_module_1
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 100
+			weight = 1
+			air_bombing = 10
+			night_penalty = -0.5
+			surface_detection = 30
+			sub_detection = 15
+		}
+		xp_cost = 1
+	}
+
+	future_heads_up_display_1 = {
+		abbreviation = "hud1"
+		category = future_fighter_special_module_hud
+		gui_category = future_fighter_special_module_1
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 10
+			reliability = 0.3
+		}
+		xp_cost = 1
+	}
+
+	future_targeting_pods_1 = {
+		abbreviation = "tgp1"
+		category = future_fighter_special_module_tgp
+		gui_category = future_fighter_special_module_1
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 30
+			air_bombing = 10
+			weight = 1
+		}
+		xp_cost = 1
+	}
+
+	future_missile_approach_warning_1 = {
+		abbreviation = "maw1"
+		category = future_fighter_special_module_maw
+		gui_category = future_fighter_special_module_1
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 30
+			air_agility = 25
+			weight = 1
+		}
+		xp_cost = 1
+	}
+
+	future_fighter_communication_device_1 = {
+	    abbreviation = "fcd1"
+		category = future_fighter_special_module_fcd
+		gui_category = future_fighter_special_module_1
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 20
+			night_penalty = -0.5
+		}
+		xp_cost = 1
+	}
+
+	future_Electronic_Warfare_System_1 = {
+		abbreviation = "ews1"
+		category = future_fighter_special_module_ews
+		gui_category = future_fighter_special_module_1
+		sfx = sfx_ui_sd_module_turret
+
+	    multiply_stats = {
+	    	air_superiority = 2
+	    	air_defence = 0.1
+    	}
+		xp_cost = 1
+	}
+
+	    ### Redesigned Future modules ##
+
+		### future engine ###
+
+	future_jet_turbofan_engines_2_1x = {
+		abbreviation = "fj21"
+		category = future_jet_turbofan_engine_type
+		gui_category = future_jet_turbofan_engine_type_2
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			air_range = 2500
+			maximum_speed = 2000
+			thrust = 40
+			build_cost_ic = 25
+			fuel_consumption = 0.5
+		}
+		build_cost_resources = {
+			tungsten = 1
+		}
+	}
+
+	future_jet_turbofan_engines_2_2x = {
+		abbreviation = "fj22"
+		category = future_jet_turbofan_engine_type
+		gui_category = future_jet_turbofan_engine_type_2
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			air_range = 4000
+			maximum_speed = 1750
+			thrust = 80
+			build_cost_ic = 50
+			fuel_consumption = 1
+		}
+		build_cost_resources = {
+			tungsten = 2
+		}
+	}
+
+	future_jet_turbofan_engines_2_4x = {
+		abbreviation = "fj24"
+		category = future_jet_turbofan_engine_type
+		gui_category = future_jet_turbofan_engine_type_2
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			air_range = 8500
+			maximum_speed = 1500
+			thrust = 160
+			build_cost_ic = 100
+			fuel_consumption = 2
+		}
+		build_cost_resources = {
+			tungsten = 4
+		}
+	}
+
+	### future weapons ###
+
+
+	future_air_to_air_guided_missilee_2 = {
+		abbreviation = "faam2"
+		category = future_fighter_weapon_missilee
+		gui_category = future_fighter_weapon_2
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { fighter }
+
+		add_stats = {	
+			build_cost_ic = 15
+			air_attack = 40
+		}
+		xp_cost = 5
+        allow_mission_type = {
+        	air_superiority
+	    	interception
+	    }
+	}
+
+	future_air_to_ground_guided_missilee_2 = {
+		abbreviation = "fagm2"
+		category = future_fighter_weapon_missilee
+		gui_category = future_fighter_weapon_2
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { cas }
+
+		add_stats = {	
+			build_cost_ic = 15
+			air_ground_attack = 20
+		}
+		xp_cost = 5
+        allow_mission_type = {
+	    	cas
+	    	attack_logistics
+	    }
+
+	}	
+	
+	future_air_to_ship_guided_missilee_2 = {
+		abbreviation = "fasm2"
+		category = future_fighter_weapon_missilee
+		gui_category = future_fighter_weapon_2
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { naval_bomber maritime_patrol_plane }
+
+		add_stats = {	
+			build_cost_ic = 15
+			naval_strike_attack = 20
+		}
+		multiply_stats = {
+			naval_strike_targetting = 0.1
+		}
+		xp_cost = 5
+        allow_mission_type = {
+		    naval_bomber
+            port_strike
+            naval_patrol
+	    }
+	}
+
+	future_rocket_launcher_2_2x = {
+		abbreviation = "frl22"
+		category = future_fighter_weapon_rocket_launcher
+		gui_category = future_fighter_weapon_2
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { cas }
+
+		add_stats = {	
+			build_cost_ic = 10
+			air_ground_attack = 20
+		}
+		xp_cost = 5
+        allow_mission_type = {
+		    cas
+    		attack_logistics
+	    }
+	}
+
+	future_rocket_launcher_2_4x = {
+		abbreviation = "frl24"
+		category = future_fighter_weapon_rocket_launcher
+		gui_category = future_fighter_weapon_2
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { cas }
+
+		add_stats = {	
+			build_cost_ic = 20
+			air_ground_attack = 40
+		}
+		xp_cost = 5
+        allow_mission_type = {
+		    cas
+    		attack_logistics
+	    }
+	}
+
+	future_rocket_launcher_2_6x = {
+		abbreviation = "frl26"
+		category = future_fighter_weapon_rocket_launcher
+		gui_category = future_fighter_weapon_2
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { cas }
+
+		add_stats = {	
+			build_cost_ic = 30
+			air_ground_attack = 60
+		}
+		xp_cost = 5
+        allow_mission_type = {
+		    cas
+    		attack_logistics
+	    }
+	}
+	future_gatling_cannon_2_1x = {
+		abbreviation = "fgc21"
+		category = future_fighter_weapon_gatling_cannon
+		gui_category = future_fighter_weapon_2
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = cas
+
+		add_stats = {
+			air_ground_attack = 20
+			build_cost_ic = 10
+			weight = 12
+			air_agility = -10
+		}
+		xp_cost = 2
+		allow_mission_type = {
+			cas
+			attack_logistics
+		}
+	}
+
+
+	future_gatling_cannon_2_2x = {
+		abbreviation = "fgc22"
+		category = future_fighter_weapon_gatling_cannon
+		gui_category = future_fighter_weapon_2
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = cas
+
+		add_stats = {
+			air_ground_attack = 40
+			build_cost_ic = 20
+			weight = 24
+			air_agility = -20
+		}
+		xp_cost = 2
+		allow_mission_type = {
+			cas
+			attack_logistics
+		}
+	}
+
+	future_bomb_bay_2 = {
+		abbreviation = "fbb2"
+		category = future_fighter_weapon_bomb_bay
+		gui_category = future_fighter_weapon_2
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { 
+			cas 
+			tactical_bomber
+			strategic_bomber
+		}
+
+		add_stats = {
+			air_agility = -10
+			air_bombing = 30
+			build_cost_ic = 10
+			weight = 15
+			naval_strike_attack = 5
+		}
+		xp_cost = 2
+		allow_mission_type = {
+			strategic_bomber
+			port_strike
+		}
+	}
+	future_recon_camera_2 = {
+		abbreviation = "frca2"
+		category = future_fighter_weapon_recon_camera
+		gui_category = future_fighter_weapon_2
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = scout_plane
+		forbid_equipment_type_exact_match_for_category = {
+			fighter_weapon = scout_plane
+			cas_weapon = scout_plane
+			nav_bomber_weapon = scout_plane
+			tac_weapon = scout_plane
+			mine_warfare_offense = scout_plane
+		}
+
+		add_stats = {
+			build_cost_ic = 1
+			weight = 1
+		}
+		xp_cost = 2
+		allow_mission_type = {
+			recon
+		}
+	}
+
+	### future special modules ###
+
+	future_aesa_radar_2 = {
+		abbreviation = "far2"
+		category = future_fighter_special_module_radar
+		gui_category = future_fighter_special_module_2
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 10
+			weight = 1
+			air_bombing = 10
+			night_penalty = -0.5
+			surface_detection = 30
+			sub_detection = 15
+		}
+		xp_cost = 1
+	}
+
+	future_heads_up_display_2 = {
+		abbreviation = "hud2"
+		category = future_fighter_special_module_hud
+		gui_category = future_fighter_special_module_2
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 1
+			reliability = 0.3
+		}
+		xp_cost = 1
+	}
+
+	future_targeting_pods_2 = {
+		abbreviation = "tgp2"
+		category = future_fighter_special_module_tgp
+		gui_category = future_fighter_special_module_2
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 3
+			air_bombing = 10
+			weight = 1
+		}
+		xp_cost = 1
+	}
+
+	future_missile_approach_warning_2 = {
+		abbreviation = "maw2"
+		category = future_fighter_special_module_maw
+		gui_category = future_fighter_special_module_2
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 3
+			air_agility = 25
+			weight = 1
+		}
+		xp_cost = 1
+	}
+
+	future_fighter_communication_device_2 = {
+	    abbreviation = "fcd2"
+		category = future_fighter_special_module_fcd
+		gui_category = future_fighter_special_module_2
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 2
+			night_penalty = -0.5
+		}
+		xp_cost = 1
+	}
+
+	future_Electronic_Warfare_System_2 = {
+		abbreviation = "ews2"
+		category = future_fighter_special_module_ews
+		gui_category = future_fighter_special_module_2
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 2
+		}
+
+	    multiply_stats = {
+	    	air_superiority = 2
+	    	air_defence = 0.1
+    	}
+		xp_cost = 1
+	}
+
+}

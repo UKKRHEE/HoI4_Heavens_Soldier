@@ -1,0 +1,60 @@
+equipments = {
+	
+	### ###	###	###	###	###	###	###
+	###							###
+	###		Future Equipment	###
+	###							###
+	### ###	###	###	###	###	###	###
+
+	mechanized_equipment_future_1 = {
+		archetype = mechanized_equipment
+		priority = 0
+		visual_level = 2
+		
+		maximum_speed = 17
+
+		#Defensive Abilities
+		defense = 42
+		breakthrough = 8
+		hardness = 0.7
+		armor_value = 30
+		reliability = 0.95
+
+		#Offensive Abilities
+		ap_attack = 31
+		
+		build_cost_ic = 1600
+		resources = {
+			steel = 4
+			rubber = 2
+			#oil = 3
+		}
+	}
+
+	mechanized_equipment_future_2 = {
+		archetype = mechanized_equipment
+		parent = mechanized_equipment_3
+		priority = 40
+		visual_level = 2
+		
+		maximum_speed = 17
+
+		#Defensive Abilities
+		defense = 42
+		breakthrough = 8
+		hardness = 0.7
+		armor_value = 30
+		reliability = 0.7
+
+		#Offensive Abilities
+		ap_attack = 31
+		
+		build_cost_ic = 16
+		resources = {
+			steel = 4
+			rubber = 2
+			#oil = 3
+		}
+	}
+	
+}

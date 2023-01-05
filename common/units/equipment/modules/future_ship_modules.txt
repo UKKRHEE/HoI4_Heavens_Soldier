@@ -2,6 +2,7 @@ equipment_modules = {
 
 	ship_light_battery_future_1 = {
 		category = ship_light_battery
+		gui_category = future_ship_battery_1
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -30,7 +31,8 @@ equipment_modules = {
 
 	ship_light_battery_future_2 = {
 		category = ship_light_battery
-		parent = ship_light_battery_4
+		parent = ship_light_battery_future_1
+		gui_category = future_ship_battery_2
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -59,6 +61,7 @@ equipment_modules = {
 
 	ship_missile_launcher_future_1 = {
 		category = ship_light_battery
+		gui_category = future_ship_battery_1
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -79,6 +82,8 @@ equipment_modules = {
 
 	ship_missile_launcher_future_2 = {
 		category = ship_light_battery
+		parent = ship_missile_launcher_future_1
+		gui_category = future_ship_battery_2
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -99,6 +104,7 @@ equipment_modules = {
 
 	ship_secondaries_future_1 = {
 		category = ship_secondaries
+		gui_category = future_ship_secondaries
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			lg_attack = 5.5
@@ -119,7 +125,8 @@ equipment_modules = {
 
 	ship_secondaries_future_2 = {
 		category = ship_secondaries
-		parent = dp_ship_secondaries
+		gui_category = future_ship_secondaries
+		parent = ship_secondaries_future_1
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			lg_attack = 5
@@ -140,6 +147,7 @@ equipment_modules = {
 
 	ship_anti_air_future_1 = {
 		category = ship_anti_air
+		gui_category = future_ship_anti_air
 		sfx = sfx_ui_sd_module_turret
 
 		add_equipment_type = anti_air
@@ -166,7 +174,8 @@ equipment_modules = {
 
 	ship_anti_air_future_2 = {
 		category = ship_anti_air
-		parent = ship_anti_air_4
+		gui_category = future_ship_anti_air
+		parent = ship_anti_air_future_1
 		sfx = sfx_ui_sd_module_turret
 
 		add_equipment_type = anti_air
@@ -194,6 +203,7 @@ equipment_modules = {
 
 	ship_fire_control_system_future_1 = {
 		category = ship_fire_control_system
+		gui_category = future_fire_control_system
 		sfx = sfx_ui_sd_module_sonar
 
 		
@@ -219,6 +229,8 @@ equipment_modules = {
 
 	ship_fire_control_system_future_2 = {
 		category = ship_fire_control_system
+		parent = ship_fire_control_system_future_1
+		gui_category = future_fire_control_system
 		sfx = sfx_ui_sd_module_sonar
 
 		
@@ -244,6 +256,7 @@ equipment_modules = {
 
 	ship_radar_future_1 = {
 		category = ship_radar
+		gui_category = future_ship_radar
 		sfx = sfx_ui_sd_module_sonar
 
 		multiply_stats = {
@@ -264,6 +277,8 @@ equipment_modules = {
 
 	ship_radar_future_2 = {
 		category = ship_radar
+		gui_category = future_ship_radar
+		parent = ship_radar_future_1
 		sfx = sfx_ui_sd_module_sonar
 
 		multiply_stats = {
@@ -289,7 +304,7 @@ equipment_modules = {
 
 	light_ship_engine_future_1 = {
 		category = light_ship_engine
-		parent = light_ship_engine_4
+		gui_category = future_ship_engine
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -317,7 +332,8 @@ equipment_modules = {
 
 	light_ship_engine_future_2 = {
 		category = light_ship_engine
-		parent = light_ship_engine_4
+		gui_category = future_ship_engine
+		parent = light_ship_engine_future_1
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -345,7 +361,7 @@ equipment_modules = {
 
 	sub_ship_engine_future_1 = {
 		category = sub_ship_engine
-		parent = sub_ship_engine_4
+		gui_category = future_ship_engine
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
@@ -373,7 +389,8 @@ equipment_modules = {
 
 	sub_ship_engine_future_2 = {
 		category = sub_ship_engine
-		parent = sub_ship_engine_4
+		gui_category = future_ship_engine
+		parent = sub_ship_engine_future_1
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
@@ -401,7 +418,7 @@ equipment_modules = {
 
 	sub_ship_engine_future_nuclear = {
 		category = sub_ship_engine
-		parent = sub_ship_engine_4
+		gui_category = future_ship_engine
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
@@ -430,7 +447,7 @@ equipment_modules = {
 
 	cruiser_ship_engine_future_1 = {
 		category = cruiser_ship_engine
-		parent = cruiser_ship_engine_4
+		gui_category = future_ship_engine
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -458,7 +475,8 @@ equipment_modules = {
 
 	cruiser_ship_engine_future_2 = {
 		category = cruiser_ship_engine
-		parent = cruiser_ship_engine_4
+		gui_category = future_ship_engine
+		parent = cruiser_ship_engine_future_1
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -486,7 +504,7 @@ equipment_modules = {
 
 	cruiser_ship_engine_future_nuclear = {
 		category = cruiser_ship_engine
-		parent = cruiser_ship_engine_4
+		gui_category = future_ship_engine
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -515,7 +533,7 @@ equipment_modules = {
 
 	carrier_ship_engine_future_1 = {
 		category = carrier_ship_engine
-		parent = carrier_ship_engine_4
+		gui_category = future_ship_engine
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -543,7 +561,8 @@ equipment_modules = {
 
 	carrier_ship_engine_future_2 = {
 		category = carrier_ship_engine
-		parent = carrier_ship_engine_4
+		gui_category = future_ship_engine
+		parent = carrier_ship_engine_future_1
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -571,7 +590,7 @@ equipment_modules = {
 
 	carrier_ship_engine_future_nuclear = {
 		category = carrier_ship_engine
-		parent = carrier_ship_engine_4
+		gui_category = future_ship_engine
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -600,6 +619,7 @@ equipment_modules = {
 
 	ship_depth_charge_future_1 = {
 		category = ship_depth_charge
+		gui_category = future_ship_depth_charge
 		sfx = sfx_ui_sd_module_turret
 
 		
@@ -616,6 +636,8 @@ equipment_modules = {
 
 	ship_depth_charge_future_2 = {
 		category = ship_depth_charge
+		gui_category = future_ship_depth_charge
+		parent = ship_depth_charge_future_1
 		sfx = sfx_ui_sd_module_turret
 
 		
@@ -632,6 +654,7 @@ equipment_modules = {
 
 	ship_sonar_future_1 = {
 		category = ship_sonar
+		gui_category = future_ship_sonar
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
@@ -646,6 +669,8 @@ equipment_modules = {
 
 	ship_sonar_future_2 = {
 		category = ship_sonar
+		gui_category = future_ship_sonar
+		parent = ship_sonar_future_1
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
@@ -660,6 +685,7 @@ equipment_modules = {
 
 	ship_armor_cruiser_future_1 = {
 		category = ship_cruiser_armor
+		gui_category = future_ship_cruiser_armor
 		
 		multiply_stats = {
 			build_cost_ic = 0.2
@@ -679,6 +705,8 @@ equipment_modules = {
 
 	ship_armor_cruiser_future_2 = {
 		category = ship_cruiser_armor
+		gui_category = future_ship_cruiser_armor
+		parent = ship_armor_cruiser_future_1
 		
 		multiply_stats = {
 			build_cost_ic = 0.2
@@ -698,6 +726,7 @@ equipment_modules = {
 
 	ship_torpedo_future_1 = {
 		category = ship_torpedo
+		gui_category = future_ship_torpedo
 		
 		sfx = sfx_ui_sd_module_turret
 
@@ -717,8 +746,8 @@ equipment_modules = {
 
 	ship_torpedo_future_2 = {
 		category = ship_torpedo
-		parent = ship_torpedo_4
-		
+		parent = ship_torpedo_future_1
+		gui_category = future_ship_torpedo
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -737,7 +766,7 @@ equipment_modules = {
 
 	ship_torpedo_sub_future_1 = {
 		category = ship_torpedo_sub
-		
+		gui_category = future_ship_torpedo_sud
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -753,7 +782,8 @@ equipment_modules = {
 
 	ship_torpedo_sub_future_2 = {
 		category = ship_torpedo_sub
-		parent = ship_torpedo_sub_4
+		gui_category = future_ship_torpedo_sud
+		parent = ship_torpedo_sub_future_1
 		
 		sfx = sfx_ui_sd_module_turret
 

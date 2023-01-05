@@ -1225,6 +1225,10 @@ FKR_future_tech_research_land = {
 			original_tag = FKR
 		}
 
+		visible = {
+			not = { has_dlc = "No Step Back" }
+		}
+
 		available = {
 			has_completed_focus = FKR_army_doc_team
 			has_army_experience > 49
@@ -1257,7 +1261,6 @@ FKR_future_tech_research_land = {
 			clr_country_flag = FKR_future_research_processing
 			set_technology = {
                 redesigned_future_modern_tank = 1
-				redesigned_future_modern_tank_chassis = 1
             }
 		}
 	}
@@ -1267,6 +1270,10 @@ FKR_future_tech_research_land = {
 
 		allowed = {
 			original_tag = FKR
+		}
+
+		visible = {
+			not = { has_dlc = "No Step Back" }
 		}
 
 		available = {
@@ -1309,11 +1316,62 @@ FKR_future_tech_research_land = {
 		}
 	}
 
+	FKR_reserch_future_armor_chassis_equipment = {
+		icon = generic_army_support
+
+		allowed = {
+			original_tag = FKR
+		}
+
+		visible = {
+			has_dlc = "No Step Back"
+		}
+
+		available = {
+			has_completed_focus = FKR_army_doc_team
+			has_army_experience > 49
+			OR = {
+				has_tech = main_battle_tank
+				has_completed_focus = FKR_focus_on_future_tech
+			}
+			NOT = { has_country_flag = FKR_future_research_processing }
+		}
+
+		fire_only_once = yes
+
+		cost = 30
+		days_remove = 60
+
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		complete_effect = {
+            set_country_flag = FKR_future_research_processing
+			army_experience = -50
+        }
+
+		remove_effect = {
+			clr_country_flag = FKR_future_research_processing
+			set_technology = {
+                redesigned_future_modern_tank_chassis = 1
+            }
+		}
+	}
+
 	FKR_reserch_future_armor_Module_equipment = {
 		icon = generic_army_support
 
 		allowed = {
 			original_tag = FKR
+		}
+
+		visible = {
+			has_dlc = "No Step Back" 
 		}
 
 		available = {
@@ -1323,10 +1381,6 @@ FKR_future_tech_research_land = {
 				AND = {
 					has_tech = advanced_equipment_conversion
 					has_tech = advanced_computing_machine
-					has_tech = artillery5
-					has_tech = rocket_artillery4
-					has_tech = antiair5
-					has_tech = antitank5
 				}
 				has_completed_focus = FKR_focus_on_future_tech
 			}
@@ -1354,7 +1408,208 @@ FKR_future_tech_research_land = {
 		remove_effect = {
 			clr_country_flag = FKR_future_research_processing
 			set_technology = {
-                redesigned_modern_tank_modules = 1
+                redesigned_future_modern_tank_modules = 1
+            }
+		}
+	}
+
+	FKR_reserch_future_armor_weapon_cannon_equipment = {
+		icon = generic_army_support
+
+		allowed = {
+			original_tag = FKR
+		}
+
+		visible = {
+			has_dlc = "No Step Back" 
+		}
+
+		available = {
+			has_completed_focus = FKR_army_doc_team
+			has_army_experience > 9
+			OR = {
+				AND = {
+					has_tech = artillery5
+				}
+				has_completed_focus = FKR_focus_on_future_tech
+			}
+			NOT = { has_country_flag = FKR_future_research_processing }
+		}
+
+		fire_only_once = yes
+
+		cost = 5
+		days_remove = 15
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		complete_effect = {
+            set_country_flag = FKR_future_research_processing
+			army_experience = -10
+        }
+
+		remove_effect = {
+			clr_country_flag = FKR_future_research_processing
+			set_technology = {
+                redesigned_future_modern_tank_weapon_cannon = 1
+            }
+		}
+	}
+
+	FKR_reserch_future_armor_weapon_rocket_launcher_equipment = {
+		icon = generic_army_support
+
+		allowed = {
+			original_tag = FKR
+		}
+
+		visible = {
+			has_dlc = "No Step Back" 
+		}
+
+		available = {
+			has_completed_focus = FKR_army_doc_team
+			has_army_experience > 9
+			OR = {
+				AND = {
+					has_tech = rocket_artillery4
+				}
+				has_completed_focus = FKR_focus_on_future_tech
+			}
+			NOT = { has_country_flag = FKR_future_research_processing }
+		}
+
+		fire_only_once = yes
+
+		cost = 5
+		days_remove = 15
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		complete_effect = {
+            set_country_flag = FKR_future_research_processing
+			army_experience = -10
+        }
+
+		remove_effect = {
+			clr_country_flag = FKR_future_research_processing
+			set_technology = {
+                redesigned_future_modern_tank_weapon_rocket_launcher = 1
+            }
+		}
+	}
+
+	FKR_reserch_future_armor_anti_air_cannon_equipment = {
+		icon = generic_army_support
+
+		allowed = {
+			original_tag = FKR
+		}
+
+		visible = {
+			has_dlc = "No Step Back" 
+		}
+
+		available = {
+			has_completed_focus = FKR_army_doc_team
+			has_army_experience > 9
+			OR = {
+				AND = {
+					has_tech = antiair5
+				}
+				has_completed_focus = FKR_focus_on_future_tech
+			}
+			NOT = { has_country_flag = FKR_future_research_processing }
+		}
+
+		fire_only_once = yes
+
+		cost = 5
+		days_remove = 15
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		complete_effect = {
+            set_country_flag = FKR_future_research_processing
+			army_experience = -10
+        }
+
+		complete_effect = {
+            set_country_flag = FKR_future_research_processing
+			army_experience = -10
+        }
+
+		remove_effect = {
+			clr_country_flag = FKR_future_research_processing
+			set_technology = {
+                redesigned_future_modern_tank_weapon_anti_air_cannon = 1
+            }
+		}
+	}
+
+	FKR_reserch_future_armor_weapon_antitank_equipment = {
+		icon = generic_army_support
+
+		allowed = {
+			original_tag = FKR
+		}
+
+		visible = {
+			has_dlc = "No Step Back" 
+		}
+
+		available = {
+			has_completed_focus = FKR_army_doc_team
+			has_army_experience > 9
+			OR = {
+				AND = {
+					has_tech = antitank5
+				}
+				has_completed_focus = FKR_focus_on_future_tech
+			}
+			NOT = { has_country_flag = FKR_future_research_processing }
+		}
+
+		fire_only_once = yes
+
+		cost = 5
+		days_remove = 15
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		complete_effect = {
+            set_country_flag = FKR_future_research_processing
+			army_experience = -10
+        }
+
+		remove_effect = {
+			clr_country_flag = FKR_future_research_processing
+			set_technology = {
+                redesigned_future_modern_tank_weapon_howitzer = 1
             }
 		}
 	}
@@ -1612,6 +1867,10 @@ FKR_future_tech_research_air = {
 			NOT = { has_country_flag = FKR_future_research_processing }
 		}
 
+		visible = {
+			not = { has_dlc = "By Blood Alone" }
+		}
+
 		fire_only_once = yes
 
 		cost = 30
@@ -1657,6 +1916,10 @@ FKR_future_tech_research_air = {
 				has_completed_focus = FKR_focus_on_future_tech
 			}
 			NOT = { has_country_flag = FKR_future_research_processing }
+		}
+
+		visible = {
+			not = { has_dlc = "By Blood Alone" }
 		}
 
 		fire_only_once = yes
@@ -1705,6 +1968,10 @@ FKR_future_tech_research_air = {
 			NOT = { has_country_flag = FKR_future_research_processing }
 		}
 
+		visible = {
+			not = { has_dlc = "By Blood Alone" }
+		}
+
 		fire_only_once = yes
 
 		cost = 30
@@ -1727,6 +1994,305 @@ FKR_future_tech_research_air = {
 			clr_country_flag = FKR_future_research_processing
 			set_technology = {
 				redesigned_future_jet_strat_bomber = 1
+            }
+		}
+	}
+
+	FKR_reserch_future_fighter_airframe_equipment = {
+		icon = generic_air
+
+		allowed = {
+			original_tag = FKR
+		}
+
+		available = {
+			has_completed_focus = FKR_airforce_team
+			has_air_experience > 49
+			
+			OR = {
+				AND = {
+					has_tech = fighter3
+					has_tech = jet_engines
+				}
+				has_completed_focus = FKR_focus_on_future_tech
+			}
+			NOT = { has_country_flag = FKR_future_research_processing }
+		}
+
+		visible = {
+			has_dlc = "By Blood Alone"
+		}
+
+		fire_only_once = yes
+
+		cost = 30
+		days_remove = 60
+
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		complete_effect = {
+            set_country_flag = FKR_future_research_processing
+			air_experience = -50
+        }
+
+		remove_effect = {
+			clr_country_flag = FKR_future_research_processing
+			set_technology = {
+				redesigned_future_jet_fighter_airframe = 1
+            }
+		}
+	}
+
+	FKR_reserch_future_fighter_weapon_missile_equipment = {
+		icon = generic_air
+
+		allowed = {
+			original_tag = FKR
+		}
+
+		available = {
+			has_completed_focus = FKR_airforce_team
+			has_air_experience > 9
+			
+			OR = {
+				has_tech = experimental_rockets
+				has_completed_focus = FKR_focus_on_future_tech
+			}
+			NOT = { has_country_flag = FKR_future_research_processing }
+		}
+		
+		visible = {
+			has_dlc = "By Blood Alone"
+		}
+
+		fire_only_once = yes
+
+		cost = 5
+		days_remove = 15
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		complete_effect = {
+            set_country_flag = FKR_future_research_processing
+			air_experience = -10
+        }
+
+		remove_effect = {
+			clr_country_flag = FKR_future_research_processing
+			set_technology = {
+                redesigned_future_jet_fighter_weapon_missilee = 1
+            }
+		}
+	}
+	
+	FKR_reserch_future_fighter_weapon_gatling_cannon_equipment = {
+		icon = generic_air
+
+		allowed = {
+			original_tag = FKR
+		}
+
+		available = {
+			has_completed_focus = FKR_airforce_team
+			has_air_experience > 9
+			
+			OR = {
+				AND = {
+                    has_tech = aa_cannon_2
+                    has_tech = aa_hmg
+					has_tech = antitank4
+				}
+				has_completed_focus = FKR_focus_on_future_tech
+			}
+			NOT = { has_country_flag = FKR_future_research_processing }
+		}
+		
+		visible = {
+			has_dlc = "By Blood Alone"
+		}
+
+		fire_only_once = yes
+
+		cost = 5
+		days_remove = 15
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		complete_effect = {
+            set_country_flag = FKR_future_research_processing
+			air_experience = -10
+        }
+
+		remove_effect = {
+			clr_country_flag = FKR_future_research_processing
+			set_technology = {
+                redesigned_future_jet_fighter_weapon_gatling_cannon = 1
+            }
+		}
+	}
+
+	FKR_reserch_future_fighter_weapon_rocket_launcher_equipment = {
+		icon = generic_air
+
+		allowed = {
+			original_tag = FKR
+		}
+
+		available = {
+			has_completed_focus = FKR_airforce_team
+			has_air_experience > 9
+			
+			OR = {
+				has_tech = rocket_artillery4
+				has_completed_focus = FKR_focus_on_future_tech
+			}
+			NOT = { has_country_flag = FKR_future_research_processing }
+		}
+		
+		visible = {
+			has_dlc = "By Blood Alone"
+		}
+
+		fire_only_once = yes
+
+		cost = 5
+		days_remove = 15
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		complete_effect = {
+            set_country_flag = FKR_future_research_processing
+			air_experience = -10
+        }
+
+		remove_effect = {
+			clr_country_flag = FKR_future_research_processing
+			set_technology = {
+                redesigned_future_jet_fighter_weapon_rocket_launcher = 1
+            }
+		}
+	}
+
+	FKR_reserch_future_fighter_weapon_bomb_bay_equipment = {
+		icon = generic_air
+
+		allowed = {
+			original_tag = FKR
+		}
+
+		available = {
+			has_completed_focus = FKR_airforce_team
+			has_air_experience > 9
+			
+			OR = {
+				has_tech = early_bombs
+				has_completed_focus = FKR_focus_on_future_tech
+			}
+			NOT = { has_country_flag = FKR_future_research_processing }
+		}
+		
+		visible = {
+			has_dlc = "By Blood Alone"
+		}
+
+		fire_only_once = yes
+
+		cost = 5
+		days_remove = 15
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		complete_effect = {
+            set_country_flag = FKR_future_research_processing
+			air_experience = -10
+        }
+
+		remove_effect = {
+			clr_country_flag = FKR_future_research_processing
+			set_technology = {
+                redesigned_future_jet_fighter_weapon_bomb_bay = 1
+            }
+		}
+	}
+
+	FKR_reserch_future_fighter_modules_equipment = {
+		icon = generic_air
+
+		allowed = {
+			original_tag = FKR
+		}
+
+		available = {
+			has_completed_focus = FKR_airforce_team
+			has_air_experience > 19
+			
+			OR = {
+				AND = {
+                    has_tech = advanced_centimetric_radar
+                    has_tech = advanced_equipment_conversion
+					has_tech = advanced_computing_machine
+				}
+				has_completed_focus = FKR_focus_on_future_tech
+			}
+			NOT = { has_country_flag = FKR_future_research_processing }
+		}
+		
+		visible = {
+			has_dlc = "By Blood Alone"
+		}
+
+		fire_only_once = yes
+
+		cost = 5
+		days_remove = 30
+
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		complete_effect = {
+            set_country_flag = FKR_future_research_processing
+			air_experience = -20
+        }
+
+		remove_effect = {
+			clr_country_flag = FKR_future_research_processing
+			set_technology = {
+                redesigned_future_jet_fighter_modules = 1
             }
 		}
 	}

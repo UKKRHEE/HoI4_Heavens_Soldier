@@ -1,0 +1,229 @@
+technologies = {
+
+	### Aircraft Equipment ###
+
+	future_jet_multirole = {
+
+		enable_equipments = { 
+			cv_fighter_equipment_future_1
+		}
+
+		research_cost = 1
+		start_year = 1945
+
+		allow = {
+			always = no
+		}
+	}
+
+	future_jet_CAS = {
+
+		enable_equipments = { 
+			cv_CAS_equipment_future_1
+		}
+
+		research_cost = 1
+		start_year = 1945
+
+		allow = {
+			always = no
+		}
+	}
+
+	redesigned_future_jet_multirole = {
+
+		enable_equipments = { 
+			cv_fighter_equipment_future_2
+		}
+
+		research_cost = 1
+		start_year = 1945
+
+		allow = {
+			always = no
+		}
+	}
+
+	redesigned_future_jet_CAS = {
+
+		enable_equipments = { 
+			cv_CAS_equipment_future_2
+		}
+
+		research_cost = 1
+		start_year = 1945
+
+		allow = {
+			always = no
+		}
+	}
+
+	redesigned_future_jet_strat_bomber = {
+
+		enable_equipments = { 
+			jet_strat_bomber_equipment_future_2
+		}
+
+		research_cost = 1
+		start_year = 1945
+
+		allow = {
+			always = no
+		}
+	}
+
+	### BBA Aircraft Equipment ###
+
+	future_jet_fighter_airframe = { 
+
+        enable_equipments = { 
+            cv_fighter_airframe_future_1
+		}
+		enable_equipment_modules = {
+            Future_jet_turbofan_engines_1_1x
+            future_jet_turbofan_engines_1_2x 
+            future_jet_turbofan_engines_1_4x 
+			future_recon_camera_1
+        }
+        research_cost = 1
+        start_year = 1945
+
+        allow = {
+            always = no
+        }
+    }
+
+	future_jet_fighter_weapon = { 
+
+		enable_equipment_modules = {
+			future_air_to_air_guided_missilee_1 
+			future_air_to_ground_guided_missilee_1
+			future_air_to_ship_guided_missilee_1
+			future_rocket_launcher_1_2x
+			future_rocket_launcher_1_4x
+			future_rocket_launcher_1_6x
+			future_gatling_cannon_1_1x
+			future_gatling_cannon_1_2x
+			future_bomb_bay_1
+			future_recon_camera_1
+        }
+        research_cost = 1
+        start_year = 1945
+
+        allow = {
+            always = no
+        }
+    }
+
+	future_jet_fighter_modules = { 
+
+		enable_equipment_modules = {
+            future_aesa_radar_1
+            future_heads_up_display_1    
+            future_targeting_pods_1
+            future_missile_approach_warning_1
+            future_fighter_communication_device_1
+            future_Electronic_Warfare_System_1
+        }
+        research_cost = 1
+        start_year = 1945
+
+        allow = {
+            always = no
+        }
+    }
+
+	redesigned_future_jet_fighter_airframe = { 
+
+        enable_equipments = { 
+            cv_fighter_airframe_future_2
+		}
+		enable_equipment_modules = {
+            Future_jet_turbofan_engines_2_1x
+            future_jet_turbofan_engines_2_2x 
+            future_jet_turbofan_engines_2_4x 
+			future_recon_camera_2
+        }
+        research_cost = 1
+        start_year = 1945
+
+        allow = {
+            always = no
+        }
+    }
+
+	redesigned_future_jet_fighter_weapon_missilee = { 
+
+		enable_equipment_modules = {
+			future_air_to_air_guided_missilee_2
+			future_air_to_ground_guided_missilee_2
+			future_air_to_ship_guided_missilee_2
+        }
+        research_cost = 1
+        start_year = 1945
+
+        allow = {
+            always = no
+        }
+    }
+
+	redesigned_future_jet_fighter_weapon_rocket_launcher = { 
+
+		enable_equipment_modules = {
+			future_rocket_launcher_2_2x
+			future_rocket_launcher_2_4x
+			future_rocket_launcher_2_6x
+        }
+        research_cost = 1
+        start_year = 1945
+
+        allow = {
+            always = no
+        }
+    }
+
+	redesigned_future_jet_fighter_weapon_gatling_cannon = { 
+
+		enable_equipment_modules = {
+			future_gatling_cannon_2_1x
+			future_gatling_cannon_2_2x
+        }
+        research_cost = 1
+        start_year = 1945
+
+        allow = {
+            always = no
+        }
+    }
+
+	redesigned_future_jet_fighter_weapon_bomb_bay = { 
+
+		enable_equipment_modules = {
+			future_bomb_bay_2
+        }
+        research_cost = 1
+        start_year = 1945
+
+        allow = {
+            always = no
+        }
+    }
+
+	redesigned_future_jet_fighter_modules = { 
+
+		enable_equipment_modules = {
+            future_aesa_radar_2
+            future_heads_up_display_2
+            future_targeting_pods_2
+            future_missile_approach_warning_2
+            future_fighter_communication_device_2
+            future_Electronic_Warfare_System_2
+        }
+        research_cost = 1
+        start_year = 1945
+
+        allow = {
+            always = no
+        }
+    }
+}

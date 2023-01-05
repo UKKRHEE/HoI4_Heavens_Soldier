@@ -1,0 +1,54 @@
+# All infantry equipment
+
+equipments = {
+
+	### ###	###	###	###	###	###	###
+	###							###
+	###		Future Equipment	###
+	###							###
+	### ###	###	###	###	###	###	###
+	
+	infantry_equipment_future_1 = {
+		archetype = infantry_equipment
+		priority = 0
+		
+		#Defensive Abilities
+		defense = 38
+		breakthrough = 6
+
+		#Offensive Abilities
+		soft_attack = 14
+		hard_attack = 2.5
+		ap_attack = 12
+		air_attack = 0
+		
+		reliability = 0.95
+		build_cost_ic = 8
+		resources = {
+			steel = 4
+		}
+	}
+
+	infantry_equipment_future_2 = {
+		archetype = infantry_equipment
+		parent = infantry_equipment_3
+		priority = 11
+		
+		#Defensive Abilities
+		defense = 38
+		breakthrough = 6
+
+		#Offensive Abilities
+		soft_attack = 14
+		hard_attack = 2.5
+		ap_attack = 12
+		air_attack = 0
+		
+		reliability = 0.85
+		build_cost_ic = 0.8
+		resources = {
+			steel = 4
+		}
+	}
+
+}
