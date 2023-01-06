@@ -278,9 +278,9 @@ equipment_modules = {
 		xp_cost = 1
 	}
 
-	future_heads_up_display_1 = {
-		abbreviation = "hud1"
-		category = future_fighter_special_module_hud
+	future_head_mounted_display_1 = {
+		abbreviation = "hmd1"
+		category = future_fighter_special_module_hmd
 		gui_category = future_fighter_special_module_1
 		sfx = sfx_ui_sd_module_turret
 
@@ -626,9 +626,9 @@ equipment_modules = {
 		xp_cost = 1
 	}
 
-	future_heads_up_display_2 = {
-		abbreviation = "hud2"
-		category = future_fighter_special_module_hud
+	future_head_mounted_display_2 = {
+		abbreviation = "hmd2"
+		category = future_fighter_special_module_hmd
 		gui_category = future_fighter_special_module_2
 		sfx = sfx_ui_sd_module_turret
 

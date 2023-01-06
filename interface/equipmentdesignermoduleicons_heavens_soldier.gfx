@@ -460,13 +460,13 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SMI_future_heads_up_display_1"
-		textureFile = "gfx/interface/modules/plane/heads_up_display_icn_future.dds"
+		name = "GFX_SMI_future_head_mounted_display_1"
+		textureFile = "gfx/interface/modules/plane/head_mounted_display_icn_future.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SMI_future_heads_up_display_2"
-		textureFile = "gfx/interface/modules/plane/heads_up_display_icn_future_re.dds"
+		name = "GFX_SMI_future_head_mounted_display_2"
+		textureFile = "gfx/interface/modules/plane/head_mounted_display_icn_future_re.dds"
 	}
 
 	spriteType = {

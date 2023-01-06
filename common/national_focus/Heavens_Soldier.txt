@@ -33,19 +33,71 @@ focus_tree = {
 			}
 			country_event = fkr.60
 			hidden_effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_dlc = "No Step Back"
+						}
+					}
+					add_equipment_to_stockpile = {
+						type = modern_tank_equipment_future_1
+						amount = 100
+						producer = FKR
+					}
+					add_equipment_to_stockpile = {
+						type = modern_tank_artillery_equipment_future_1
+						amount = 80
+						producer = FKR
+					}
+				}
+				else = { 
+					add_equipment_to_stockpile = {
+						type = modern_tank_equipment_chassis_future_1
+						amount = 100
+						producer = FKR
+						variant_name = "K2 흑표"
+					}
+					add_equipment_to_stockpile = {
+						type = modern_tank_equipment_chassis_future_1
+						amount = 80
+						producer = FKR
+						variant_name = "K9A1 자주포"
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_dlc = "By Blood Alone"
+						}
+					}
+					add_equipment_to_stockpile = {
+						type = cv_fighter_equipment_future_1
+						amount = 50
+						producer = FKR
+					}
+					add_equipment_to_stockpile = {
+						type = cv_CAS_equipment_future_1
+						amount = 50
+						producer = FKR
+					}
+				}
+				else = { 
+					add_equipment_to_stockpile = {
+						type = cv_fighter_airframe_future_1
+						amount = 50
+						producer = FKR
+						variant_name = "F-35B 라이트닝 II"
+					}
+					add_equipment_to_stockpile = {
+						type = cv_fighter_airframe_future_1
+						amount = 50
+						producer = FKR
+						variant_name = "A-10C 선더볼트 II"
+					}
+				}
 				add_equipment_to_stockpile = {
 					type = mechanized_equipment_future_1
 					amount = 125
-					producer = FKR
-				}
-				add_equipment_to_stockpile = {
-					type = modern_tank_equipment_future_1
-					amount = 100
-					producer = FKR
-				}
-				add_equipment_to_stockpile = {
-					type = modern_tank_artillery_equipment_future_1
-					amount = 80
 					producer = FKR
 				}
 				add_equipment_to_stockpile = {
@@ -61,16 +113,6 @@ focus_tree = {
 				add_equipment_to_stockpile = {
 					type = infantry_equipment_future_1
 					amount = 275
-					producer = FKR
-				}
-				add_equipment_to_stockpile = {
-					type = cv_fighter_equipment_future_1
-					amount = 50
-					producer = FKR
-				}
-				add_equipment_to_stockpile = {
-					type = cv_CAS_equipment_future_1
-					amount = 50
 					producer = FKR
 				}
 				add_equipment_to_stockpile = {

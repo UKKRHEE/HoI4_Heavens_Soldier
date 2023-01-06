@@ -1,0 +1,26 @@
+﻿
+
+
+
+
+#AIRCRAFT
+air_wings = {
+	"KCV 백령도급 핵 추진 항공모함"  = { 
+		cv_fighter_airframe_future_1 =  { owner = "FKR" amount = 10 version_name = "F-35B 라이트닝 II" } 	
+		cv_fighter_airframe_future_1 =  { owner = "FKR" amount = 10 version_name = "F-35B 라이트닝 II" } 	
+		cv_fighter_airframe_future_1 =  { owner = "FKR" amount = 10 version_name = "F-35B 라이트닝 II" } 	
+		cv_fighter_airframe_future_1 =  { owner = "FKR" amount = 10 version_name = "F-35B 라이트닝 II" } 	
+		cv_fighter_airframe_future_1 =  { owner = "FKR" amount = 10 version_name = "F-35B 라이트닝 II" } 	
+		cv_fighter_airframe_future_1 = { owner = "FKR" amount = 10 version_name = "A-10C 선더볼트 II" } 			
+		cv_fighter_airframe_future_1 = { owner = "FKR" amount = 10 version_name = "A-10C 선더볼트 II" } 			
+		cv_fighter_airframe_future_1 = { owner = "FKR" amount = 10 version_name = "A-10C 선더볼트 II" } 			
+		cv_fighter_airframe_future_1 = { owner = "FKR" amount = 10 version_name = "A-10C 선더볼트 II" } 			
+		cv_fighter_airframe_future_1 = { owner = "FKR" amount = 10 version_name = "A-10C 선더볼트 II" } 			
+	}
+			
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################

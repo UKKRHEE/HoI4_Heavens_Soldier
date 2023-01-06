@@ -102,7 +102,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					future_fighter_special_module_radar
-					future_fighter_special_module_hud
+					future_fighter_special_module_hmd
 					future_fighter_special_module_tgp
 					future_fighter_special_module_maw
 					future_fighter_special_module_fcd
@@ -115,7 +115,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					future_fighter_special_module_radar
-					future_fighter_special_module_hud
+					future_fighter_special_module_hmd
 					future_fighter_special_module_tgp
 					future_fighter_special_module_maw
 					future_fighter_special_module_fcd
@@ -127,7 +127,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					future_fighter_special_module_radar
-					future_fighter_special_module_hud
+					future_fighter_special_module_hmd
 					future_fighter_special_module_tgp
 					future_fighter_special_module_maw
 					future_fighter_special_module_fcd
@@ -140,7 +140,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					future_fighter_special_module_radar
-					future_fighter_special_module_hud
+					future_fighter_special_module_hmd
 					future_fighter_special_module_tgp
 					future_fighter_special_module_maw
 					future_fighter_special_module_fcd
@@ -153,7 +153,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					future_fighter_special_module_radar
-					future_fighter_special_module_hud
+					future_fighter_special_module_hmd
 					future_fighter_special_module_tgp
 					future_fighter_special_module_maw
 					future_fighter_special_module_fcd
@@ -166,7 +166,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					future_fighter_special_module_radar
-					future_fighter_special_module_hud
+					future_fighter_special_module_hmd
 					future_fighter_special_module_tgp
 					future_fighter_special_module_maw
 					future_fighter_special_module_fcd
@@ -225,7 +225,7 @@ equipments = {
 		}
 
 		module_count_limit = {
-			category = future_fighter_special_module_hud
+			category = future_fighter_special_module_hmd
 			count < 2
 		}		
 		
@@ -343,7 +343,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					future_fighter_special_module_radar
-					future_fighter_special_module_hud
+					future_fighter_special_module_hmd
 					future_fighter_special_module_tgp
 					future_fighter_special_module_maw
 					future_fighter_special_module_fcd
@@ -356,7 +356,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					future_fighter_special_module_radar
-					future_fighter_special_module_hud
+					future_fighter_special_module_hmd
 					future_fighter_special_module_tgp
 					future_fighter_special_module_maw
 					future_fighter_special_module_fcd
@@ -368,7 +368,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					future_fighter_special_module_radar
-					future_fighter_special_module_hud
+					future_fighter_special_module_hmd
 					future_fighter_special_module_tgp
 					future_fighter_special_module_maw
 					future_fighter_special_module_fcd
@@ -381,7 +381,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					future_fighter_special_module_radar
-					future_fighter_special_module_hud
+					future_fighter_special_module_hmd
 					future_fighter_special_module_tgp
 					future_fighter_special_module_maw
 					future_fighter_special_module_fcd
@@ -394,7 +394,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					future_fighter_special_module_radar
-					future_fighter_special_module_hud
+					future_fighter_special_module_hmd
 					future_fighter_special_module_tgp
 					future_fighter_special_module_maw
 					future_fighter_special_module_fcd
@@ -407,7 +407,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					future_fighter_special_module_radar
-					future_fighter_special_module_hud
+					future_fighter_special_module_hmd
 					future_fighter_special_module_tgp
 					future_fighter_special_module_maw
 					future_fighter_special_module_fcd
@@ -466,7 +466,7 @@ equipments = {
 		}
 
 		module_count_limit = {
-			category = future_fighter_special_module_hud
+			category = future_fighter_special_module_hmd
 			count < 2
 		}		
 		

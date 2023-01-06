@@ -44,6 +44,20 @@ technologies = {
 		}
 	}
 
+	future_jet_strat_bomber = {
+
+		enable_equipments = { 
+			jet_strat_bomber_equipment_future_1
+		}
+
+		research_cost = 1
+		start_year = 1945
+
+		allow = {
+			always = no
+		}
+	}
+
 	redesigned_future_jet_CAS = {
 
 		enable_equipments = { 
@@ -119,7 +133,7 @@ technologies = {
 
 		enable_equipment_modules = {
             future_aesa_radar_1
-            future_heads_up_display_1    
+            future_head_mounted_display_1    
             future_targeting_pods_1
             future_missile_approach_warning_1
             future_fighter_communication_device_1
@@ -213,7 +227,7 @@ technologies = {
 
 		enable_equipment_modules = {
             future_aesa_radar_2
-            future_heads_up_display_2
+            future_head_mounted_display_2
             future_targeting_pods_2
             future_missile_approach_warning_2
             future_fighter_communication_device_2
