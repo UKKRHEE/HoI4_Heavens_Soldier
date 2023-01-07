@@ -89,12 +89,26 @@ FKR_reserch_future_attack_heli_equipment:0 "미래 공격 헬리콥터 개발"
 FKR_reserch_future_anti_air_equipment:0 "미래 대공 장비 개발"
 FKR_reserch_future_anti_tank_equipment:0 "미래 대전차 장비 개발"
 FKR_reserch_future_mlrs_equipment:0 "미래 다연장 로켓 장비 개발"
-FKR_reserch_future_armor_Module_equipment:0 "미래 전차 주포 및 모듈 개발"
+# NSB
+FKR_reserch_future_armor_chassis_equipment:0 "미래 전차 차체 개발"
+FKR_reserch_future_armor_Module_equipment:0 "미래 전차 특수모듈 개발"
+FKR_reserch_future_armor_weapon_cannon_equipment:0 "미래 전차 활강포 개발"
+FKR_reserch_future_armor_weapon_rocket_launcher_equipment "미래 전차 로켓포 개발"
+FKR_reserch_future_armor_anti_air_cannon_equipment: " 미래 전차 대공포 개발"
+FKR_reserch_future_armor_weapon_howitzer_equipment" "미래 전차 자주곡사포 개발"
 
 # Future Tech Research (Air)
 FKR_reserch_future_fighter_equipment:0 "미래 전투기 개발"
 FKR_reserch_future_cas_equipment:0 "미래 근접항공지원기 개발"
 FKR_reserch_future_strat_bomber_equipment:0 "미래 전략 폭격기 개발"
+# BBA
+FKR_reserch_future_fighter_airframe_equipment:0 "미래 전투기 기체 개발"
+FKR_reserch_future_fighter_weapon_missile_equipment:0 "미래 유도 미사일 개발"
+FKR_reserch_future_fighter_weapon_bomb_bay_equipment:0 "미래 폭격 장비 개발"
+FKR_reserch_future_fighter_weapon_gatling_cannon_equipment:0 "미래 기관포 개발"
+FKR_reserch_future_fighter_weapon_rocket_launcher_equipment:0 "미래 로켓발사기 개발"
+FKR_reserch_future_fighter_modules_equipment:0 "미래 전투기 특수모듈 개발"
+
 
 # Future Tech Research (Navy)
 FKR_reserch_future_destroyer_legacy_equipment:0 "미래 구축함 개발"

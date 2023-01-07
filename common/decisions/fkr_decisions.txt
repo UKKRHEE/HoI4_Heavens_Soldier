@@ -1429,7 +1429,7 @@ FKR_future_tech_research_land = {
 			has_army_experience > 9
 			OR = {
 				AND = {
-					has_tech = artillery5
+					has_tech = artillery4
 				}
 				has_completed_focus = FKR_focus_on_future_tech
 			}
@@ -1565,7 +1565,7 @@ FKR_future_tech_research_land = {
 		}
 	}
 
-	FKR_reserch_future_armor_weapon_antitank_equipment = {
+	FKR_reserch_future_armor_weapon_howitzer_equipment = {
 		icon = generic_army_support
 
 		allowed = {
@@ -1581,7 +1581,7 @@ FKR_future_tech_research_land = {
 			has_army_experience > 9
 			OR = {
 				AND = {
-					has_tech = antitank5
+					has_tech = artillery5
 				}
 				has_completed_focus = FKR_focus_on_future_tech
 			}
