@@ -276,7 +276,7 @@ if = {
 	}
 	create_equipment_variant = {
 		name = "K-30 비호"
-		type = modern_tank_equipment_aa_chassis_future_1
+		type = modern_tank_aa_equipmentequipment_chassis_future_1
 		parent_version = 0
 		modules = {
 			main_armament_slot = future_tank_anti_air_cannon_1
@@ -297,7 +297,7 @@ if = {
 	}
 	create_equipment_variant = {
 		name = "K9A1 자주포"
-		type = modern_tank_equipment_artillery_chassis_future_1
+		type = modern_tank_artillery_equipmentequipment_chassis_future_1
 		parent_version = 0
 		modules = {
 			main_armament_slot = future_tank_howitzer_1
@@ -345,7 +345,7 @@ if = {
 	}
 	create_equipment_variant = {
 		name = "A-10C 선더볼트 II"
-		type = cv_fighter_cas_airframe_future_1
+		type = cv_small_plane_cas_airframefighter_airframe_future_1
 		modules = {
 			fixed_main_weapon_slot = future_gatling_cannon_1_1x
 			fixed_auxiliary_weapon_slot_1 = future_rocket_launcher_1_4x

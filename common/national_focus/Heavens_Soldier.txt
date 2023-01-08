@@ -58,7 +58,7 @@ focus_tree = {
 						variant_name = "K2 흑표"
 					}
 					add_equipment_to_stockpile = {
-						type = modern_tank_equipment_artillery_chassis_future_1
+						type = modern_tank_artillery_equipmentequipment_chassis_future_1
 						amount = 80
 						producer = FKR
 						variant_name = "K9A1 자주포"
@@ -89,7 +89,7 @@ focus_tree = {
 						variant_name = "F-35B 라이트닝 II"
 					}
 					add_equipment_to_stockpile = {
-						type = cv_fighter_cas_airframe_future_1
+						type = cv_small_plane_cas_airframefighter_airframe_future_1
 						amount = 50
 						producer = FKR
 						variant_name = "A-10C 선더볼트 II"
