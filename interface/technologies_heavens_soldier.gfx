@@ -445,4 +445,14 @@ spriteTypes = {
 		name = "GFX_large_plane_airframe_jet_bomber_future_2_medium"
 		texturefile = "gfx/interface/technologies/FKR_future_jet_bomber.dds"
 	}
+	
+	
+	spriteType = {
+		name = GFX_FKR_modern_tank_equipment_chassis_future_1_medium
+		texturefile = "gfx/interface/technologies/FKR_future_modern_tank.dds"
+	}
+	spriteType = {
+		name = GFX_FKR_modern_tank_equipment_chassis_future_2_medium
+		texturefile = "gfx/interface/technologies/FKR_future_modern_tank.dds"
+	}
 }
