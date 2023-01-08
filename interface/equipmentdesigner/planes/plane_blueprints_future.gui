@@ -46,13 +46,13 @@ guiTypes = {
 	# cv_small_plane_suicide_airframe
 
 	containerWindowType = {
-		name = "equipment_designer_cv_small_plane_suicide_airframe"
+		name = "equipment_designer_large_plane_airframe"
 		position = { x=0 y=0 }
 		size = { width=508 height=248 }
 
 		iconType = {
 			name = "equipment_image_overlay"
-			spriteType = "GFX_TC_small_plane_airframe_0"
+			spriteType = "GFX_TC_large_plane_airframe_0"
 			position = { x=0 y=0 }
 		}
 	}

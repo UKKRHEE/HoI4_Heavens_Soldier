@@ -93,9 +93,9 @@ FKR_reserch_future_mlrs_equipment:0 "미래 다연장 로켓 장비 개발"
 FKR_reserch_future_armor_chassis_equipment:0 "미래 전차 차체 개발"
 FKR_reserch_future_armor_Module_equipment:0 "미래 전차 특수모듈 개발"
 FKR_reserch_future_armor_weapon_cannon_equipment:0 "미래 전차 활강포 개발"
-FKR_reserch_future_armor_weapon_rocket_launcher_equipment "미래 전차 로켓포 개발"
-FKR_reserch_future_armor_anti_air_cannon_equipment: " 미래 전차 대공포 개발"
-FKR_reserch_future_armor_weapon_howitzer_equipment" "미래 전차 자주곡사포 개발"
+FKR_reserch_future_armor_weapon_rocket_launcher_equipment:0 "미래 전차 로켓포 개발"
+FKR_reserch_future_armor_anti_air_cannon_equipment:0 "미래 전차 대공포 개발"
+FKR_reserch_future_armor_weapon_howitzer_equipment:0 "미래 전차 자주곡사포 개발"
 
 # Future Tech Research (Air)
 FKR_reserch_future_fighter_equipment:0 "미래 전투기 개발"

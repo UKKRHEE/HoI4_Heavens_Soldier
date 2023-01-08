@@ -92,6 +92,7 @@ technologies = {
 
         enable_equipments = { 
             cv_fighter_airframe_future_1
+			large_plane_airframe_jet_bomber_future_1
 		}
 		enable_equipment_modules = {
             Future_jet_turbofan_engines_1_1x
@@ -151,6 +152,7 @@ technologies = {
 
         enable_equipments = { 
             cv_fighter_airframe_future_2
+			large_plane_airframe_jet_bomber_future_2
 		}
 		enable_equipment_modules = {
             Future_jet_turbofan_engines_2_1x

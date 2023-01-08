@@ -560,7 +560,7 @@ equipment_modules = {
 		category = future_fighter_weapon_bomb_bay
 		gui_category = future_fighter_weapon_2
 		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = cas 
+		add_equipment_type = strategic_bomber
 
 		add_stats = {
 			air_agility = -10

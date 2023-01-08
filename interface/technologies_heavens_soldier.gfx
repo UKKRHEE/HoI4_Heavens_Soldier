@@ -425,5 +425,24 @@ spriteTypes = {
 		name = "GFX_cv_fighter_airframe_future_2_medium"
 		texturefile = "gfx/interface/technologies/FKR_future_jet_multirole.dds"
 	}
-	
+
+	SpriteType = {
+		name = "GFX_cv_small_plane_cas_airframefighter_airframe_future_1_medium"
+		texturefile = "gfx/interface/technologies/FKR_future_CAS.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cv_small_plane_cas_airframefighter_airframe_future_2_medium"
+		texturefile = "gfx/interface/technologies/FKR_future_CAS.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_large_plane_airframe_jet_bomber_future_1_medium"
+		texturefile = "gfx/interface/technologies/FKR_future_jet_bomber.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_large_plane_airframe_jet_bomber_future_2_medium"
+		texturefile = "gfx/interface/technologies/FKR_future_jet_bomber.dds"
+	}
 }
