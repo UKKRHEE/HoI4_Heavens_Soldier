@@ -506,3 +506,8 @@
  FKR_cv_fighter_equipment_2_short:0 "왕새매"
  FKR_cv_fighter_equipment_3_short:0 "벌매"
  FKR_transport_plane_equipment_1_short:0 "기러기"
+
+ heli_gun_upgrade:0 "무장"
+ heli_armor_upgrade:0 "장갑"
+ heli_missile_upgrade:0 "미사일 무장"
+ heli_reliability_upgrade:0 "신뢰도"
