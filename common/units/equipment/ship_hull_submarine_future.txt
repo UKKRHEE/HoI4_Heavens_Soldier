@@ -1,5 +1,102 @@
 equipments = {
 
+	### ###	###	###	###	###	###	###
+	###							###
+	###		Future Equipment	###
+	###							###
+	### ###	###	###	###	###	###	###
+
+	submarine_future_1 = {
+		year = 1944
+
+		archetype = ship_hull_submarine
+		priority = 0
+		module_slots = inherit
+		
+		default_modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 85
+		sub_detection = 0
+		surface_visibility = 1
+		sub_visibility = 8
+		naval_speed = 18
+		reliability = 0.90
+
+		naval_range = 8000
+		
+		max_strength = 45
+		
+
+		
+		build_cost_ic = 75000
+		resources = {
+			#oil = 2
+			steel = 3
+			chromium = 1
+		}
+		type = { 
+			submarine
+		}		
+	}
+
+	submarine_future_2 = {
+		year = 1944
+
+		archetype = ship_hull_submarine
+		priority = 2600
+		parent = submarine_4
+		module_slots = inherit
+		
+		default_modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 85
+		sub_detection = 0
+		surface_visibility = 1
+		sub_visibility = 8
+		naval_speed = 18
+		reliability = 0.90
+
+		naval_range = 8000
+		
+		max_strength = 45
+		
+
+		
+		build_cost_ic = 750
+		resources = {
+			#oil = 2
+			steel = 3
+			chromium = 1
+		}
+		type = { 
+			submarine
+		}
+	}
+
 	ship_hull_submarine_future_1 = {
 		year = 1944
 
