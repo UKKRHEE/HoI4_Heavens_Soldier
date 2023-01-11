@@ -105,9 +105,7 @@ equipment_modules = {
 		add_stats = {	
 			build_cost_ic = 150
 			naval_strike_attack = 20
-		}
-		multiply_stats = {
-			naval_strike_targetting = 0.1
+            naval_strike_targetting = 15
 		}
 		xp_cost = 5
         allow_mission_type = {
@@ -447,11 +445,9 @@ equipment_modules = {
 		add_equipment_type = cas
 
 		add_stats = {	
-			build_cost_ic = 15
+			build_cost_ic = 150
 			naval_strike_attack = 20
-		}
-		multiply_stats = {
-			naval_strike_targetting = 0.1
+            naval_strike_targetting = 15
 		}
 		xp_cost = 5
         allow_mission_type = {
