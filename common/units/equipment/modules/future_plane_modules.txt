@@ -445,7 +445,7 @@ equipment_modules = {
 		add_equipment_type = cas
 
 		add_stats = {	
-			build_cost_ic = 150
+			build_cost_ic = 10
 			naval_strike_attack = 20
             naval_strike_targetting = 15
 		}
