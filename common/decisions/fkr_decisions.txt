@@ -1331,7 +1331,7 @@ FKR_future_tech_research_land = {
 			has_completed_focus = FKR_army_doc_team
 			has_army_experience > 49
 			OR = {
-				has_tech = main_battle_tank
+				has_tech = main_battle_tank_chassis
 				has_completed_focus = FKR_focus_on_future_tech
 			}
 			NOT = { has_country_flag = FKR_future_research_processing }
@@ -2011,7 +2011,7 @@ FKR_future_tech_research_air = {
 			
 			OR = {
 				AND = {
-					has_tech = fighter3
+					has_tech = modern_medium_airframe
 					has_tech = jet_engines
 				}
 				has_completed_focus = FKR_focus_on_future_tech
@@ -2803,7 +2803,7 @@ FKR_future_tech_research_navy = {
 			has_navy_experience > 9
 			
 			OR = {
-				has_tech = dp_secondary_battery
+				has_tech = advanced_dp_light_battery
 				has_completed_focus = FKR_focus_on_future_tech
 			}
 			NOT = { has_country_flag = FKR_future_research_processing }
@@ -2999,7 +2999,7 @@ FKR_future_tech_research_navy = {
 			has_navy_experience > 9
 			
 			OR = {
-				has_tech = advanced_cruiser_armor_scheme
+				has_tech = improved_heavy_armor_scheme
 				has_completed_focus = FKR_focus_on_future_tech
 			}
 			NOT = { has_country_flag = FKR_future_research_processing }
