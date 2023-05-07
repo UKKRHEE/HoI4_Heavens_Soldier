@@ -13,6 +13,12 @@ spriteTypes = {
 		legacy_lazy_load = no
 		noOfFrames = 2		
 	}
+
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_fkr"
+		texturefile = "gfx/operatives/agencies/agency_logo_fkr.dds"
+		noOfFrames = 2		
+	}
 	
 	
 }
