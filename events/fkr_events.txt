@@ -218,7 +218,7 @@ country_event = {
 
 	immediate = {
 		FKR = {
-			set_capital = 525
+			set_capital = {state = 525}
 			country_event = { id = fkr.37 days = 2 }
 		}
 	}
@@ -4169,7 +4169,7 @@ country_event = {
 	option = {
 		name = fkr.105.a
 		hidden_effect = {
-			set_capital = 176
+			set_capital = {state = 176}
 			if = {
 				limit = {
 					has_government = communism
