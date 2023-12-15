@@ -1,6 +1,6 @@
 state={
-	id=915
-	name="STATE_915"
+	id=940
+	name="STATE_940"
 	provinces={
 		1177 
 	}
@@ -20,4 +20,5 @@ state={
 	manpower=138000
 	state_category=rural
 	buildings_max_level_factor=1.000
+	local_supplies=0.000
 }

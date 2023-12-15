@@ -1,13 +1,11 @@
 state={
-	id=912
-	name="STATE_912"
-	provinces={
-		848 852 3803 3852 3904 3981 6922 6928 9899 11878 898 959 3860 6822 6944 
-	}
+	id=939
+	name="STATE_939"
 	resources={
 		steel=20.000
 		tungsten=3.000
 	}
+
 	history={
 		owner = KOR
 		buildings = {
@@ -30,7 +28,12 @@ state={
 		}
 		add_core_of = KOR
 	}
+
+	provinces={
+		848 852 898 959 3803 3852 3860 3904 3981 6822 6922 6928 6944 9899 11878 
+	}
 	manpower=584105
 	state_category=rural
 	buildings_max_level_factor=1.000
+	local_supplies=0.000
 }
