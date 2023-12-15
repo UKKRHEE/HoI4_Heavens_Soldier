@@ -1903,7 +1903,7 @@
 1902;9;12;236;sea;false;ocean;0
 1903;9;15;95;land;true;plains;5
 1904;9;15;145;land;true;desert;2
-1905;9;15;200;land;false;plains;5
+1905;9;15;200;land;false;desert;5
 1906;9;15;232;sea;false;ocean;0
 1907;9;17;240;sea;false;ocean;0
 1908;9;18;60;land;false;desert;6
@@ -1962,7 +1962,7 @@
 1961;9;57;60;land;false;desert;6
 1962;9;57;165;land;false;desert;5
 1963;9;60;25;land;false;desert;7
-1964;9;60;80;land;false;plains;5
+1964;9;60;80;land;false;desert;5
 1965;9;60;130;land;false;mountain;2
 1966;9;63;45;land;true;mountain;5
 1967;9;63;90;land;false;desert;5
@@ -2018,7 +2018,7 @@
 2017;9;117;70;land;false;desert;7
 2018;9;117;175;land;false;desert;7
 2019;9;120;35;land;false;plains;2
-2020;9;120;90;land;false;plains;5
+2020;9;120;90;land;false;desert;5
 2021;9;120;140;land;true;jungle;2
 2022;9;123;0;land;false;hills;6
 2023;9;123;55;land;false;mountain;3
@@ -2061,7 +2061,7 @@
 2060;9;162;205;land;false;plains;2
 2061;9;165;20;land;false;hills;6
 2062;9;165;170;land;false;desert;7
-2063;9;165;225;land;false;plains;5
+2063;9;165;225;land;false;desert;5
 2064;9;168;85;land;false;desert;5
 2065;9;168;135;land;false;mountain;7
 2066;9;168;190;land;false;desert;5
@@ -4993,7 +4993,7 @@
 4992;51;90;193;land;false;desert;5
 4993;51;93;8;land;true;mountain;7
 4994;51;93;158;land;false;desert;6
-4995;51;93;213;land;false;plains;5
+4995;51;93;213;land;false;desert;5
 4996;51;96;73;land;false;mountain;6
 4997;51;96;178;land;false;plains;5
 4998;51;96;223;land;false;mountain;6
@@ -5066,7 +5066,7 @@
 5065;51;168;98;land;true;plains;5
 5066;51;168;148;land;true;hills;2
 5067;51;171;8;land;false;mountain;7
-5068;51;171;63;land;false;plains;5
+5068;51;171;63;land;false;desert;5
 5069;51;171;213;land;true;mountain;5
 5070;51;174;28;land;false;forest;5
 5071;51;174;73;land;false;mountain;2
@@ -6681,7 +6681,7 @@
 6680;87;63;171;land;false;mountain;1
 6681;87;63;226;land;true;hills;2
 6682;87;66;86;land;false;plains;1
-6683;87;66;136;land;false;forest;1
+6683;87;66;136;land;false;mountain;1
 6684;87;66;191;land;false;plains;6
 6685;87;69;51;land;false;forest;1
 6686;87;69;156;land;false;plains;6
@@ -7123,7 +7123,7 @@
 7122;89;102;191;land;false;hills;6
 7123;89;105;51;land;true;plains;3
 7124;89;105;156;land;false;plains;6
-7125;89;105;201;land;false;urban;6
+7125;89;105;201;land;true;urban;6
 7126;89;108;16;land;false;plains;6
 7127;89;108;166;land;true;plains;1
 7128;89;108;221;land;false;plains;6
@@ -8911,7 +8911,7 @@
 8910;120;38;232;sea;false;ocean;0
 8911;120;39;240;sea;false;ocean;0
 8912;121;2;236;sea;false;ocean;0
-8913;121;4;244;land;false;plains;3
+8913;121;4;244;lake;false;lakes;3
 8914;121;6;232;sea;true;ocean;0
 8915;121;8;240;sea;false;ocean;0
 8916;121;10;248;sea;false;ocean;0
@@ -9620,7 +9620,7 @@
 9619;129;48;54;land;false;mountain;1
 9620;129;48;204;land;false;urban;1
 9621;129;51;19;land;false;plains;1
-9622;129;51;169;land;false;forest;1
+9622;129;51;169;land;false;mountain;1
 9623;129;51;224;land;false;plains;6
 9624;129;54;84;land;false;forest;1
 9625;129;54;134;land;false;plains;1
@@ -9636,7 +9636,7 @@
 9635;129;63;184;land;true;plains;1
 9636;129;66;44;land;false;mountain;1
 9637;129;66;99;land;true;hills;2
-9638;129;69;9;land;false;forest;1
+9638;129;69;9;land;false;mountain;1
 9639;129;69;64;land;false;hills;6
 9640;129;69;214;land;false;hills;1
 9641;129;72;29;land;false;hills;6
@@ -9912,7 +9912,7 @@
 9911;130;186;224;land;false;plains;2
 9912;130;189;39;land;false;plains;7
 9913;130;189;189;land;false;hills;6
-9914;130;192;4;land;true;plains;1
+9914;130;192;4;land;false;plains;1
 9915;130;192;154;land;false;mountain;7
 9916;130;192;209;land;true;hills;1
 9917;130;195;69;land;false;plains;1
@@ -11588,7 +11588,7 @@
 11587;171;27;207;land;false;mountain;1
 11588;171;30;22;land;false;plains;1
 11589;171;30;67;land;false;hills;2
-11590;171;30;172;land;false;mountain;1
+11590;171;30;172;land;false;hills;1
 11591;171;33;32;land;false;desert;6
 11592;171;33;87;land;false;mountain;1
 11593;171;33;137;land;false;hills;1
@@ -12755,7 +12755,7 @@
 12754;177;54;187;land;false;mountain;6
 12755;177;57;2;land;false;mountain;2
 12756;177;57;152;land;false;mountain;7
-12757;177;57;207;land;false;plains;5
+12757;177;57;207;land;false;desert;5
 12758;177;60;67;land;false;mountain;7
 12759;177;60;172;land;true;mountain;5
 12760;177;60;217;land;false;mountain;5
@@ -12810,9 +12810,9 @@
 12809;177;114;197;land;false;desert;7
 12810;177;117;12;land;true;jungle;2
 12811;177;117;162;land;false;plains;2
-12812;177;117;217;land;false;plains;5
+12812;177;117;217;land;false;desert;5
 12813;177;120;77;land;false;desert;7
-12814;177;120;182;land;false;plains;5
+12814;177;120;182;land;false;desert;5
 12815;177;120;227;land;false;mountain;6
 12816;177;123;42;land;false;desert;5
 12817;177;123;147;land;false;forest;5
@@ -12854,7 +12854,7 @@
 12853;177;162;97;land;true;jungle;3
 12854;177;162;147;land;false;forest;6
 12855;177;165;7;land;false;desert;7
-12856;177;165;62;land;false;mountain;5
+12856;177;165;62;land;false;hills;5
 12857;177;165;212;land;true;hills;5
 12858;177;168;27;land;true;forest;5
 12859;177;168;72;land;true;desert;2
@@ -13255,18 +13255,35 @@
 13254;242;234;234;land;true;forest;6
 13255;243;229;190;land;true;plains;1
 13256;226;59;117;land;true;plains;1
+13257;227;205;176;land;true;plains;1
+13258;220;102;66;land;true;plains;1
+13259;14;196;85;land;true;plains;1
+13260;205;35;60;land;true;plains;1
+13261;134;85;243;land;true;plains;1
+13262;152;100;218;land;true;plains;1
+13263;88;5;48;land;true;plains;1
+13264;54;209;196;land;false;plains;1
+13265;48;223;1;land;false;plains;1
+13266;2;106;96;land;true;mountain;1
+13267;209;16;185;land;true;mountain;1
+13268;7;153;169;land;true;mountain;1
+13269;134;147;38;land;true;mountain;1
+13270;11;143;125;land;true;plains;1
+13271;239;45;233;land;true;mountain;1
+13272;26;125;215;land;true;mountain;1
 
-13257;233;179;100;land;false;plains;6 #경기
-13258;67;79;100;land;false;plains;6
 
-13259;12;55;44;land;false;mountain;6 #강원
+13273;233;179;100;land;false;plains;6 #경기 13257
+13274;67;79;100;land;false;plains;6 #13258
 
-13260;66;66;66;land;false;hills;6 #충북
-13261;111;111;111;land;false;hills;6 
+13275;12;55;44;land;false;mountain;6 #강원 #13259
 
-13262;213;31;15;land;false;hills;6 #충남
+13276;66;66;66;land;false;hills;6 #충북 #13260
+13277;111;111;111;land;false;hills;6 #13261
 
-13263;61;31;15;land;true;plains;6 #전북
-13264;33;131;125;land;false;plains;6 
+13278;213;31;15;land;false;hills;6 #충남 13262
 
-13265;72;96;22;land;false;plains;6 #경북-울릉
+13279;61;31;15;land;true;plains;6 #전북 13263
+13280;33;131;125;land;false;plains;6 #13264
+
+13281;72;96;22;land;true;plains;6 #경북-울릉 13265
