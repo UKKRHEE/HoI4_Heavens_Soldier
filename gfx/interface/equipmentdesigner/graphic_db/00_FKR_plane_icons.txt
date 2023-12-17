@@ -1,0 +1,89 @@
+KOR = {
+	small_plane_airframe = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/FKR_early_fighter.dds"
+				"gfx/interface/technologies/FKR_fighter1.dds"
+				"gfx/interface/technologies/FKR_fighter2.dds"
+				"gfx/interface/technologies/FKR_fighter3.dds"
+			}
+		}
+	}
+
+	cv_small_plane_airframe = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/FKR_CAS1.dds"
+				"gfx/interface/technologies/FKR_CAS2.dds"
+				"gfx/interface/technologies/FKR_CAS3.dds"
+			}
+		}
+	}
+
+	medium_plane_airframe = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/FKR_early_bomber.dds"
+				"gfx/interface/technologies/FKR_heavy_fighter1.dds"
+				"gfx/interface/technologies/FKR_heavy_fighter2.dds"
+				"gfx/interface/technologies/FKR_heavy_fighter3.dds"
+				"gfx/interface/technologies/FKR_tactical_bomber1.dds"
+				"gfx/interface/technologies/FKR_tactical_bomber2.dds"
+				"gfx/interface/technologies/FKR_tactical_bomber3.dds"
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/FKR_strategic_bomber1.dds"
+				"gfx/interface/technologies/FKR_strategic_bomber2.dds"
+				"gfx/interface/technologies/FKR_strategic_bomber3.dds"
+				"gfx/interface/technologies/FKR_strategic_bomber1.dds"
+			}
+		}
+	}
+	cv_fighter_equipment_future_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/FKR_future_jet_multirole.dds"
+			}
+		}
+	}
+	cv_fighter_equipment_future_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/FKR_future_jet_multirole.dds"
+			}
+		}
+	}
+	cv_CAS_equipment_future_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/FKR_future_CAS.dds"
+			}
+		}
+	}
+	cv_CAS_equipment_future_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/FKR_future_CAS.dds"
+			}
+		}
+	}
+	jet_strat_bomber_equipment_future_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/FKR_future_jet_bomber.dds"
+			}
+		}
+	}
+	jet_strat_bomber_equipment_future_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/FKR_future_jet_bomber.dds"
+			}
+		}
+	}
+	
+}
