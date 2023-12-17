@@ -1,4 +1,4 @@
-KOR = {
+FKR = {
 	small_plane_airframe = {
 		pool = {
 			icons = {
@@ -43,42 +43,21 @@ KOR = {
 			}
 		}
 	}
-	cv_fighter_equipment_future_1 = {
+	cv_small_plane_airframe = { #cv_fighter_equipment_future_1, 2
 		pool = {
 			icons = {
 				"gfx/interface/technologies/FKR_future_jet_multirole.dds"
 			}
 		}
 	}
-	cv_fighter_equipment_future_2 = {
-		pool = {
-			icons = {
-				"gfx/interface/technologies/FKR_future_jet_multirole.dds"
-			}
-		}
-	}
-	cv_CAS_equipment_future_1 = {
+	cv_small_plane_cas_airframe = { #cv_CAS_equipment_future_1, 2
 		pool = {
 			icons = {
 				"gfx/interface/technologies/FKR_future_CAS.dds"
 			}
 		}
 	}
-	cv_CAS_equipment_future_2 = {
-		pool = {
-			icons = {
-				"gfx/interface/technologies/FKR_future_CAS.dds"
-			}
-		}
-	}
-	jet_strat_bomber_equipment_future_1 = {
-		pool = {
-			icons = {
-				"gfx/interface/technologies/FKR_future_jet_bomber.dds"
-			}
-		}
-	}
-	jet_strat_bomber_equipment_future_2 = {
+	large_plane_airframe = { #jet_strat_bomber_equipment_future_1, 2
 		pool = {
 			icons = {
 				"gfx/interface/technologies/FKR_future_jet_bomber.dds"

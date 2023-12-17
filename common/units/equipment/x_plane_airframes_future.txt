@@ -134,7 +134,7 @@ equipments = {
 	### ###	###	###	###	###	###	###
 
 	jet_strat_bomber_equipment_future_1 = {
-		archetype = jet_strat_bomber_equipment
+		archetype = large_plane_airframe
 		priority = 150
 		allow_mission_type = {
 			cas
