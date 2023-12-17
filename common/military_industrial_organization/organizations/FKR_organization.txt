@@ -12,11 +12,13 @@ FKR_sinjeong_development = {
 	include = generic_tank_organization
 	icon = GFX_idea_fkr_company_sinjeong
 	allowed = {	
-		tag = FKR
+		original_tag = FKR
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		has_completed_focus = FKR_tank_company
+		owner = {
+			has_completed_focus = FKR_tank_company
+		}
 	}
 	initial_trait = {
 		organization_modifier = {
@@ -50,11 +52,13 @@ FKR_hyundai_heavy_industry = {
 	include = generic_heavy_tank_organization
 	icon = GFX_idea_fkr_company_hyundai
 	allowed = {	
-		tag = FKR
+		original_tag = FKR
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		has_completed_focus = FKR_tank_company
+		owner = {
+			has_completed_focus = FKR_tank_company
+		}
 	}
 	initial_trait = {
 		organization_modifier = {
@@ -88,11 +92,13 @@ FKR_samsung_techwin = {
 	include = generic_medium_tank_organization
 	icon = GFX_idea_fkr_company_samsung
 	allowed = {	
-		tag = FKR
+		original_tag = FKR
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		has_completed_focus = FKR_tank_company
+		owner = {
+			has_completed_focus = FKR_tank_company
+		}
 	}
 	initial_trait = {
 		organization_modifier = {
@@ -162,11 +168,13 @@ FKR_daewoo_shipbuilding_marine_engineering = {
 	include = generic_battle_line_ship_organization
 	icon = GFX_idea_fkr_company_dsme
 	allowed = {	
-		tag = FKR
+		original_tag = FKR
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		has_completed_focus = FKR_naval_company
+		owner = {
+			has_completed_focus = FKR_naval_company
+		}
 	}
 }
 
@@ -174,11 +182,13 @@ FKR_ssanyong_heavy_industry = {
 	include = generic_battle_line_ship_organization
 	icon = GFX_idea_fkr_company_ssanyong
 	allowed = {	
-		tag = FKR
+		original_tag = FKR
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		has_completed_focus = FKR_naval_company
+		owner = {
+			has_completed_focus = FKR_naval_company
+		}
 	}
 }
 
@@ -198,11 +208,13 @@ FKR_korean_air = {
 	icon = GFX_idea_fkr_company_korean_air
 	
 	allowed = {	 
-		tag = FKR
+		original_tag = FKR
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		has_completed_focus = FKR_aircraft_company
+		owner = {
+			has_completed_focus = FKR_aircraft_company
+		}
 	}
 	
 } 
@@ -211,10 +223,12 @@ FKR_asiana_airlines = {
 	include = generic_range_focused_aircraft_organization
 	icon = GFX_idea_fkr_company_asiana_air_lines
 	allowed = {	
-		tag = FKR
+		original_tag = FKR
 	}
 	available = {
-		has_completed_focus = FKR_aircraft_company
+		owner = {
+			has_completed_focus = FKR_aircraft_company
+		}
 	}
 }
 
@@ -222,11 +236,13 @@ FKR_daewoo_heavy_industry = {
 	include = generic_naval_aircraft_organization
 	icon = GFX_idea_fkr_company_daewoo
 	allowed = {	
-		tag = FKR
+		original_tag = FKR
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		has_completed_focus = FKR_aircraft_company
+		owner = {
+			has_completed_focus = FKR_aircraft_company
+		}
 	}
 }
 
@@ -234,11 +250,13 @@ FKR_lig_nex1 = {
 	include = generic_cas_aircraft_organization
 	icon = GFX_idea_fkr_company_lignex1
 	allowed = {	
-		tag = FKR
+		original_tag = FKR
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		has_completed_focus = FKR_aircraft_company
+		owner = {
+			has_completed_focus = FKR_aircraft_company
+		}
 	}
 }
 
@@ -246,11 +264,13 @@ FKR_korea_aerospace_industries = {
 	include = generic_high_agility_fighter_aircraft_organization
 	icon = GFX_idea_fkr_company_kai
 	allowed = {	
-		tag = FKR
+		original_tag = FKR
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		has_completed_focus = FKR_aircraft_company
+		owner = {
+			has_completed_focus = FKR_aircraft_company
+		}
 	}
 }
 
@@ -270,11 +290,13 @@ FKR_snt_motive = {
 	include = generic_infantry_equipment_organization
 	icon = GFX_idea_fkr_company_snt_motiv
 	allowed = {	
-		tag = FKR
+		original_tag = FKR
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		has_completed_focus = FKR_materiel_company
+		owner = {
+			has_completed_focus = FKR_materiel_company
+		}
 	}
 	initial_trait = {
 		equipment_bonus = {
@@ -287,11 +309,13 @@ FKR_dasan_machinery = {
 	include = generic_infantry_equipment_organization
 	icon = GFX_idea_fkr_company_dasan
 	allowed = {	
-		tag = FKR
+		original_tag = FKR
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		has_completed_focus = FKR_materiel_company
+		owner = {
+			has_completed_focus = FKR_materiel_company
+		}
 	}
 	initial_trait = {
 		equipment_bonus = {
@@ -307,11 +331,13 @@ FKR_hanwha_industry = {
 	include = generic_motorized_mechanized_organization
 	icon = GFX_idea_fkr_company_hanwha
 	allowed = {	
-		tag = FKR
+		original_tag = FKR
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		has_completed_focus = FKR_materiel_company
+		owner = {
+			has_completed_focus = FKR_materiel_company
+		}
 	}
 	initial_trait = {
 		equipment_bonus = {
@@ -325,11 +351,13 @@ FKR_imperial_arsenal = {
 	include = generic_artillery_organization
 	icon = GFX_idea_generic_artillery_manufacturer_2
 	allowed = {	
-		tag = FKR
+		original_tag = FKR
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		has_completed_focus = FKR_materiel_company
+		owner = {
+			has_completed_focus = FKR_materiel_company
+		}
 	}
 	initial_trait = {
 		equipment_bonus = {

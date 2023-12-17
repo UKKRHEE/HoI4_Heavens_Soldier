@@ -56,66 +56,11 @@ set_popularities = {
 	fascism = 100
 }
 
-create_country_leader = {
-	name = "윤치호"
-	desc = ""
-	picture = "gfx/leaders/KOR/Portrait_leader_yoon_chiho.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "이은"
-	desc = ""
-	picture = "gfx/leaders/KOR/Portrait_leader_lee_eun.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "김일성"
-	desc = ""
-	picture = "gfx/leaders/KOR/Portrait_leader_kim_ilseong.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "우가키 가즈시게"
-	desc = ""
-	picture = "gfx/leaders/KOR/Portrait_leader_ugaki_gajeusige.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
+recruit_character = KOR_yoon_chiho #윤치호
+recruit_character = KOR_yi_un #이은
+recruit_character = KOR_kim_ilsung #김일성
+recruit_character = KOR_ugaki_kazushige #우가키 가즈시게
 
 ### General & Admiral ###
-
-create_corps_commander = {
-	name = "이타가키 세이시로"
-	picture = "Portrait_general_itagaki_seisiro.dds"
-	traits = { politically_connected harsh_leader }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 1
-}
-
-create_navy_leader = {
-	name = "사이토 마코토"
-	picture = "Portrait_admiral_saito_makoto.dds"
-	traits = { old_guard_navy }
-	skill = 3
-}
+recruit_character = KOR_itagaki_seisiro #이타가키 세이시로
+recruit_character = KOR_saito_makoto #사이토 마코토

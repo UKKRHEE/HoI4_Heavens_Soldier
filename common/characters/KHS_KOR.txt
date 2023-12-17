@@ -1,0 +1,87 @@
+characters={
+	KOR_yoon_chiho = {
+		name="KOR_yoon_chiho"
+		portraits={
+			civilian={
+				large="gfx/leaders/KOR/Portrait_leader_yoon_chiho.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	KOR_yi_un = {
+		name="KOR_yi_un"
+		portraits={
+			civilian={
+				large="gfx/leaders/KOR/Portrait_leader_lee_eun.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	KOR_kim_ilsung = {
+		name="KOR_kim_ilsung"
+		portraits={
+			civilian={
+				large="gfx/leaders/KOR/Portrait_leader_kim_ilseong.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	KOR_ugaki_kazushige = {
+		name="KOR_ugaki_kazushige"
+		portraits={
+			civilian={
+				large="gfx/leaders/KOR/Portrait_leader_ugaki_gajeusige.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	KOR_itagaki_seisiro = {
+		name="KOR_itagaki_seisiro"
+		portraits={
+			civilian={
+				large="gfx/leaders/KOR/Portrait_general_itagaki_seisiro.dds"
+			}
+		}
+		corps_commander = {
+			traits = { politically_connected harsh_leader }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	KOR_saito_makoto = {
+		name="KOR_saito_makoto"
+		portraits={
+			civilian={
+				large="gfx/leaders/KOR/Portrait_admiral_saito_makoto.dds"
+			}
+		}
+		create_navy_leader = {
+			picture = "Portrait_admiral_saito_makoto.dds"
+			traits = { old_guard_navy }
+			skill = 3
+		}
+	}
+}
