@@ -225,17 +225,17 @@ country_event = {
 
 	option = {
 		name = fkr.10.a
-		set_province_name = { id = 7125 name = "서울" }
+		set_province_name = { id = 7125 name = "seoul" }
 	}
 
 	option = {
 		name = fkr.10.b
-		set_province_name = { id = 7125 name = "한성" }
+		set_province_name = { id = 7125 name = "hanseong" }
 	}
 
 	option = {
 		name = fkr.10.c
-		set_province_name = { id = 7125 name = "한양" }
+		set_province_name = { id = 7125 name = "hanyang" }
 	}
 
 	option = {
@@ -274,18 +274,18 @@ country_event = { # Ask join royal Faction (JAP)
 					remove_idea = JAP_militarism
 					add_idea = JAP_militarism_showa
 				}
-				create_country_leader = {
-					name = "Hirohito"
-					desc = "POLITICS_Hirohito_DESC"
-					picture = "Portrait_Japan_Hirohito.dds"
-					expire = "1989.1.1"
-					ideology = despotism
-					traits = {
-						warrior_code
-						emperor_showa
+				add_country_leader_role = {
+					Character = JAP_emperor_hirohito
+					country_leader = {
+						expire = "1965.1.1"
+						desc = "POLITICS_Hirohito_DESC"
+						ideology = despotism
+						traits = { warrior_code emperor_showa }
+						id=700
 					}
-					id = 700 #Hirohito
+					promote_leader = yes
 				}
+				promote_character = JAP_emperor_hirohito
 			}
 		}
 		#ai_chance = { factor = 40 } #debug
@@ -351,12 +351,15 @@ country_event = { # Ask join royal Faction (MAN)
 				MAN_low_legitimacy_clear_all = yes
 				set_cosmetic_tag = MAN_restored
 				hidden_effect = { news_event = {id = wtt_news.44 days = 2 } }
-				create_country_leader = {
-					name = "Xuantong"
-					picture = "GFX_portrait_man_henry_pu_yi_emperor"
-					expire = "1960.1.1"
-					ideology = despotism
-					traits = {}
+				set_portraits = {
+					character = MAN_aisin_gioro_puyi
+					civilian = { 
+						large ="GFX_portrait_man_henry_pu_yi_emperor"
+					}
+				}
+				set_character_name = {
+					character = MAN_aisin_gioro_puyi
+					name = MAN_aisin_gioro_puyi_Xuantong
 				}
 			}	
 		}
@@ -438,6 +441,40 @@ country_event = { # Ask join royal Faction (FRA)
 				set_politics = { ruling_party = neutrality elections_allowed = no }
 				add_popularity = { ideology = neutrality popularity = 0.5 }
                 add_ideas = FKR_affect_from_korea_monrchy
+				set_cosmetic_tag = FRA_ORLEANS
+				if = {
+					limit = {
+						date < 1940.8.25
+					}
+					recruit_character = FRA_jean_iii
+					add_country_leader_role = {
+						Character = FRA_jean_iii
+						country_leader = {
+							expire = "1965.1.1"
+							ideology = moderatism
+							traits = {
+								duke_of_orleans
+							}
+						}
+						promote_leader = yes
+					}	
+					promote_character = FRA_jean_iii
+				}
+				else = {
+					recruit_character = FRA_henry_vi
+					add_country_leader_role = {
+						Character = FRA_henry_vi
+						country_leader = {
+							expire = "1965.1.1"
+							ideology = moderatism
+							traits = {
+								count_of_paris
+							}
+						}
+						promote_leader = yes
+					}	
+					promote_character = FRA_henry_vi
+				}
 			}
 		}
 		#ai_chance = { factor = 40 } #debug
@@ -519,14 +556,6 @@ country_event = { # Ask join royal Faction (ITA)
 				add_popularity = { ideology = neutrality popularity = 0.5 }
                 add_ideas = FKR_affect_from_korea_monrchy
 				remove_ideas = victor_emmanuel
-				create_country_leader = {
-					name = "Victor Emmanuel III"
-					desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
-					picture = GFX_portrait_italy_victor_emmanuel_iii
-					expire = "1965.1.1"
-					ideology = despotism
-					traits = {}
-				}
 			}
 		}
 		hidden_effect = { FKR = {country_event = { id = fkr.36 } } }
@@ -607,16 +636,21 @@ country_event = { # Ask join royal Faction (ENG)
 				add_popularity = { ideology = neutrality popularity = 0.5 }
                 add_ideas = FKR_affect_from_korea_monrchy
 				remove_ideas = ENG_george_vi
-				create_country_leader = {
-					name = "Edward VIII"
-					desc = "POLITICS_EDWARD_EDWARD_DESC"
-					picture = "Portrait_Britain_Edward_VIII.dds"
-					expire = "1965.1.1"
-					ideology = despotism
-					traits = {
-						inexperienced_imperialist				
+				kill_country_leader = yes
+				recruit_character = ENG_edward_viii
+				add_country_leader_role = {
+					Character = ENG_edward_viii
+					country_leader = {
+						desc = "POLITICS_EDWARD_EDWARD_DESC"
+						expire = "1965.1.1"
+						ideology = despotism
+						traits = {
+							inexperienced_imperialist				
+						}
 					}
-				}
+					promote_leader = yes
+				}	
+				promote_character = ENG_edward_viii
 			}
 		}
 		#ai_chance = { factor = 40 } #debug
@@ -698,6 +732,19 @@ country_event = { # Ask join royal Faction (SOV)
 				set_politics = { ruling_party = neutrality elections_allowed = no }
 				add_popularity = { ideology = neutrality popularity = 0.5 }
                 add_ideas = FKR_affect_from_korea_monrchy
+				set_cosmetic_tag = russian_empire
+				add_country_leader_role = {
+					Character = SOV_tsar_vladimir_kirillovich
+					country_leader = {
+						desc = ""
+						expire = "1965.1.1"
+						ideology = despotism
+						traits = {
+						}
+					}
+					promote_leader = yes
+				}	
+				promote_character = SOV_tsar_vladimir_kirillovich
 			}
 		}
 		hidden_effect = { FKR = {country_event = { id = fkr.36 } } }
@@ -777,14 +824,18 @@ country_event = { # Ask join royal Faction (GER)
 				set_politics = { ruling_party = neutrality elections_allowed = no }
 				add_popularity = { ideology = neutrality popularity = 0.5 }
                 add_ideas = FKR_affect_from_korea_monrchy
-				create_country_leader = {
-					name = "Wilhelm III"
-					desc = "POLITICS_WILHELM_III_DESC"
-					picture = GFX_portrait_ger_wilhelm_iii
-					expire = "1965.1.1"
-					ideology = despotism
-					traits = { popular_figurehead2 }
-				}
+				add_country_leader_role = {
+					Character = GER_wilhelm_iii
+					country_leader = {
+						desc = "POLITICS_WILHELM_III_DESC"
+						expire = "1965.1.1"
+						ideology = despotism
+						traits = {
+							popular_figurehead2				
+						}
+					}
+					promote_leader = yes
+				}	
 				set_party_name = {
 					ideology = neutrality
 					long_name = GER_neutrality_party_kaiserreich_long
@@ -952,6 +1003,19 @@ country_event = { # Ask join royal Faction (TUR)
 				set_politics = { ruling_party = neutrality elections_allowed = no }
 				add_popularity = { ideology = neutrality popularity = 0.5 }
                 add_ideas = FKR_affect_from_korea_monrchy
+				set_cosmetic_tag = OTT_SULTANATE_neutrality
+				add_country_leader_role = {
+					Character = TUR_abdulmejid_ii
+					country_leader = {
+						desc = ""
+						expire = "1965.1.1"
+						ideology = despotism
+						traits = {
+						}
+					}
+					promote_leader = yes
+				}	
+				promote_character = TUR_abdulmejid_ii
 			}
 		}
 		#ai_chance = { factor = 40 } #debug
@@ -2291,16 +2355,15 @@ country_event = { # Easter Sibas
 	is_triggered_only = yes
 
 	immediate = {
-		create_corps_commander = {
-			name = "무다구치 렌야"
-			picture = "Portrait_general_Easter_mudaguchi.dds"
+		add_corps_commander_role = {
+			character = FKR_mutaguchi_renya
 			traits = { FKR_independent_army jungle_rat }
 			skill = 4
 			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 9
-		}
+		}	
 	}
 
 	option = { # Find him
@@ -2322,16 +2385,15 @@ country_event = { # Easter Try Re
 	is_triggered_only = yes
 
 	immediate = {
-		create_corps_commander = {
-			name = "시바스"
-			picture = "Portrait_general_Easter_sibas.dds"
+		add_corps_commander_role = {
+			character = FKR_sibas
 			traits = { }
 			skill = 4
 			attack_skill = 4
 			defense_skill = 7
 			planning_skill = 4
 			logistics_skill = 4
-		}
+		}	
 	}
 
 	option = { # Find him
@@ -2353,16 +2415,15 @@ country_event = { # Easter is over?
 	is_triggered_only = yes
 
 	immediate = {
-		create_corps_commander = {
-			name = "TRY RE"
-			picture = "Portrait_general_Easter_try_re.dds"
+		add_corps_commander_role = {
+			character = FKR_try_re
 			traits = { }
 			skill = 4
 			attack_skill = 4
 			defense_skill = 5
 			planning_skill = 5
 			logistics_skill = 5
-		}
+		}	
 	}
 
 	option = { # we wish...
@@ -3118,16 +3179,21 @@ country_event = { # Austria event
 				set_politics = { ruling_party = neutrality elections_allowed = no }
 				add_popularity = { ideology = neutrality popularity = 0.5 }
                 add_ideas = FKR_affect_from_korea_monrchy
-				create_country_leader = {
-					name = "Otto von Habsburg"
-					desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
-					picture = GFX_Portrait_hungary_otto_von_hapsburg
-					expire = "1965.1.1"
-					ideology = despotism
-					traits = {
-						
+				kill_country_leader = yes
+				recruit_character = AUS_otto_von_habsburg
+				add_country_leader_role = {
+					Character = AUS_otto_von_habsburg
+					country_leader = {
+						desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
+						expire = "1965.1.1"
+						ideology = despotism
+						traits = {
+							
+						}
 					}
+					promote_leader = yes
 				}
+				promote_character = AUS_otto_von_habsburg
 				hidden_effect = {
 					102 = { add_core_of = AUS }
 					103 = { add_core_of = AUS }
@@ -3232,16 +3298,20 @@ country_event = { # Hungary Event
 				set_politics = { ruling_party = neutrality elections_allowed = no }
 				add_popularity = { ideology = neutrality popularity = 0.5 }
                 add_ideas = FKR_affect_from_korea_monrchy
-				create_country_leader = {
-					name = "Otto von Habsburg"
-					desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
-					picture = GFX_Portrait_hungary_otto_von_hapsburg
-					expire = "1965.1.1"
-					ideology = despotism
-					traits = {
-						
+				kill_country_leader = yes
+				add_country_leader_role = {
+					Character = HUN_otto_von_habsburg
+					country_leader = {
+						desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
+						expire = "1965.1.1"
+						ideology = despotism
+						traits = {
+							
+						}
 					}
+					promote_leader = yes
 				}
+				promote_character = HUN_otto_von_habsburg
 				hidden_effect = {
 					102 = { add_core_of = ROOT }
 					103 = { add_core_of = ROOT }
@@ -3418,16 +3488,15 @@ country_event = { # Easter is over?
 	is_triggered_only = yes
 
 	immediate = {
-		create_corps_commander = {
-			name = "우랄스키"
-			picture = "Portrait_general_Easter_uralsky.dds"
+		add_corps_commander_role = {
+			character = FKR_uralsky
 			traits = { }
 			skill = 4
 			attack_skill = 4
 			defense_skill = 3
 			planning_skill = 4
 			logistics_skill = 5
-		}
+		}	
 	}
 
 	option = { # we wish...
@@ -3462,16 +3531,15 @@ country_event = { # Easter is over?
 	is_triggered_only = yes
 
 	immediate = {
-		create_corps_commander = {
-			name = "용폴레옹"
-			picture = "Portrait_general_Easter_yong_nom.dds"
+		add_corps_commander_role = {
+			character = FKR_yong_nom
 			traits = { }
 			skill = 4
 			attack_skill = 5
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 3
-		}
+		}	
 	}
 
 	option = { # we wish...
@@ -3508,16 +3576,15 @@ country_event = { # what is this?
 
 	immediate = {
 		set_country_flag = FKR_easter_developer_flag
-		create_corps_commander = {
-			name = "블루코크와인"
-			picture = "Portrait_general_Easter_bluecokewine.dds"
+		add_corps_commander_role = {
+			character = FKR_bluecokewine
 			traits = { }
 			skill = 5
 			attack_skill = 5
 			defense_skill = 5
 			planning_skill = 5
 			logistics_skill = 5
-		}
+		}	
 	}
 
 	option = { # okay!
@@ -4215,15 +4282,20 @@ country_event = {
 					ideology = neutrality
 					popularity = 1
 				}
-				create_country_leader = {
-					name = "Alfonso XIII"
-					picture = GFX_Portrait_leader_Alfonso_XIII
-					expire = "1965.1.1"
-					ideology = despotism
-					traits = {
-						
+				kill_country_leader = yes
+				recruit_character = SPR_alfonso_xiii
+				add_country_leader_role = {
+					Character = SPR_alfonso_xiii
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = despotism
+						traits = {
+							
+						}
 					}
+					promote_leader = yes
 				}
+				promote_character = SPR_alfonso_xiii
 			}
 			
 			load_oob = "SPA_Civil_War"

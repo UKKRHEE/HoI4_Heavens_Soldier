@@ -1107,3 +1107,9 @@ UEG_unified = {
 	color = rgb { 91 146 229 }
 	color_ui = rgb { 91 146 229 }
 }
+
+#### Heaven Soldiers HOI4 ###
+FRA_ORLEANS = {
+	color = rgb { 65 109 167 }
+	color_ui = rgb { 65 109 167 }
+}

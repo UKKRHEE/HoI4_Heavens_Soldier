@@ -171,6 +171,13 @@ recruit_character = FKR_kim_gu
 recruit_character = FKR_yi_kang
 recruit_character = FKR_yeo_woonhyung
 recruit_character = FKR_yi_un
+### 이스터에그 ###
+recruit_character = FKR_mutaguchi_renya
+recruit_character = FKR_sibas
+recruit_character = FKR_try_re
+recruit_character = FKR_uralsky
+recruit_character = FKR_yong_nom
+recruit_character = FKR_bluecokewine
 
 if = {
 	limit = { has_dlc = "Man the Guns" }

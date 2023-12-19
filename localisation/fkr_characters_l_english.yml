@@ -73,6 +73,14 @@
  FKR_yeo_woonhyung:0 "여 운형"
  FKR_yi_un:0 "이 은"
  
+ ### 이스터에그 ###
+ FKR_mutaguchi_renya:0 "무타구치 렌야"
+ FKR_sibas:0 "시바스"
+ FKR_try_re:0 "TRY RE"
+ FKR_uralsky:0 "우랄스키"
+ FKR_yong_nom:0 "용폴레옹"
+ FKR_bluecokewine:0 "블루코크와인"
+ 
  ### 조선 총독부 - 인물 ###
  KOR_yoon_chiho:0 "윤치호"
  KOR_yi_un:0 "이은"
@@ -80,3 +88,11 @@
  KOR_ugaki_kazushige:0 "우가키 가즈시게"
  KOR_itagaki_seisiro:0 "이타가키 세이시로
  KOR_saito_makoto:0 "사이토 마코토"
+ 
+ ### 괴뢰국 ###
+ MAN_aisin_gioro_puyi_Xuantong:0 "선통황제"
+ ENG_edward_viii:0 "에드워드 8세"
+ AUS_otto_von_habsburg:0 "오토 폰 합스부르크"
+ SPR_alfonso_xiii:0 "알폰소 13세"
+ FRA_jean_iii:0 "장 3세"
+ FRA_henry_vi:0 "헨리 6세"

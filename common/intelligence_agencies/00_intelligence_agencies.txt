@@ -5,7 +5,15 @@
 intelligence_agency = {
 
 	picture = GFX_intelligence_agency_logo_fkr
-	names = { "국가정보원" }
+	names = { "National Intelligence Service" }
+	
+	default = { tag = FKR }
+	available = { original_tag = FKR }
+}
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_fkr_2
+	names = { "Korean Central Intelligence Agency" }
 	
 	default = { tag = FKR }
 	available = { original_tag = FKR }

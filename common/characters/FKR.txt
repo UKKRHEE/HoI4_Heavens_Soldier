@@ -1177,4 +1177,54 @@ characters={
 			}
 		}
 	}
+	
+	### 이스터에그 ###
+	FKR_mutaguchi_renya = {
+		name="FKR_mutaguchi_renya"
+		portraits={
+			civilian={
+				large="gfx/leaders/FKR/Portrait_general_Easter_mudaguchi.dds"
+			}
+		}
+	}
+	FKR_sibas = {
+		name="FKR_sibas"
+		portraits={
+			civilian={
+				large="gfx/leaders/FKR/Portrait_general_Easter_sibas.dds"
+			}
+		}
+	}
+	FKR_try_re = {
+		name="FKR_try_re"
+		portraits={
+			civilian={
+				large="gfx/leaders/FKR/Portrait_general_Easter_try_re.dds"
+			}
+		}
+	}
+	FKR_uralsky = {
+		name="FKR_uralsky"
+		portraits={
+			civilian={
+				large="gfx/leaders/FKR/Portrait_general_Easter_uralsky.dds"
+			}
+		}
+	}
+	FKR_yong_nom = {
+		name="FKR_yong_nom"
+		portraits={
+			civilian={
+				large="gfx/leaders/FKR/Portrait_general_Easter_yong_nom.dds"
+			}
+		}
+	}
+	FKR_bluecokewine = {
+		name="FKR_bluecokewine"
+		portraits={
+			civilian={
+				large="gfx/leaders/FKR/Portrait_general_Easter_bluecokewine.dds"
+			}
+		}
+	}
 }

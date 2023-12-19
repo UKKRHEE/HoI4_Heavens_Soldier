@@ -84,4 +84,44 @@ characters={
 			skill = 3
 		}
 	}
+	ENG_edward_viii = {
+		name="ENG_edward_viii"
+		portraits={
+			civilian={
+				large=GFX_portrait_Edward_VIII
+			}
+		}
+	}
+	AUS_otto_von_habsburg = {
+		name="AUS_otto_von_habsburg"
+		portraits={
+			civilian={
+				large=GFX_Portrait_hungary_otto_von_hapsburg
+			}
+		}
+	}
+	SPR_alfonso_xiii = {
+		name="SPR_alfonso_xiii"
+		portraits={
+			civilian={
+				large=GFX_Portrait_leader_Alfonso_XIII
+			}
+		}
+	}
+	FRA_jean_iii = {
+		name="FRA_jean_iii"
+		portraits={
+			civilian={
+				large=GFX_portrait_fra_jean_duke_of_guise
+			}
+		}
+	}
+	FRA_henry_vi = {
+		name="FRA_henry_vi"
+		portraits={
+			civilian={
+				large=GFX_portrait_fra_henry_count_of_paris
+			}
+		}
+	}
 }
