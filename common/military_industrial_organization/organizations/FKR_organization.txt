@@ -20,31 +20,11 @@ FKR_sinjeong_development = {
 			has_completed_focus = FKR_tank_company
 		}
 	}
+	research_bonus = 0.10
 	initial_trait = {
-		organization_modifier = {
-			military_industrial_organization_research_bonus = 0.2
-		}
-	}
-	add_trait = {  
-		token = FKR_sinjeong_development
-		name = FKR_sinjeong_development
-		icon = GFX_idea_sinjeong_development
-		special_trait_background = yes
-
-		limit_to_equipment_type = { light_tank_chassis }
 		equipment_bonus = {
-			armor_value = 0.1
 			build_cost_ic = -0.25
 			reliability = 0.20
-		} 
-
-		position = { x=9 y=0 }  
-		ai_will_do = {
-			base = 2
-			modifier = {
-				factor = 1.5
-				date > 1937.1.1
-			}
 		}
 	}
 } 
@@ -60,31 +40,11 @@ FKR_hyundai_heavy_industry = {
 			has_completed_focus = FKR_tank_company
 		}
 	}
+	research_bonus = 0.10
 	initial_trait = {
-		organization_modifier = {
-			military_industrial_organization_research_bonus = 0.2
-		}
-	}
-	add_trait = {  
-		token = FKR_hyundai_heavy_industry
-		name = FKR_hyundai_heavy_industry
-		icon = GFX_idea_hyundai_heavy_industry
-		special_trait_background = yes
-
-		limit_to_equipment_type = { heavy_tank_chassis super_heavy_tank_chassis }
 		equipment_bonus = {
-			armor_value = 0.1
 			build_cost_ic = -0.25
 			reliability = 0.20
-		} 
-
-		position = { x=9 y=0 }  
-		ai_will_do = {
-			base = 2
-			modifier = {
-				factor = 1.5
-				date > 1937.1.1
-			}
 		}
 	}
 } 
@@ -100,54 +60,11 @@ FKR_samsung_techwin = {
 			has_completed_focus = FKR_tank_company
 		}
 	}
+	research_bonus = 0.10
 	initial_trait = {
-		organization_modifier = {
-			military_industrial_organization_research_bonus = 0.2
-		}
-	}
-	add_trait = {  
-		token = FKR_samsung_techwin
-		name = FKR_samsung_techwin
-		icon = GFX_idea_samsung_techwin
-		special_trait_background = yes
-
-		limit_to_equipment_type = { modern_tank_chassis medium_tank_chassis }
-		production_bonus = {
-			production_efficiency_cap_factor = 0.1
-			production_efficiency_gain_factor = 0.1
-		}
-
-		position = { x=9 y=0 }  
-		ai_will_do = {
-			base = 2
-			modifier = {
-				factor = 1.5
-				date > 1937.1.1
-			}
-		}
-	}
-
-	add_trait = {
-		token = FKR_samsung_techwin_2
-		name = FKR_samsung_techwin_2
-		icon = GFX_idea_samsung_techwin
-		special_trait_background = yes
-
-		any_parent = { FKR_samsung_techwin }
-		limit_to_equipment_type = { modern_tank_chassis medium_tank_chassis }
 		equipment_bonus = {
-			armor_value = 0.1
 			build_cost_ic = -0.25
 			reliability = 0.20
-		} 
-
-		position = { x=9 y=2 }  
-		ai_will_do = {
-			base = 2
-			modifier = {
-				factor = 1.5
-				date > 1937.1.1
-			}
 		}
 	}
 } 
@@ -176,10 +93,18 @@ FKR_daewoo_shipbuilding_marine_engineering = {
 			has_completed_focus = FKR_naval_company
 		}
 	}
+	research_bonus = 0.10
+	initial_trait = {
+		equipment_bonus = {
+			build_cost_ic = -0.25
+			reliability  = 0.2
+			armor_value = 0.2
+		}
+	}
 }
 
 FKR_ssanyong_heavy_industry = {
-	include = generic_battle_line_ship_organization
+	include = generic_raider_ship_organization
 	icon = GFX_idea_fkr_company_ssanyong
 	allowed = {	
 		original_tag = FKR
@@ -188,6 +113,16 @@ FKR_ssanyong_heavy_industry = {
 	available = {
 		owner = {
 			has_completed_focus = FKR_naval_company
+		}
+	}
+	research_bonus = 0.10
+	initial_trait = {
+		equipment_bonus = {
+			build_cost_ic = -0.1
+			reliability  = 0.1
+			carrier_size = 0.1
+			naval_speed = 0.2
+			torpedo_attack = 0.2
 		}
 	}
 }
@@ -216,6 +151,13 @@ FKR_korean_air = {
 			has_completed_focus = FKR_aircraft_company
 		}
 	}
+	research_bonus = 0.10
+	initial_trait = {
+		equipment_bonus = {
+			build_cost_ic = -0.25
+			reliability  = 0.2
+		}
+	}
 	
 } 
 
@@ -228,6 +170,13 @@ FKR_asiana_airlines = {
 	available = {
 		owner = {
 			has_completed_focus = FKR_aircraft_company
+		}
+	}
+	research_bonus = 0.10
+	initial_trait = {
+		equipment_bonus = {
+			build_cost_ic = -0.25
+			reliability  = 0.2
 		}
 	}
 }
@@ -244,6 +193,13 @@ FKR_daewoo_heavy_industry = {
 			has_completed_focus = FKR_aircraft_company
 		}
 	}
+	research_bonus = 0.10
+	initial_trait = {
+		equipment_bonus = {
+			build_cost_ic = -0.25
+			reliability  = 0.2
+		}
+	}
 }
 
 FKR_lig_nex1 = {
@@ -258,6 +214,13 @@ FKR_lig_nex1 = {
 			has_completed_focus = FKR_aircraft_company
 		}
 	}
+	research_bonus = 0.10
+	initial_trait = {
+		equipment_bonus = {
+			build_cost_ic = -0.25
+			reliability  = 0.2
+		}
+	}
 }
 
 FKR_korea_aerospace_industries = {
@@ -270,6 +233,13 @@ FKR_korea_aerospace_industries = {
 	available = {
 		owner = {
 			has_completed_focus = FKR_aircraft_company
+		}
+	}
+	research_bonus = 0.10
+	initial_trait = {
+		equipment_bonus = {
+			build_cost_ic = -0.25
+			reliability  = 0.2
 		}
 	}
 }
@@ -342,7 +312,7 @@ FKR_hanwha_industry = {
 	initial_trait = {
 		equipment_bonus = {
 			maximum_speed = 0.05
-			uild_cost_ic = -0.1
+			build_cost_ic = -0.1
 		}
 	}
 } 
