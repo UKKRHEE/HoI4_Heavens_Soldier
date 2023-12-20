@@ -6,27 +6,27 @@ units = {
 		task_force = {
 			name = "항공모함 기동전단"
 			location = 1177
-			ship = { name = "KCV 백령도급 핵 추진 항공모함" definition = carrier equipment = { ship_hull_carrier_future_1 = {amount = 1 owner = FKR version_name = "광개토대왕 급"} } }
+			ship = { name = "KCV 백령도급 핵 추진 항공모함" definition = carrier start_experience_factor = 0.7 equipment = { ship_hull_carrier_future_1 = {amount = 1 owner = FKR version_name = "광개토대왕 급"} } }
 
-			ship = { name = "DDG 세종대왕급 이지스함" definition = light_cruiser equipment = { ship_hull_cruiser_future_1 = {amount = 1 owner = FKR version_name = "이순신 급" } } }
-			ship = { name = "DDG 서애 류성룡급 이지스함" definition = light_cruiser equipment = { ship_hull_cruiser_future_1 = {amount = 1 owner = FKR version_name = "이순신 급" } } }
-			ship = { name = "DDG 태조 이성계급 이지스함" definition = light_cruiser equipment = { ship_hull_cruiser_future_1 = {amount = 1 owner = FKR version_name = "이순신 급" } } }
-			ship = { name = "DDG 퇴계 이황급 이지스함" definition = light_cruiser equipment = { ship_hull_cruiser_future_1 = {amount = 1 owner = FKR version_name = "이순신 급" } } }
+			ship = { name = "DDG 세종대왕급 이지스함" definition = light_cruiser start_experience_factor = 0.7 equipment = { ship_hull_cruiser_future_1 = {amount = 1 owner = FKR version_name = "이순신 급" } } }
+			ship = { name = "DDG 서애 류성룡급 이지스함" definition = light_cruiser start_experience_factor = 0.7 equipment = { ship_hull_cruiser_future_1 = {amount = 1 owner = FKR version_name = "이순신 급" } } }
+			ship = { name = "DDG 태조 이성계급 이지스함" definition = light_cruiser start_experience_factor = 0.7 equipment = { ship_hull_cruiser_future_1 = {amount = 1 owner = FKR version_name = "이순신 급" } } }
+			ship = { name = "DDG 퇴계 이황급 이지스함" definition = light_cruiser start_experience_factor = 0.7 equipment = { ship_hull_cruiser_future_1 = {amount = 1 owner = FKR version_name = "이순신 급" } } }
 
-			ship = { name = "DDH 충무공 이순신급 구축함" definition = destroyer equipment = { ship_hull_light_future_1 = {amount = 1 owner = FKR version_name = "세종대왕 급" } } }
-			ship = { name = "DDH 문무대왕급 구축함" definition = destroyer equipment = { ship_hull_light_future_1 = {amount = 1 owner = FKR version_name = "세종대왕 급" } } }
-			ship = { name = "DDH 대조영급 구축함" definition = destroyer equipment = { ship_hull_light_future_1 = {amount = 1 owner = FKR version_name = "세종대왕 급" } } }
-			ship = { name = "DDH 왕건급 구축함" definition = destroyer equipment = { ship_hull_light_future_1 = {amount = 1 owner = FKR version_name = "세종대왕 급" } } }	
-			ship = { name = "DDH 을지문덕급 구축함" definition = destroyer equipment = { ship_hull_light_future_1 = {amount = 1 owner = FKR version_name = "세종대왕 급" } } }		
-			ship = { name = "DDH 광개토대왕급 구축함" definition = destroyer equipment = { ship_hull_light_future_1 = {amount = 1 owner = FKR version_name = "세종대왕 급" } } }
-			ship = { name = "DDH 장보고급 구축함" definition = destroyer equipment = { ship_hull_light_future_1 = {amount = 1 owner = FKR version_name = "세종대왕 급" } } }
-			ship = { name = "DDH 최무선급 구축함" definition = destroyer equipment = { ship_hull_light_future_1 = {amount = 1 owner = FKR version_name = "세종대왕 급" } } }
-			ship = { name = "DDH 홍경래급 구축함" definition = destroyer equipment = { ship_hull_light_future_1 = {amount = 1 owner = FKR version_name = "세종대왕 급" } } }
-			ship = { name = "DDH 권율급 구축함" definition = destroyer equipment = { ship_hull_light_future_1 = {amount = 1 owner = FKR version_name = "세종대왕 급" } } }
-			ship = { name = "DDH 신사임당급 구축함" definition = destroyer equipment = { ship_hull_light_future_1 = {amount = 1 owner = FKR version_name = "세종대왕 급" } } }
+			ship = { name = "DDH 충무공 이순신급 구축함" definition = destroyer start_experience_factor = 0.7 equipment = { ship_hull_light_future_1 = {amount = 1 owner = FKR version_name = "세종대왕 급" } } }
+			ship = { name = "DDH 문무대왕급 구축함" definition = destroyer start_experience_factor = 0.7 equipment = { ship_hull_light_future_1 = {amount = 1 owner = FKR version_name = "세종대왕 급" } } }
+			ship = { name = "DDH 대조영급 구축함" definition = destroyer start_experience_factor = 0.7 equipment = { ship_hull_light_future_1 = {amount = 1 owner = FKR version_name = "세종대왕 급" } } }
+			ship = { name = "DDH 왕건급 구축함" definition = destroyer start_experience_factor = 0.7 equipment = { ship_hull_light_future_1 = {amount = 1 owner = FKR version_name = "세종대왕 급" } } }	
+			ship = { name = "DDH 을지문덕급 구축함" definition = destroyer start_experience_factor = 0.7 equipment = { ship_hull_light_future_1 = {amount = 1 owner = FKR version_name = "세종대왕 급" } } }		
+			ship = { name = "DDH 광개토대왕급 구축함" definition = destroyer start_experience_factor = 0.7 equipment = { ship_hull_light_future_1 = {amount = 1 owner = FKR version_name = "세종대왕 급" } } }
+			ship = { name = "DDH 장보고급 구축함" definition = destroyer start_experience_factor = 0.7 equipment = { ship_hull_light_future_1 = {amount = 1 owner = FKR version_name = "세종대왕 급" } } }
+			ship = { name = "DDH 최무선급 구축함" definition = destroyer start_experience_factor = 0.7 equipment = { ship_hull_light_future_1 = {amount = 1 owner = FKR version_name = "세종대왕 급" } } }
+			ship = { name = "DDH 홍경래급 구축함" definition = destroyer start_experience_factor = 0.7 equipment = { ship_hull_light_future_1 = {amount = 1 owner = FKR version_name = "세종대왕 급" } } }
+			ship = { name = "DDH 권율급 구축함" definition = destroyer start_experience_factor = 0.7 equipment = { ship_hull_light_future_1 = {amount = 1 owner = FKR version_name = "세종대왕 급" } } }
+			ship = { name = "DDH 신사임당급 구축함" definition = destroyer start_experience_factor = 0.7 equipment = { ship_hull_light_future_1 = {amount = 1 owner = FKR version_name = "세종대왕 급" } } }
 
-			ship = { name = "KSS 도산 안창호급 잠수함" definition = submarine equipment = { ship_hull_submarine_future_1 = {amount = 1 owner = FKR version_name = "안창호 급" } } }
-			ship = { name = "KSS 백야 김좌진급 잠수함" definition = submarine equipment = { ship_hull_submarine_future_1 = {amount = 1 owner = FKR version_name = "안창호 급" } } }
+			ship = { name = "KSS 도산 안창호급 잠수함" definition = submarine start_experience_factor = 0.7 equipment = { ship_hull_submarine_future_1 = {amount = 1 owner = FKR version_name = "안창호 급" } } }
+			ship = { name = "KSS 백야 김좌진급 잠수함" definition = submarine start_experience_factor = 0.7 equipment = { ship_hull_submarine_future_1 = {amount = 1 owner = FKR version_name = "안창호 급" } } }
 		}
 	}
 }
