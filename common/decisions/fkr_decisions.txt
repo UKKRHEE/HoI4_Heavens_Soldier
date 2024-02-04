@@ -3591,7 +3591,7 @@ FKR_hire_royal_house_field_marshal = {
 		cost = 20
 
 		remove_effect = {
-			add_field_marshal_role = {
+			add_corps_commander_role = {
 				character = FKR_yi_wu
 				traits = { brilliant_strategist	armor_officer trait_engineer }
 				skill = 4

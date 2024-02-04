@@ -80,6 +80,11 @@ focus_tree = {
 						amount = 50
 						producer = FKR
 					}
+					add_equipment_to_stockpile = {
+						type = jet_strat_bomber_equipment_future_1
+						amount = 10
+						producer = FKR
+					}
 				}
 				else = { 
 					add_equipment_to_stockpile = {
@@ -93,6 +98,12 @@ focus_tree = {
 						amount = 50
 						producer = FKR
 						variant_name = "A-10C 선더볼트 II"
+					}
+					add_equipment_to_stockpile = {
+						type = large_plane_airframe_jet_bomber_future_1
+						amount = 10
+						producer = FKR
+						variant_name = "B-1 랜서"
 					}
 				}
 				add_equipment_to_stockpile = {

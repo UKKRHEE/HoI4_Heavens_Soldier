@@ -183,7 +183,7 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 
 	create_equipment_variant = {
-		name = "세종대왕 급"
+		name = "이순신 급"
 		type = ship_hull_light_future_1
 		name_group = FKR_DD_HISTORICAL
 		parent_version = 0
@@ -201,7 +201,7 @@ if = {
 	}
 
 	create_equipment_variant = {
-		name = "이순신 급"
+		name = "세종대왕 급"
 		type = ship_hull_cruiser_future_1
 		name_group = FKR_CL_HISTORICAL
 		parent_version = 0

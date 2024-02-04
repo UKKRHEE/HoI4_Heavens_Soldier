@@ -1037,7 +1037,7 @@ characters={
 		}
 	}
 	FKR_shin_sungmo = {
-		name = "FKR_song_yochan"
+		name = "FKR_shin_sungmo"
 		portraits={
 			army={
 				large="gfx/leaders/FKR/Portrait_general_shin_sungmo.dds"
