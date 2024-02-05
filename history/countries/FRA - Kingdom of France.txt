@@ -1,0 +1,4 @@
+1936.1.1 = {
+	recruit_character = FRA_jean_iii
+	recruit_character = FRA_henry_vi
+}

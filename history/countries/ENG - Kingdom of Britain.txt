@@ -1,0 +1,3 @@
+1936.1.1 = {
+	recruit_character = ENG_edward_viii
+}

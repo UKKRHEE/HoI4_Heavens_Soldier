@@ -78,8 +78,7 @@ characters={
 				large="gfx/leaders/KOR/Portrait_admiral_saito_makoto.dds"
 			}
 		}
-		create_navy_leader = {
-			picture = "Portrait_admiral_saito_makoto.dds"
+		navy_leader = {
 			traits = { old_guard_navy }
 			skill = 3
 		}
