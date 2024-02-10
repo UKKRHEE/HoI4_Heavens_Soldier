@@ -4,10 +4,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/FKR/Focus_kor_flight.png"			
 	}
 	SpriteType = {
-		name = "GFX_focus_FKR_timeslip"
-		texturefile = "gfx/interface/goals/FKR/타임슬립.dds"			
-	}
-	SpriteType = {
 		name = "GFX_focus_FKR_support_motherland"
 		texturefile = "gfx/interface/goals/FKR/Focus_kor_army.png"			
 	}

@@ -446,7 +446,6 @@ country_event = { # Ask join royal Faction (FRA)
 					limit = {
 						date < 1940.8.25
 					}
-					recruit_character = FRA_jean_iii
 					add_country_leader_role = {
 						Character = FRA_jean_iii
 						country_leader = {
@@ -461,7 +460,6 @@ country_event = { # Ask join royal Faction (FRA)
 					promote_character = FRA_jean_iii
 				}
 				else = {
-					recruit_character = FRA_henry_vi
 					add_country_leader_role = {
 						Character = FRA_henry_vi
 						country_leader = {
@@ -637,7 +635,6 @@ country_event = { # Ask join royal Faction (ENG)
                 add_ideas = FKR_affect_from_korea_monrchy
 				remove_ideas = ENG_george_vi
 				kill_country_leader = yes
-				recruit_character = ENG_edward_viii
 				add_country_leader_role = {
 					Character = ENG_edward_viii
 					country_leader = {
@@ -3180,7 +3177,6 @@ country_event = { # Austria event
 				add_popularity = { ideology = neutrality popularity = 0.5 }
                 add_ideas = FKR_affect_from_korea_monrchy
 				kill_country_leader = yes
-				recruit_character = AUS_otto_von_habsburg
 				add_country_leader_role = {
 					Character = AUS_otto_von_habsburg
 					country_leader = {
@@ -4283,7 +4279,6 @@ country_event = {
 					popularity = 1
 				}
 				kill_country_leader = yes
-				recruit_character = SPR_alfonso_xiii
 				add_country_leader_role = {
 					Character = SPR_alfonso_xiii
 					country_leader = {

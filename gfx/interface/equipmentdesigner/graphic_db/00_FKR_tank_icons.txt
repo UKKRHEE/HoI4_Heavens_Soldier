@@ -34,8 +34,8 @@ FKR = {
 		pool = {
 			icons = { 
 				GFX_gwtank_chassis_medium
-				"gfx/interface/technologies/FKR_early_medium_art.dds"
-				"gfx/interface/technologies/FKR_early_medium_tank.dds"
+				#"gfx/interface/technologies/FKR_early_medium_art.dds"
+				#"gfx/interface/technologies/FKR_early_medium_tank.dds"
 			}
 		}
 	}

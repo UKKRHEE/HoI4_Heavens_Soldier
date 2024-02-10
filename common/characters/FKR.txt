@@ -520,7 +520,7 @@ characters={
 		name = "FKR_lee_seunggi"
 		portraits={
 			army={
-				large="gfx/leaders/FKR/Portrait_general_lee_seunggi.dds"
+				#large="gfx/leaders/FKR/Portrait_general_lee_seunggi.dds"
 				small="GFX_idea_fkr_theorist_lee_seunggi"
 			}
 		}
@@ -592,7 +592,7 @@ characters={
 		name = "FKR_yoon_ilseon"
 		portraits={
 			army={
-				large="gfx/leaders/FKR/Portrait_admiral_yoon_ilseon.dds"
+				#large="gfx/leaders/FKR/Portrait_admiral_yoon_ilseon.dds"
 				small="GFX_idea_fkr_theorist_yoon_ilseon"
 			}
 		}
@@ -730,7 +730,7 @@ characters={
 		name = "FKR_won_youngdeok"
 		portraits={
 			army={
-				large="gfx/leaders/FKR/Portrait_general_won_youngdeok.dds"
+				#large="gfx/leaders/FKR/Portrait_general_won_youngdeok.dds"
 				small="GFX_idea_fkr_armychief_won_youngdeok"
 			}
 		}
@@ -795,7 +795,7 @@ characters={
 		name = "FKR_jang_deokchang"
 		portraits={
 			army={
-				large="gfx/leaders/FKR/Portrait_airman_jang_deokchang.dds"
+				#large="gfx/leaders/FKR/Portrait_airman_jang_deokchang.dds"
 				small="GFX_idea_fkr_airchief_jang_deokchang"
 			}
 		}
@@ -833,7 +833,7 @@ characters={
 		name = "FKR_park_wonseok"
 		portraits={
 			army={
-				large="gfx/leaders/FKR/Portrait_airman_park_wonseok.dds"
+				#large="gfx/leaders/FKR/Portrait_airman_park_wonseok.dds"
 				small="GFX_idea_fkr_airchief_park_wonseok"
 			}
 		}
@@ -918,7 +918,7 @@ characters={
 		name = "FKR_kim_jeongryeol"
 		portraits={
 			army={
-				large="gfx/leaders/FKR/Portrait_airman_kim_jeongryeol.dds"
+				#large="gfx/leaders/FKR/Portrait_airman_kim_jeongryeol.dds"
 				small="GFX_idea_fkr_highcommand_kim_jeongryeol"
 			}
 		}
