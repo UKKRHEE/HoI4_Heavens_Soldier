@@ -1,6 +1,6 @@
 state={
 	id=935
-	name="STATE_935"
+	name="STATE_GYEONGSANG"
 	resources={
 		steel=3.000
 		chromium=8.000

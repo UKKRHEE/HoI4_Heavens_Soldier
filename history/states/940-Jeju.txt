@@ -1,6 +1,6 @@
 state={
 	id=940
-	name="STATE_940"
+	name="STATE_JEJU"
 	provinces={
 		1177 
 	}

@@ -1,7 +1,7 @@
 
 state={
 	id=527
-	name="STATE_527"
+	name="STATE_PYONGAN"
 
 	history={
 		owner = KOR

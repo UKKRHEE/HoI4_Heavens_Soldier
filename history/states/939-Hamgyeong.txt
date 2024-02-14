@@ -1,6 +1,6 @@
 state={
 	id=939
-	name="STATE_939"
+	name="STATE_HAMGYEONG"
 	resources={
 		steel=20.000
 		tungsten=3.000

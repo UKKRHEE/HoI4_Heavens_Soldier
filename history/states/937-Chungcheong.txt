@@ -1,6 +1,6 @@
 state={
 	id=937
-	name="STATE_937"
+	name="STATE_CHUNGCHEONG"
 	
 	history={
 		owner = KOR

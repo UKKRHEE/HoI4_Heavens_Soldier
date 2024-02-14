@@ -1,6 +1,6 @@
 state={
 	id=936
-	name="STATE_936"
+	name="STATE_JEOLLA"
 	resources={
 	}
 

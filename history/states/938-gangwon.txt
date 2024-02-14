@@ -1,6 +1,6 @@
 state={
 	id=938
-	name="STATE_938"
+	name="STATE_GANGWON"
 	resources={
 		steel=17.000
 		chromium=65.000
