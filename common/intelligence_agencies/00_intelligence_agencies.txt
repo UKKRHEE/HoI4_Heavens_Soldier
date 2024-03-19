@@ -66,7 +66,7 @@ intelligence_agency = {
 intelligence_agency = {
 	
 	picture = GFX_intelligence_agency_logo_jap
-	names = { "Sanbō Honbu" }
+	names = { "G-2 Department" "Section 3" }
 	
 	default = { tag = JAP }
 	available = { original_tag = JAP }
@@ -122,6 +122,8 @@ intelligence_agency = {
 	picture = GFX_intelligence_agency_logo_rom
 	names = { "Serviciul Special de Informatii" }
 	
+	available = { always = yes }
+	
 	default = { tag = ROM }
 	available = { original_tag = ROM }
 }
@@ -130,6 +132,8 @@ intelligence_agency = {
 	
 	picture = GFX_intelligence_agency_logo_prc
 	names = { "Intelligence Department Central Military Commission" }
+	
+	available = { always = yes }
 	
 	default = { tag = PRC }
 	available = { original_tag = PRC }
@@ -140,6 +144,8 @@ intelligence_agency = {
 	picture = GFX_intelligence_agency_logo_chi
 	names = { "NBIS" }
 	
+	available = { always = yes }
+	
 	default = { tag = CHI }
 	available = { original_tag = CHI }
 }
@@ -148,6 +154,8 @@ intelligence_agency = {
 	
 	picture = GFX_intelligence_agency_logo_yug
 	names = { "OZNA" }
+	
+	available = { always = yes }
 	
 	default = { tag = YUG }
 	available = { original_tag = YUG }
@@ -158,6 +166,8 @@ intelligence_agency = {
 	picture = GFX_intelligence_agency_logo_spr
 	names = { "SIM" }
 	
+	available = { always = yes }
+	
 	default = { tag = SPR }
 	available = { original_tag = SPR }
 }
@@ -166,6 +176,8 @@ intelligence_agency = {
 	
 	picture = GFX_intelligence_agency_logo_spa
 	names = { "SIPM" }
+	
+	available = { always = yes }
 	
 	default = { tag = SPA }
 	available = { original_tag = SPA }
@@ -176,6 +188,8 @@ intelligence_agency = {
 	picture = GFX_intelligence_agency_logo_pol
 	names = { "Dwójka" }
 	
+	available = { always = yes }
+	
 	default = { tag = POL }
 	available = { original_tag = POL }
 }
@@ -185,6 +199,8 @@ intelligence_agency = {
 	picture = GFX_intelligence_agency_logo_man
 	names = { "Hoankyoku" }
 	
+	available = { always = yes }
+	
 	default = { tag = MAN }
 	available = { original_tag = MAN }
 }
@@ -193,6 +209,8 @@ intelligence_agency = {
 	
 	picture = GFX_intelligence_agency_logo_por
 	names = { "PIDE" }
+	
+	available = { always = yes }
 	
 	default = { tag = POR }
 	available = { original_tag = POR }
@@ -211,6 +229,9 @@ intelligence_agency = {
 	
 	picture = GFX_intelligence_agency_logo_tur
 	names = { "Millî Emniyet Hizmeti" }
+
+	
+	available = { always = yes }
 	
 	default = { tag = TUR }
 	available = { original_tag = TUR }
@@ -221,6 +242,8 @@ intelligence_agency = {
 	picture = GFX_intelligence_agency_logo_gre
 	names = { "Diéfthynsi Eidikís Asfaleías tou Krátous" "I Eidikí" }
 	
+	available = { always = yes }
+	
 	default = { tag = GRE }
 	available = { original_tag = GRE }
 }
@@ -229,6 +252,8 @@ intelligence_agency = {
 	
 	picture = GFX_intelligence_agency_logo_bul
 	names = { "Natsionalnata Razuznavatelna Sluzhba" }
+
+	available = { always = yes }
 	
 	default = { tag = BUL }
 	available = { original_tag = BUL }
@@ -322,10 +347,88 @@ intelligence_agency = {
 
 intelligence_agency = {
 	
+	picture = GFX_intelligence_agency_logo_DEN_sipo
+	names = { "Sikkerhedspolitiet" }
+
+	default = { tag = DEN }
+	available = { original_tag = DEN }
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_ICE_logreglan
+	names = { "Lögreglan" }
+
+	default = { tag = ICE }
+	available = { original_tag = ICE }
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_CAN_royal_canadian_mounted_police
+	names = { "Royal Canadian Mounted Police" }
+
+	default = { tag = CAN }
+	available = { original_tag = CAN }
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_CHL_policia_de_investigaciones_de_chile
+	names = { "Policía de Investigaciones de Chile" }
+	
+	default = { tag = CHL }
+	available = { original_tag = CHL }
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_BRA_communist
+	names = { "EICI" }
+	
+	available = { 
+		tag = BRA
+		has_government = communism
+	}
+	
+	default = { 		
+		tag = BRA
+		has_government = communism
+	} 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_BRA_neutrality
+	names = { "Departamento de Ordem" }
+	
+	available = { 
+		tag = BRA
+		NOT = { has_government = communism }
+	}
+	
+	default = { 		
+		tag = BRA
+		NOT = { has_government = communism }
+	} 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_ARG_intelligence
+	names = { "S.I." }
+	
+	default = { tag = ARG }
+	available = { original_tag = ARG }
+}
+
+
+intelligence_agency = {
+	
 	picture = GFX_intelligence_agency_logo_generic_1
 	names = { "Rooke" }
 	
-	available = { NOT = { tag = JAP tag = CHI tag = FKR } }
+	available = { always = yes }
 	
 	default = { always = yes } 
 }
@@ -334,7 +437,7 @@ intelligence_agency = {
 	picture = GFX_intelligence_agency_logo_generic_2
 	names = { "Tower" }
 	
-	available = { NOT = { tag = JAP tag = CHI tag = FKR } }
+	available = { always = yes }
 	
 	default = { always = yes } 
 }
@@ -343,7 +446,7 @@ intelligence_agency = {
 	picture = GFX_intelligence_agency_logo_generic_3
 	names = { "Snake" }
 	
-	available = { NOT = { tag = JAP tag = CHI tag = FKR } }
+	available = { always = yes }
 	
 	default = { always = yes } 
 }
@@ -352,7 +455,7 @@ intelligence_agency = {
 	picture = GFX_intelligence_agency_logo_generic_4
 	names = { "Stag" }
 	
-	available = { NOT = { tag = JAP tag = CHI tag = FKR } }
+	available = { always = yes }
 	
 	default = { always = yes } 
 }
@@ -361,7 +464,7 @@ intelligence_agency = {
 	picture = GFX_intelligence_agency_logo_generic_5
 	names = { "Golden Lion" }
 	
-	available = { NOT = { tag = JAP tag = CHI tag = FKR } }
+	available = { always = yes }
 	
 	default = { always = yes } 
 }
@@ -370,7 +473,7 @@ intelligence_agency = {
 	picture = GFX_intelligence_agency_logo_generic_6
 	names = { "Arrow" }
 	
-	available = { NOT = { tag = JAP tag = CHI tag = FKR } }
+	available = { always = yes }
 	
 	default = { always = yes } 
 }
@@ -379,7 +482,7 @@ intelligence_agency = {
 	picture = GFX_intelligence_agency_logo_generic_7
 	names = { "Lion Head" }
 	
-	available = { NOT = { tag = JAP tag = CHI tag = FKR } }
+	available = { always = yes }
 	
 	default = { always = yes } 
 }
@@ -388,7 +491,7 @@ intelligence_agency = {
 	picture = GFX_intelligence_agency_logo_generic_8
 	names = { "Golden Eagle" }
 	
-	available = { NOT = { tag = JAP tag = CHI tag = FKR } }
+	available = { always = yes }
 	
 	default = { always = yes } 
 }
@@ -399,9 +502,9 @@ intelligence_agency = {
 	
 	available = { 
 		has_government = communism
-		NOT = { tag = JAP tag = CHI tag = FKR }
 	}
 	
 	default = { always = yes } 
 }
+
 
