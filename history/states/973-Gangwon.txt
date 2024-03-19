@@ -1,0 +1,28 @@
+state={
+	id=973
+	name="STATE_GANGWON"
+	resources={
+		steel=17.000
+		chromium=65.000
+	}
+
+	history={
+		owner = KOR
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			13365 1
+		}
+		add_core_of = KOR
+
+	}
+	provinces={
+		1148 4004 7021 9936 9981 11912 11958 12011 13365 
+	}
+	manpower=1529071
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -636,7 +636,7 @@ country_event = { # Ask join royal Faction (ENG)
 				remove_ideas = ENG_george_vi
 				kill_country_leader = yes
 				add_country_leader_role = {
-					Character = ENG_edward_viii
+					Character = ENG_edward_viii_hs
 					country_leader = {
 						desc = "POLITICS_EDWARD_EDWARD_DESC"
 						expire = "1965.1.1"
@@ -647,7 +647,7 @@ country_event = { # Ask join royal Faction (ENG)
 					}
 					promote_leader = yes
 				}	
-				promote_character = ENG_edward_viii
+				promote_character = ENG_edward_viii_hs
 			}
 		}
 		#ai_chance = { factor = 40 } #debug
@@ -2456,8 +2456,8 @@ country_event = { # rise at the korea 1
 
 	immediate = {
 		FKR = {
-			set_state_controller = 935
-			set_state_controller = 936
+			set_state_controller = 970
+			set_state_controller = 971
 			division_template = {
                     name = "의용 사단"
                     priority = 0
@@ -2483,7 +2483,7 @@ country_event = { # rise at the korea 1
 				}
 
 				random_owned_controlled_state = {
-					prioritize = { 935 }
+					prioritize = { 970 }
 					create_unit = {
 						division = "name = \"지역 의용군\" division_template = \"의용 사단\" start_experience_factor = 0.0 start_equipment_factor = 0.25"
 						owner = FKR
@@ -2499,7 +2499,7 @@ country_event = { # rise at the korea 1
 				}
 
 				random_owned_controlled_state = {
-					prioritize = { 936 }
+					prioritize = { 971 }
 					create_unit = {
 						division = "name = \"지역 의용군\" division_template = \"의용 사단\" start_experience_factor = 0.0 start_equipment_factor = 0.25"
 						owner = FKR
@@ -2533,7 +2533,7 @@ country_event = { # rise at the korea 2
 	immediate = {
 		FKR = { 
 			set_state_controller = 525
-			set_state_controller = 938
+			set_state_controller = 973
 			division_template = {
                     name = "의용 사단"
                     priority = 0
@@ -2579,7 +2579,7 @@ country_event = { # rise at the korea 2
 				}
 
 				random_owned_controlled_state = {
-					prioritize = { 938 }
+					prioritize = { 973 }
 					create_unit = {
 						division = "name = \"지역 의용군\" division_template = \"의용 사단\" start_experience_factor = 0.0 start_equipment_factor = 0.5"
 						owner = FKR
@@ -2617,7 +2617,7 @@ country_event = { # rise at the korea 3
 	immediate = {
 		FKR = {
 			set_state_controller = 527
-			set_state_controller = 941
+			set_state_controller = 976
 			set_country_flag = FKR_rising_ended
 			division_template = {
                     name = "의용 사단"
@@ -2668,7 +2668,7 @@ country_event = { # rise at the korea 3
 				}
 
 				random_owned_controlled_state = {
-					prioritize = { 941 }
+					prioritize = { 976 }
 					create_unit = {
 						division = "name = \"지역 의용군\" division_template = \"의용 사단\" start_experience_factor = 0.0 start_equipment_factor = 0.75"
 						owner = FKR

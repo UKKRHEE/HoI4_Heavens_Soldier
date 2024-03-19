@@ -83,8 +83,8 @@ characters={
 			skill = 3
 		}
 	}
-	ENG_edward_viii = {
-		name="ENG_edward_viii"
+	ENG_edward_viii_hs = {
+		name="ENG_edward_viii_hs"
 		portraits={
 			civilian={
 				large=GFX_portrait_Edward_VIII
