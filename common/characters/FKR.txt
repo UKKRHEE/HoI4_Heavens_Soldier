@@ -354,8 +354,8 @@ characters={
 					has_completed_focus = FKR_create_empire
 				}
 			}
-			research_bonus = {
-				land_doctrine = 0.15
+			modifier = {
+				land_doctrine_cost_factor = -0.15
 			}
 			traits = { superior_firepower_expert }
 		}
@@ -441,8 +441,8 @@ characters={
 			available = {
 				has_completed_focus = FKR_expansion_independent_army
 			}
-			research_bonus = {
-				land_doctrine = 0.10
+			modifier = {
+				land_doctrine_cost_factor = -0.1
 			}
 			traits = { blitzkrieg_theorist }
 		}

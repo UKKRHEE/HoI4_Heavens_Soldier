@@ -2635,7 +2635,7 @@ focus_tree = {
 				}
 				set_country_flag = naval_effort_built
 			}
-			if = {
+			else_if = {
 				limit = {
 					NOT = {
 						has_country_flag = naval_effort_built
@@ -2667,7 +2667,7 @@ focus_tree = {
 				}
 				set_country_flag = naval_effort_built
 			}
-			if = {
+			else_if = {
 				limit = {
 					NOT = {
 						has_country_flag = naval_effort_built
@@ -3420,21 +3420,21 @@ focus_tree = {
 		y = 3
 		completion_reward = {
 			add_ideas = FKR_doctrine_department_idea
-			add_tech_bonus = {
+			add_doctrine_cost_reduction = {
 				name = land_doc_bonus
-				bonus = 0.5
+				cost_reduction = 0.5
 				uses = 3
 				category = land_doctrine
 			}
-			add_tech_bonus = {
+			add_doctrine_cost_reduction = {
 				name = air_doc_bonus
-				bonus = 0.5
+				cost_reduction = 0.5
 				uses = 3
 				category = air_doctrine
 			}
-			add_tech_bonus = {
+			add_doctrine_cost_reduction = {
 				name = naval_doc_bonus
-				bonus = 0.5
+				cost_reduction = 0.5
 				uses = 3
 				category = naval_doctrine
 			}
@@ -3742,7 +3742,13 @@ focus_tree = {
 				name = FKR_focus_fighter
 				bonus = 0.5
 				uses = 2
-				category = light_fighter
+				category = light_air
+			}
+			add_tech_bonus = {
+				name = FKR_focus_fighter
+				bonus = 0.5
+				uses = 2
+				category = plane_modules_tech
 			}
 		}
 
@@ -3763,6 +3769,12 @@ focus_tree = {
 				uses = 2
 				category = naval_bomber
 			}
+			add_tech_bonus = {
+				name = FKR_focus_navy_bomber
+				bonus = 0.5
+				uses = 2
+				category = plane_modules_tech
+			}
 		}
 
 	}
@@ -3781,6 +3793,12 @@ focus_tree = {
 				bonus = 0.5
 				uses = 2
 				category = cas_bomber
+			}
+			add_tech_bonus = {
+				name = FKR_focus_CAS
+				bonus = 0.5
+				uses = 2
+				category = plane_modules_tech
 			}
 		}
 
@@ -3802,6 +3820,18 @@ focus_tree = {
 				category = tactical_bomber
 				category = cat_heavy_fighter
 			}
+			add_tech_bonus = {
+				name = FKR_focus_tactical_bomber
+				bonus = 0.5
+				uses = 2
+				category = medium_air
+			}
+			add_tech_bonus = {
+				name = FKR_focus_tactical_bomber
+				bonus = 0.5
+				uses = 2
+				category = plane_modules_tech
+			}
 		}
 
 	}
@@ -3820,6 +3850,18 @@ focus_tree = {
 				bonus = 0.5
 				uses = 2
 				category = cat_strategic_bomber
+			}
+			add_tech_bonus = {
+				name = FKR_focus_straegy_bomber
+				bonus = 0.5
+				uses = 2
+				category = heavy_air
+			}
+			add_tech_bonus = {
+				name = FKR_focus_straegy_bomber
+				bonus = 0.5
+				uses = 2
+				category = plane_modules_tech
 			}
 		}
 
@@ -4502,7 +4544,7 @@ focus_tree = {
 				}
 				set_country_flag = naval_effort_built
 			}
-			if = {
+			else_if = {
 				limit = {
 					NOT = {
 						has_country_flag = naval_effort_built
@@ -4534,7 +4576,7 @@ focus_tree = {
 				}
 				set_country_flag = naval_effort_built
 			}
-			if = {
+			else_if = {
 				limit = {
 					NOT = {
 						has_country_flag = naval_effort_built
@@ -4630,7 +4672,7 @@ focus_tree = {
 				}
 				set_country_flag = naval_effort_built
 			}
-			if = {
+			else_if = {
 				limit = {
 					NOT = {
 						has_country_flag = naval_effort_built
@@ -4662,7 +4704,7 @@ focus_tree = {
 				}
 				set_country_flag = naval_effort_built
 			}
-			if = {
+			else_if = {
 				limit = {
 					NOT = {
 						has_country_flag = naval_effort_built

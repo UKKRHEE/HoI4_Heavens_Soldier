@@ -1,7 +1,7 @@
 FKR_KOR_hiding = {
 	FKR_hide_activity = {
 		icon = generic_prepare_civil_war #infiltration
-		is_good = NO
+		is_good = no
 		priority = 10
 		#--------------------------		
 		activation  = {
@@ -14,13 +14,13 @@ FKR_KOR_hiding = {
 		}
 		#--------------------------
 		cost = FKR_hiding_cost_total?10
-		selectable_mission = YES
-		fire_only_once = NO
+		selectable_mission = yes
+		fire_only_once = no
 		#--------------------------
 		cancel_trigger = {
 			KOR = {
 				OR = {
-					exists = NO
+					exists = no
 					has_war_with = FKR #Future Korea
 				}
 			}
@@ -71,7 +71,7 @@ FKR_KOR_hiding = {
 			NOT = {
 				KOR = {
 					OR = {
-						exists = NO
+						exists = no
 						has_war_with = FKR
 					}
 				}
@@ -85,12 +85,12 @@ FKR_KOR_hiding = {
 		cancel_trigger = {
 			KOR = {
 				OR = {
-					exists = NO
+					exists = no
 					has_war_with = FKR
 				}
 			}
 		}
-		is_good = NO
+		is_good = no
 		days_mission_timeout = 100
 		timeout_effect = {
 			KOR = {
