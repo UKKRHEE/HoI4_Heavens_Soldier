@@ -6,8 +6,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			lg_attack = 7.5
-			anti_air_attack = 5.5
+			lg_attack = 15 #7.5
+			anti_air_attack = 11 #5.5
 			build_cost_ic = 20000	
 		}
 		build_cost_resources = {
@@ -36,8 +36,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			lg_attack = 7
-			anti_air_attack = 5
+			lg_attack = 14 #7
+			anti_air_attack = 10 #5
 			build_cost_ic = 200	
 		}
 		build_cost_resources = {
@@ -65,7 +65,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			hg_attack = 33
+			hg_attack = 66 #33
 			build_cost_ic = 240000
 		}
 		build_cost_resources = {
@@ -87,7 +87,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			hg_attack = 32
+			hg_attack = 64 #32
 			build_cost_ic = 2400
 		}
 		build_cost_resources = {
@@ -107,8 +107,8 @@ equipment_modules = {
 		gui_category = future_ship_secondaries
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
-			lg_attack = 5.5
-			anti_air_attack = 3
+			lg_attack = 11 #5.5
+			anti_air_attack = 6 #3
 			build_cost_ic = 32000
 		}
 		
@@ -129,8 +129,8 @@ equipment_modules = {
 		parent = ship_secondaries_future_1
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
-			lg_attack = 5
-			anti_air_attack = 3
+			lg_attack = 10 #5
+			anti_air_attack = 6 #3
 			build_cost_ic = 320
 		}
 		
@@ -152,7 +152,7 @@ equipment_modules = {
 
 		add_equipment_type = anti_air
 		add_stats = {
-			anti_air_attack = 6.5
+			anti_air_attack = 13 #6.5
 			build_cost_ic = 19000
 		}
 		
@@ -180,7 +180,7 @@ equipment_modules = {
 
 		add_equipment_type = anti_air
 		add_stats = {
-			anti_air_attack = 6
+			anti_air_attack = 12 #6
 			build_cost_ic = 190
 		}
 		
@@ -212,9 +212,9 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			lg_attack = 0.22
-			hg_attack = 0.22
-			anti_air_attack = 0.22
+			lg_attack = 0.44 #0.22
+			hg_attack = 0.44 #0.22
+			anti_air_attack = 0.44 #0.22
 			reliability = -0.15
 		}
 		can_convert_from = {
@@ -239,9 +239,9 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			lg_attack = 0.22
-			hg_attack = 0.22
-			anti_air_attack = 0.22
+			lg_attack = 0.44 #0.22
+			hg_attack = 0.44 #0.22
+			anti_air_attack = 0.44 #0.22
 			reliability = -0.2
 		}
 		can_convert_from = {
@@ -260,14 +260,14 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		multiply_stats = {
-			lg_attack = 0.12
-			hg_attack = 0.12
-			anti_air_attack = 0.12
+			lg_attack = 0.24 #0.12
+			hg_attack = 0.24 #0.12
+			anti_air_attack = 0.24 #0.12
 		}
 		add_stats = {
 			build_cost_ic = 25000
-			surface_detection = 24.5
-			sub_detection = 12.5
+			surface_detection = 49 #24.5
+			sub_detection = 25 #12.5
 		}
 		can_convert_from = {
 			module_category = ship_radar
@@ -282,15 +282,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		multiply_stats = {
-			lg_attack = 0.12
-			hg_attack = 0.12
-			anti_air_attack = 0.12
+			lg_attack = 0.24 #0.12
+			hg_attack = 0.24 #0.12
+			anti_air_attack = 0.24 #0.12
 		}
 		add_stats = {
 			
 			build_cost_ic = 250
-			surface_detection = 24
-			sub_detection = 12
+			surface_detection = 48 #24
+			sub_detection = 24 #12
 		}
 		can_convert_from = {
 			module = ship_radar_4
@@ -624,7 +624,7 @@ equipment_modules = {
 
 		
 		add_stats = {
-			sub_attack = 24.5
+			sub_attack = 49 #24.5
 			build_cost_ic = 21000
 		}
 
@@ -642,7 +642,7 @@ equipment_modules = {
 
 		
 		add_stats = {
-			sub_attack = 24
+			sub_attack = 48 #24
 			build_cost_ic = 210
 		}
 
@@ -658,7 +658,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
-			sub_detection = 9.5
+			sub_detection = 19 #9.5
 			build_cost_ic = 10000
 		}
 		can_convert_from = {
@@ -674,7 +674,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
-			sub_detection = 9
+			sub_detection = 18 #9
 			build_cost_ic = 100
 		}
 		can_convert_from = {
@@ -690,7 +690,7 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.2
 			naval_speed = -0.1
-			max_strength = 0.1
+			max_strength = 0.2 #0.1
 		}
 		dismantle_cost_ic = 400000
 		
@@ -711,7 +711,7 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.2
 			naval_speed = -0.1
-			max_strength = 0.1
+			max_strength = 0.2 #0.1
 		}
 		dismantle_cost_ic = 4000
 		
@@ -731,7 +731,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 55.5
+			torpedo_attack = 111 #55.5
 			build_cost_ic = 21000
 		}
 		
@@ -751,7 +751,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 55
+			torpedo_attack = 110 #55
 			build_cost_ic = 210
 		}
 		
@@ -770,7 +770,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 40.5
+			torpedo_attack = 81 #40.5
 			build_cost_ic = 16000
 		}
 		can_convert_from = {
@@ -788,7 +788,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 40
+			torpedo_attack = 80 #40
 			build_cost_ic = 160
 		}
 		can_convert_from = {
