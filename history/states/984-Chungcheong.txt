@@ -10,14 +10,17 @@ state={
 
 		}
 		victory_points = {
-			13368 1 
+			13371 5 
+		}
+		victory_points = {
+			13370 3 
 		}
 		add_core_of = KOR
 
 	}
 
 	provinces={
-		1100 7175 7204 11992 13366 13367 13368 
+		1100 7175 7204 11992 13369 13370 13371 
 	}
 	manpower=2390018
 	buildings_max_level_factor=1.000
