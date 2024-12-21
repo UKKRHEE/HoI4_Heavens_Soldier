@@ -1,5 +1,5 @@
 state={
-	id=974
+	id=986
 	name="STATE_HAMGYEONG"
 	resources={
 		steel=20.000

@@ -1,5 +1,5 @@
 state={
-	id=973
+	id=985
 	name="STATE_GANGWON"
 	resources={
 		steel=17.000

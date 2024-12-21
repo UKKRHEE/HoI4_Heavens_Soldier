@@ -1,5 +1,5 @@
 state={
-	id=976
+	id=988
 	name="STATE_HWANGHAE"
 	resources={
 		aluminium=5.000

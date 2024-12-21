@@ -2456,8 +2456,8 @@ country_event = { # rise at the korea 1
 
 	immediate = {
 		FKR = {
-			set_state_controller = 970
-			set_state_controller = 971
+			set_state_controller = 982
+			set_state_controller = 983
 			division_template = {
                     name = "의용 사단"
                     priority = 0
@@ -2483,7 +2483,7 @@ country_event = { # rise at the korea 1
 				}
 
 				random_owned_controlled_state = {
-					prioritize = { 970 }
+					prioritize = { 982 }
 					create_unit = {
 						division = "name = \"지역 의용군\" division_template = \"의용 사단\" start_experience_factor = 0.0 start_equipment_factor = 0.25"
 						owner = FKR
@@ -2499,7 +2499,7 @@ country_event = { # rise at the korea 1
 				}
 
 				random_owned_controlled_state = {
-					prioritize = { 971 }
+					prioritize = { 983 }
 					create_unit = {
 						division = "name = \"지역 의용군\" division_template = \"의용 사단\" start_experience_factor = 0.0 start_equipment_factor = 0.25"
 						owner = FKR
@@ -2533,7 +2533,7 @@ country_event = { # rise at the korea 2
 	immediate = {
 		FKR = { 
 			set_state_controller = 525
-			set_state_controller = 973
+			set_state_controller = 985
 			division_template = {
                     name = "의용 사단"
                     priority = 0
@@ -2579,7 +2579,7 @@ country_event = { # rise at the korea 2
 				}
 
 				random_owned_controlled_state = {
-					prioritize = { 973 }
+					prioritize = { 985 }
 					create_unit = {
 						division = "name = \"지역 의용군\" division_template = \"의용 사단\" start_experience_factor = 0.0 start_equipment_factor = 0.5"
 						owner = FKR
@@ -2617,7 +2617,7 @@ country_event = { # rise at the korea 3
 	immediate = {
 		FKR = {
 			set_state_controller = 527
-			set_state_controller = 976
+			set_state_controller = 988
 			set_country_flag = FKR_rising_ended
 			division_template = {
                     name = "의용 사단"
@@ -2668,7 +2668,7 @@ country_event = { # rise at the korea 3
 				}
 
 				random_owned_controlled_state = {
-					prioritize = { 976 }
+					prioritize = { 988 }
 					create_unit = {
 						division = "name = \"지역 의용군\" division_template = \"의용 사단\" start_experience_factor = 0.0 start_equipment_factor = 0.75"
 						owner = FKR
