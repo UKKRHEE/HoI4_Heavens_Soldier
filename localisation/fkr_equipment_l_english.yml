@@ -511,3 +511,9 @@
  heli_armor_upgrade:0 "장갑"
  heli_missile_upgrade:0 "미사일 무장"
  heli_reliability_upgrade:0 "신뢰도"
+ 
+ #
+ FKR_modern_tank_aa_equipmentequipment_chassis_future_2:0 "K-30R 비호"
+ FKR_modern_tank_artillery_equipmentequipment_chassis_future_2:0 "K-55R 자주포"
+ FKR_cv_small_plane_cas_airframefighter_airframe_future_1:0 "A-10C 선더볼트 II"
+ FKR_cv_small_plane_cas_airframefighter_airframe_future_2:0 "KA-10R 흰독수리"
