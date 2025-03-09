@@ -10,6 +10,7 @@ equipments = {
 		year = 1945
 
 		archetype = motorized_rocket_equipment
+		parent = motorized_rocket_equipment_1
 		priority = 70
 		visual_level = 0
 

@@ -1626,7 +1626,9 @@ FKR_future_tech_research_land = {
 			has_army_experience > 49
 			has_air_experience > 29
 			OR = {
-				has_tech = jet_engines
+				AND = {
+				is_special_project_completed = sp:sp_air_axial_jet_engine
+				}
 				has_completed_focus = FKR_focus_on_future_tech
 			}
 			has_completed_focus = FKR_chopper_develop
@@ -1672,7 +1674,9 @@ FKR_future_tech_research_land = {
 			has_army_experience > 49
 			has_air_experience > 29
 			OR = {
-				has_tech = jet_engines
+				AND = {
+				is_special_project_completed = sp:sp_air_axial_jet_engine
+				}
 				has_completed_focus = FKR_focus_on_future_tech
 			}
 			has_completed_focus = FKR_chopper_develop
@@ -1860,7 +1864,7 @@ FKR_future_tech_research_air = {
 			OR = {
 				AND = {
 					has_tech = fighter3
-					has_tech = jet_engines
+					is_special_project_completed = sp:sp_air_axial_jet_engine
 				}
 				has_completed_focus = FKR_focus_on_future_tech
 			}
@@ -1911,7 +1915,7 @@ FKR_future_tech_research_air = {
 			OR = {
 				AND = {
 					has_tech = CAS3
-					has_tech = jet_engines
+					is_special_project_completed = sp:sp_air_axial_jet_engine
 				}
 				has_completed_focus = FKR_focus_on_future_tech
 			}
@@ -1961,7 +1965,7 @@ FKR_future_tech_research_air = {
 			OR = {
 				AND = {
 					has_tech = strategic_bomber3
-					has_tech = jet_engines
+					is_special_project_completed = sp:sp_air_axial_jet_engine
 				}
 				has_completed_focus = FKR_focus_on_future_tech
 			}
@@ -2011,8 +2015,8 @@ FKR_future_tech_research_air = {
 			
 			OR = {
 				AND = {
-					has_tech = modern_medium_airframe
-					has_tech = jet_engines
+					has_tech = advanced_medium_airframe
+					is_special_project_completed = sp:sp_air_axial_jet_engine
 				}
 				has_completed_focus = FKR_focus_on_future_tech
 			}
@@ -2258,8 +2262,8 @@ FKR_future_tech_research_air = {
 			
 			OR = {
 				AND = {
-                    has_tech = advanced_centimetric_radar
-                    has_tech = advanced_equipment_conversion
+					has_tech = monopulse_radar
+					has_tech = advanced_equipment_conversion
 					has_tech = advanced_computing_machine
 				}
 				has_completed_focus = FKR_focus_on_future_tech
@@ -2313,7 +2317,10 @@ FKR_future_tech_research_navy = {
 			has_navy_experience > 49
 			
 			OR = {
-				has_tech = advanced_destroyer
+				AND = {
+					has_tech = advanced_destroyer
+					is_special_project_completed = sp:sp_nuclear_reactor
+				}
 				has_completed_focus = FKR_focus_on_future_tech
 			}
 			NOT = { has_country_flag = FKR_future_research_processing }
@@ -2361,7 +2368,10 @@ FKR_future_tech_research_navy = {
 			has_navy_experience > 49
 			
 			OR = {
-				has_tech = advanced_light_cruiser
+				AND = {
+					has_tech = advanced_light_cruiser
+					is_special_project_completed = sp:sp_nuclear_reactor
+				}
 				has_completed_focus = FKR_focus_on_future_tech
 			}
 			NOT = { has_country_flag = FKR_future_research_processing }
@@ -2411,7 +2421,7 @@ FKR_future_tech_research_navy = {
 			OR = {
 				AND = {
 					has_tech = advanced_carrier
-					has_tech = nuclear_reactor
+					is_special_project_completed = sp:sp_nuclear_reactor
 				}
 				has_completed_focus = FKR_focus_on_future_tech
 			}
@@ -2462,7 +2472,7 @@ FKR_future_tech_research_navy = {
 			OR = {
 				AND = {
 					has_tech = advanced_submarine
-					has_tech = nuclear_reactor
+					is_special_project_completed = sp:sp_nuclear_reactor
 				}
 				has_completed_focus = FKR_focus_on_future_tech
 			}
@@ -2510,6 +2520,7 @@ FKR_future_tech_research_navy = {
 
 		available = {
 			has_completed_focus = FKR_navy_doc_team
+
 			has_navy_experience > 39
 			
 			OR = {
@@ -2853,7 +2864,7 @@ FKR_future_tech_research_navy = {
 			OR = {
 				AND = {
 					has_tech = improved_sonar
-					has_tech = advanced_centimetric_radar
+					has_tech = monopulse_radar
 					has_tech = advanced_fire_control_system
 				}
 				has_completed_focus = FKR_focus_on_future_tech
@@ -2903,7 +2914,7 @@ FKR_future_tech_research_navy = {
 			has_navy_experience > 9
 			
 			OR = {
-				has_tech = nuclear_reactor
+				is_special_project_completed = sp:sp_nuclear_reactor
 				has_completed_focus = FKR_focus_on_future_tech
 			}
 			NOT = { has_country_flag = FKR_future_research_processing }

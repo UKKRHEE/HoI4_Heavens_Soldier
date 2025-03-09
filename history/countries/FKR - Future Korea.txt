@@ -1,4 +1,4 @@
-﻿capital = 987 #Jeju Island
+﻿capital = 1022 #Jeju Island
 
 oob = "FKR_1936"
 
@@ -179,6 +179,73 @@ recruit_character = FKR_uralsky
 recruit_character = FKR_yong_nom
 recruit_character = FKR_bluecokewine
 
+generate_scientist_character = {
+	portrait_tag_override = FKR
+	gender = male
+	skills = {
+		specialization_land = 2
+	}
+}
+
+generate_scientist_character = {
+	portrait_tag_override = FKR
+	gender = female
+	skills = {
+		specialization_air = 3
+	}
+	traits = { scientist_trait_aircraft_specialist }
+}
+
+generate_scientist_character = {
+	portrait_tag_override = FKR
+	gender = male
+	skills = {
+		specialization_air = 2
+	}
+	traits = { scientist_trait_electronics_specialist }
+}
+
+generate_scientist_character = {
+	portrait_tag_override = FKR
+	gender = female
+	skills = {
+		specialization_air = 2
+	}
+	traits = { scientist_trait_rocketry_specialist }
+}
+
+generate_scientist_character = {
+	portrait_tag_override = FKR
+	gender = male
+	skills = {
+		specialization_air = 1
+	}
+}
+
+generate_scientist_character = {
+	portrait_tag_override = FKR
+	gender = male
+	skills = {
+		specialization_nuclear = 2
+	}
+	traits = { scientist_trait_nuclear_specialist scientist_trait_brilliant_theorist  }
+}
+
+add_breakthrough_progress = {
+	specialization = specialization_air
+	value = 1.25
+}
+
+add_breakthrough_progress = {
+	specialization = specialization_land
+	value = 0.6
+}
+
+add_breakthrough_progress = {
+	specialization = specialization_naval
+	value = 0.3
+}
+
 if = {
 	limit = { has_dlc = "Man the Guns" }
 
@@ -195,6 +262,8 @@ if = {
 			fixed_ship_engine_slot = light_ship_engine_future_1
 			fixed_ship_torpedo_slot = ship_torpedo_future_1
 			front_1_custom_slot = ship_missile_launcher_future_1
+			mid_1_custom_slot = ship_light_battery_future_1
+			mid_2_custom_slot = ship_torpedo_future_1
 			rear_1_custom_slot = ship_depth_charge_future_1
 		}
 		obsolete = no
@@ -215,7 +284,8 @@ if = {
 			fixed_ship_armor_slot = ship_armor_cruiser_future_1
 			front_1_custom_slot = ship_missile_launcher_future_1
 			mid_1_custom_slot = ship_secondaries_future_1
-			mid_2_custom_slot = ship_secondaries_future_1
+			mid_2_custom_slot = ship_torpedo_future_1
+			rear_1_custom_slot = ship_light_battery_future_1
 			rear_2_custom_slot = ship_depth_charge_future_1
 		}
 		obsolete = no
@@ -233,9 +303,12 @@ if = {
 			fixed_ship_radar_slot = ship_radar_future_1
 			fixed_ship_engine_slot = carrier_ship_engine_future_1
 			fixed_ship_secondaries_slot = ship_secondaries_future_1
+			fixed_ship_armor_slot = ship_armor_cruiser_future_1
 			front_1_custom_slot = ship_deck_space
 			mid_1_custom_slot = ship_deck_space
 			mid_2_custom_slot = ship_deck_space
+			rear_1_custom_slot = ship_secondaries_future_1
+
 		}
 		obsolete = no
 	}
@@ -249,7 +322,8 @@ if = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_future_1 
 			fixed_ship_engine_slot = sub_ship_engine_future_1
 			front_1_custom_slot = ship_torpedo_sub_future_1
-			mid_1_custom_slot = ship_missile_launcher_future_1
+			mid_1_custom_slot = ship_radar_future_1
+			rear_1_custom_slot = ship_torpedo_sub_future_1
 		}
 		obsolete = no
 	}

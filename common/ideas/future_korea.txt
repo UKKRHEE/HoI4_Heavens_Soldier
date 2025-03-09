@@ -226,6 +226,7 @@ ideas = {
 	
 			modifier = {
 				research_speed_factor = 0.25
+				special_project_speed_factor = 0.25
 			}
 		}
 
@@ -402,9 +403,11 @@ ideas = {
 	
 			modifier = {
 				enemy_army_bonus_air_superiority_factor = -0.10
-				air_air_superiority_attack_factor = 0.05
-				air_air_superiority_defence_factor = 0.05
-				air_air_superiority_agility_factor = 0.08
+				air_superiority_efficiency = 0.25
+				air_superiority_detect_factor = 0.15
+				air_intercept_efficiency = 0.25
+				air_interception_detect_factor = 0.15
+
 			}
 		}
 
@@ -422,9 +425,8 @@ ideas = {
 	
 			modifier = {
 				army_bonus_air_superiority_factor = 0.10
-				air_close_air_support_attack_factor = 0.05
-				air_close_air_support_defence_factor = 0.05
-				air_close_air_support_agility_factor = 0.08
+				air_cas_efficiency = 0.25
+				air_close_air_support_org_damage_factor = 0.10
 				naval_strike_attack_factor = 0.05
 				naval_strike_targetting_factor = 0.05
 				naval_strike_agility_factor = 0.08
@@ -447,10 +449,8 @@ ideas = {
 				air_accidents_factor = -0.10
 				air_night_penalty = -0.15
 				air_weather_penalty = -0.15
-				air_strategic_bomber_attack_factor = 0.05
-				air_strategic_bomber_defence_factor = 0.05
-				air_strategic_bomber_agility_factor = 0.08
-				air_strategic_bomber_bombing_factor = 0.15
+				air_strategic_bomber_bombing_factor = 0.25
+				air_strategic_bomber_night_penalty = -0.15
 				air_cas_present_factor = 0.3
 			}
 		}
@@ -875,6 +875,23 @@ ideas = {
 			modifier = {
 				political_power_gain = 0.25
 				justify_war_goal_time = -0.15
+			}
+		}
+
+		FKR_890_project = {
+			removal_cost = -1
+			allowed = {
+				always = no # Unlocked via focus
+			}
+
+			allowed_civil_war = {
+				original_tag = FKR
+			}
+
+			picture = generic_research_bonus
+
+			modifier = {
+				specialization_nuclear_speed_factor = 0.05
 			}
 		}
 
