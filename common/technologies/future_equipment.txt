@@ -59,6 +59,9 @@ technologies = {
 	}
 
 	redesigned_future_mlrs = {
+		enable_subunits = {
+			motorized_rocket_brigade
+		}
 		enable_equipments = { 
 			future_mlrs_equipment
 		}

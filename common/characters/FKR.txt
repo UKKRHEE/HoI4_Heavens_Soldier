@@ -28,6 +28,12 @@ characters={
 			maneuvering_skill = 4
 			coordination_skill = 5
 		}
+		scientist = {
+			traits = { scientist_trait_surface_ship_specialist }
+			skills = {
+				specialization_naval = 2
+			}
+		}
 	}
 	FKR_jeon_jingu = {
 		name="FKR_jeon_jingu"
@@ -56,6 +62,12 @@ characters={
 			defense_skill = 1
 			planning_skill = 3
 			logistics_skill = 2
+		}
+		scientist = {
+			traits = { scientist_trait_artillery_specialist }
+			skills = {
+				specialization_land = 3
+			}
 		}
 	}
 	### 정치 고문 ###
