@@ -42,11 +42,6 @@ equipment_modules = {
 		category = tank_armor_type
 		gui_category = future_tank_armor_type
 		sfx = sfx_ui_sd_module_sonar
-		allowed_module_categories = {
-			main_armament_slot = {
-				future_tank_modern_turret_type
-			}
-		}
 
 		add_stats = {
 			defense = 4
@@ -92,11 +87,6 @@ equipment_modules = {
 		gui_category = future_tank_modern_turret_type
 		sfx = sfx_ui_sd_module_turret
 
-		allowed_module_categories = {
-			main_armament_slot = {
-				tank_medium_main_armament
-			}
-		}
 		add_stats = {
 			build_cost_ic = 100
 			breakthrough = 30
@@ -119,11 +109,6 @@ equipment_modules = {
 		allow_equipment_type = anti_air
 		forbid_equipment_type_exact_match = armor
 
-		allowed_module_categories = {
-			main_armament_slot = {
-				future_tank_modern_turret_type
-			}
-		}
 		add_stats = {
 			soft_attack = 30
 			hard_attack = 10
@@ -151,11 +136,6 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		dismantle_cost_ic = 1
 
-		allowed_module_categories = {
-			main_armament_slot = {
-				future_tank_modern_turret_type
-			}
-		}
 		add_stats = {
 			soft_attack = 100
 			hard_attack = 80
@@ -186,11 +166,6 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 
-		allowed_module_categories = {
-			main_armament_slot = {
-				future_tank_modern_turret_type
-			}
-		}
 		add_stats = {
 			soft_attack = 150
 			hard_attack = 4
@@ -221,11 +196,6 @@ equipment_modules = {
 		allow_equipment_type = artillery
 		forbid_equipment_type_exact_match = armor
 
-		allowed_module_categories = {
-			main_armament_slot = {
-				future_tank_modern_turret_type
-			}
-		}
 		add_stats = {
 			soft_attack = 200
 			hard_attack = 4
@@ -378,11 +348,6 @@ equipment_modules = {
 		category = tank_armor_type
 		gui_category = future_tank_armor_type
 		sfx = sfx_ui_sd_module_sonar
-		allowed_module_categories = {
-			main_armament_slot = {
-				future_tank_modern_turret_type
-			}
-		}
 
 		add_stats = {
 			defense = 4
@@ -426,11 +391,6 @@ equipment_modules = {
 		gui_category = future_tank_modern_turret_type
 		sfx = sfx_ui_sd_module_turret
 
-		allowed_module_categories = {
-			main_armament_slot = {
-				tank_medium_main_armament
-			}
-		}
 		add_stats = {
 			build_cost_ic = 10
 			breakthrough = 30
@@ -453,11 +413,6 @@ equipment_modules = {
 		allow_equipment_type = anti_air
 		forbid_equipment_type_exact_match = armor
 
-		allowed_module_categories = {
-			main_armament_slot = {
-				future_tank_modern_turret_type
-			}
-		}
 		add_stats = {
 			soft_attack = 30
 			hard_attack = 20
@@ -485,11 +440,6 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		dismantle_cost_ic = 1
 
-		allowed_module_categories = {
-			main_armament_slot = {
-				future_tank_modern_turret_type
-			}
-		}
 		add_stats = {
 			soft_attack = 60
 			hard_attack = 50
@@ -520,11 +470,6 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 
-		allowed_module_categories = {
-			main_armament_slot = {
-				future_tank_modern_turret_type
-			}
-		}
 		add_stats = {
 			soft_attack = 150
 			hard_attack = 4
@@ -555,11 +500,6 @@ equipment_modules = {
 		allow_equipment_type = artillery
 		forbid_equipment_type_exact_match = armor
 
-		allowed_module_categories = {
-			main_armament_slot = {
-				future_tank_modern_turret_type
-			}
-		}
 		add_stats = {
 			soft_attack = 200
 			hard_attack = 4
